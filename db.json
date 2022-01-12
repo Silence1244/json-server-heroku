@@ -1,16 +1,201 @@
 {
-  "posts":[
+  "Test": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "A": 1,
+      "B": 2
+    },
+    {
+      "A": 2,
+      "B": 2
     }
   ],
-  "comments" : [
+  "Menu": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "type": "",
+      "data": [
+        {
+          "path": "/",
+          "title": "Home",
+          "component": "Home"
+        },
+        {
+          "path": "/Dashboard",
+          "title": "Dashboard",
+          "component": "Dashboard"
+        },
+        {
+          "path": "/DragBoard",
+          "title": "DragBoard",
+          "component": "DragBoard"
+        }
+      ]
+    },
+    {
+      "type": "Area1",
+      "data": [
+        {
+          "path": "/Area1_Home",
+          "title": "Area1_Home",
+          "component": "Home"
+        }
+      ]
+    },
+    {
+      "type": "Area2",
+      "data": [
+        {
+          "path": "/Area2_Home",
+          "title": "Area2_Home",
+          "component": "Home"
+        }
+      ]
+    }
+  ],
+  "PageList": [
+    {
+      "id": "QgQvM8UzWx",
+      "title": "QgQvM8UzWx",
+      "path": "QgQvM8UzWx"
+    },
+    {
+      "id": "Xstizjr1iZ",
+      "title": "Xstizjr1iZ",
+      "path": "Xstizjr1iZ"
+    },
+    {
+      "id": "GMuTOhJoIB",
+      "title": "GMuTOhJoIB",
+      "path": "GMuTOhJoIB"
+    }
+  ],
+  "PageData": [
+    {
+      "id": "Gb7RhL5fGh",
+      "parentId": "QgQvM8UzWx",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      },
+      "grid": {
+        "w": 7,
+        "h": 6,
+        "x": 0,
+        "y": 1,
+        "i": "Gb7RhL5fGh",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false
+      }
+    },
+    {
+      "id": "syLPlT2lvE",
+      "parentId": "QgQvM8UzWx",
+      "title": "",
+      "data": {
+        "ItemType": "RowChart",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      },
+      "grid": {
+        "w": 5,
+        "h": 5,
+        "x": 7,
+        "y": 0,
+        "i": "syLPlT2lvE",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false
+      }
+    },
+    {
+      "grid": {
+        "w": 5,
+        "h": 4,
+        "x": 7,
+        "y": 5,
+        "i": "1n6vQf8PsW",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "1n6vQf8PsW",
+      "parentId": "QgQvM8UzWx",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "StreamUrl": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+        "Zoom": 11,
+        "Longitude": -0.481747846041145,
+        "Latitude": 51.3233379650232,
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "id": "OGHboIRxTM",
+      "parentId": "Xstizjr1iZ",
+      "title": "",
+      "data": {
+        "ItemType": "AreaMap",
+        "Zoom": "5",
+        "Longitude": "-0.481747846041145",
+        "Latitude": "51.3233379650232"
+      },
+      "grid": {
+        "w": 6,
+        "h": 5,
+        "x": 0,
+        "y": 0,
+        "i": "OGHboIRxTM",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 5,
+        "x": 6,
+        "y": 0,
+        "i": "CiN6xMcaFb",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "CiN6xMcaFb",
+      "parentId": "Xstizjr1iZ",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "StreamUrl": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+        "Zoom": 11,
+        "Longitude": -0.481747846041145,
+        "Latitude": 51.3233379650232,
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"name\",\"value\"]"
+      }
     }
   ]
 }
