@@ -1,19 +1,16 @@
 {
   "Test": [
     {
-      "id": 1,
       "A": 1,
       "B": 2
     },
     {
-      "id": 2,
       "A": 2,
       "B": 2
     }
   ],
   "Menu": [
     {
-      "id": 1,
       "type": "",
       "data": [
         {
@@ -34,7 +31,6 @@
       ]
     },
     {
-      "id": 2,
       "type": "Area1",
       "data": [
         {
@@ -45,7 +41,6 @@
       ]
     },
     {
-      "id": 3,
       "type": "Area2",
       "data": [
         {
@@ -68,9 +63,19 @@
       "path": "Xstizjr1iZ"
     },
     {
-      "id": "GMuTOhJoIB",
-      "title": "GMuTOhJoIB",
-      "path": "GMuTOhJoIB"
+      "id": "KCYKOzQ18i",
+      "title": "KCYKOzQ18i",
+      "path": "KCYKOzQ18i"
+    },
+    {
+      "id": "clt409RYjJ",
+      "title": "clt409RYjJ",
+      "path": "clt409RYjJ"
+    },
+    {
+      "id": "trF3LqtBuc",
+      "title": "trF3LqtBuc",
+      "path": "trF3LqtBuc"
     }
   ],
   "PageData": [
@@ -87,10 +92,10 @@
         "SelectKeys": "[\"name\",\"value\"]"
       },
       "grid": {
-        "w": 7,
-        "h": 6,
+        "w": 5,
+        "h": 10,
         "x": 0,
-        "y": 1,
+        "y": 0,
         "i": "Gb7RhL5fGh",
         "minW": 2,
         "minH": 4,
@@ -111,10 +116,10 @@
         "SelectKeys": "[\"name\",\"value\"]"
       },
       "grid": {
-        "w": 5,
-        "h": 5,
-        "x": 7,
-        "y": 0,
+        "w": 7,
+        "h": 6,
+        "x": 5,
+        "y": 4,
         "i": "syLPlT2lvE",
         "minW": 2,
         "minH": 4,
@@ -124,22 +129,22 @@
     },
     {
       "grid": {
-        "w": 5,
+        "w": 7,
         "h": 4,
-        "x": 7,
-        "y": 5,
-        "i": "1n6vQf8PsW",
+        "x": 5,
+        "y": 0,
+        "i": "doSjn8SsTU",
         "minW": 2,
         "minH": 4,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "1n6vQf8PsW",
+      "id": "doSjn8SsTU",
       "parentId": "QgQvM8UzWx",
       "title": "",
       "data": {
-        "ItemType": "BarChart",
+        "ItemType": "VideoStream",
         "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
         "StreamUrl": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
         "Zoom": 11,
@@ -157,13 +162,13 @@
       "title": "",
       "data": {
         "ItemType": "AreaMap",
-        "Zoom": "5",
+        "Zoom": "11",
         "Longitude": "-0.481747846041145",
         "Latitude": "51.3233379650232"
       },
       "grid": {
         "w": 6,
-        "h": 5,
+        "h": 8,
         "x": 0,
         "y": 0,
         "i": "OGHboIRxTM",
@@ -176,7 +181,7 @@
     {
       "grid": {
         "w": 6,
-        "h": 5,
+        "h": 8,
         "x": 6,
         "y": 0,
         "i": "CiN6xMcaFb",
@@ -200,6 +205,237 @@
         "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
         "RenameKeys": "{}",
         "SelectKeys": "[\"年\",\"月\",\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 6,
+        "x": 0,
+        "y": 8,
+        "i": "1FESIR5BPT",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "1FESIR5BPT",
+      "parentId": "Xstizjr1iZ",
+      "title": "",
+      "data": {
+        "ItemType": "RowChart",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "StreamUrl": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+        "Zoom": 11,
+        "Longitude": -0.481747846041145,
+        "Latitude": 51.3233379650232,
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 7,
+        "x": 0,
+        "y": 13,
+        "i": "htafvT2TYu",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "htafvT2TYu",
+      "parentId": "clt409RYjJ",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 7,
+        "x": 4,
+        "y": 13,
+        "i": "Em9hLzd0lV",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "Em9hLzd0lV",
+      "parentId": "clt409RYjJ",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 10,
+        "h": 11,
+        "x": 0,
+        "y": 0,
+        "i": "ITYB0t1s0a",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "ITYB0t1s0a",
+      "parentId": "clt409RYjJ",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "https://www.youtube.com/watch?v=8MG--WuNW1Y"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 8,
+        "x": 0,
+        "y": 26,
+        "i": "Yg9AdZQHc2",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "Yg9AdZQHc2",
+      "parentId": "clt409RYjJ",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 11,
+        "x": 0,
+        "y": 0,
+        "i": "fIQDI6ijfw",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "fIQDI6ijfw",
+      "parentId": "KCYKOzQ18i",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/getAll",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 8,
+        "x": 0,
+        "y": 0,
+        "i": "RyQMzpaXaH",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "RyQMzpaXaH",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 8,
+        "x": 6,
+        "y": 8,
+        "i": "9VjTwjCf4X",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "9VjTwjCf4X",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/sCipc4NM/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 8,
+        "x": 6,
+        "y": 0,
+        "i": "CxGyiGZfFZ",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "CxGyiGZfFZ",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/yMDBJbry/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 8,
+        "x": 0,
+        "y": 8,
+        "i": "MaM8JErVHK",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "MaM8JErVHK",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
       }
     }
   ]
