@@ -53,34 +53,28 @@
   ],
   "PageList": [
     {
+      "title": "儀表板",
+      "icon": "Dashboard",
+      "path": "",
+      "id": "qdPu8baCI9"
+    },
+    {
       "id": "trF3LqtBuc",
       "title": "即時狀態監控",
+      "icon": "OndemandVideo",
       "path": "trF3LqtBuc"
     },
     {
       "id": "Lkne3xlTsd",
       "title": "裝置管理",
+      "icon": "ManageAccounts",
       "path": "Lkne3xlTsd"
     },
     {
-      "id": "qdPu8baCI9",
-      "title": "儀表板",
-      "path": "qdPu8baCI9"
-    },
-    {
-      "id": "nhVqpLgJv0",
-      "title": "nhVqpLgJv0",
-      "path": "nhVqpLgJv0"
-    },
-    {
-      "id": "MChsmDu9SZ",
-      "title": "MChsmDu9SZ",
-      "path": "MChsmDu9SZ"
-    },
-    {
-      "id": "PMkIg1Jj8F",
-      "title": "PMkIg1Jj8F",
-      "path": "PMkIg1Jj8F"
+      "title": "統計",
+      "icon": "AlignVerticalBottom",
+      "path": "dWrRHcbAYv",
+      "id": "dWrRHcbAYv"
     }
   ],
   "PageData": [
@@ -170,6 +164,186 @@
     },
     {
       "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 0,
+        "y": 4,
+        "i": "FxabYBrDJ5",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "FxabYBrDJ5",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 8,
+        "y": 0,
+        "i": "I2scFubqqB",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "I2scFubqqB",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "LineChart",
+        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
+        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
+        "SelectKeys": "[\"name\",\"value\"]",
+        "title": "上傳檔案數量"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 2,
+        "y": 0,
+        "i": "JOvUieAAGs",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "JOvUieAAGs",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "StatusCard",
+        "title": "設備離線數",
+        "content": "off",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 0,
+        "y": 0,
+        "i": "1m5QNBFtvh",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "1m5QNBFtvh",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "StatusCard",
+        "title": "設備在線數",
+        "content": "on",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]"
+      }
+    },
+    {
+      "grid": {
+        "w": 8,
+        "h": 10,
+        "x": 4,
+        "y": 5,
+        "i": "FLcILJajCe",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "FLcILJajCe",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/getAll",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 4,
+        "y": 0,
+        "i": "4pwsIzQDMU",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "4pwsIzQDMU",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
+        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
+        "SelectKeys": "[\"name\",\"value\"]",
+        "title": "上傳檔案數量"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 0,
+        "y": 9,
+        "i": "GgcniNKIgR",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "GgcniNKIgR",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
+      }
+    },
+    {
+      "grid": {
         "w": 12,
         "h": 11,
         "x": 0,
@@ -202,66 +376,23 @@
     },
     {
       "grid": {
-        "w": 4,
-        "h": 4,
+        "w": 12,
+        "h": 5,
         "x": 0,
         "y": 0,
-        "i": "CGAMvncZOf",
+        "i": "3wmJDqQaqo",
         "minW": 2,
         "minH": 4,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "CGAMvncZOf",
-      "parentId": "Lkne3xlTsd",
+      "id": "3wmJDqQaqo",
+      "parentId": "dWrRHcbAYv",
       "title": "",
       "data": {
-        "ItemType": "StatusCard",
-        "title": "設備總數",
-        "content": "8"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 4,
-        "x": 4,
-        "y": 0,
-        "i": "K0BlEbPqqF",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "K0BlEbPqqF",
-      "parentId": "Lkne3xlTsd",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備離線數",
-        "content": "2"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 4,
-        "x": 8,
-        "y": 0,
-        "i": "hNUXhwX1Rt",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "hNUXhwX1Rt",
-      "parentId": "Lkne3xlTsd",
-      "title": "",
-      "data": {
-        "ItemType": "LineChart",
+        "ItemType": "BarChart",
+        "title": "",
         "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
         "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
         "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
@@ -271,195 +402,25 @@
     },
     {
       "grid": {
-        "w": 4,
-        "h": 5,
+        "w": 12,
+        "h": 7,
         "x": 0,
         "y": 5,
-        "i": "FxabYBrDJ5",
+        "i": "93SLjIwVAj",
         "minW": 2,
         "minH": 4,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "FxabYBrDJ5",
-      "parentId": "qdPu8baCI9",
+      "id": "93SLjIwVAj",
+      "parentId": "dWrRHcbAYv",
       "title": "",
       "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 4,
-        "x": 8,
-        "y": 0,
-        "i": "I2scFubqqB",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "I2scFubqqB",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "LineChart",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
-        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"name\",\"value\"]"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 5,
-        "x": 2,
-        "y": 0,
-        "i": "JOvUieAAGs",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "JOvUieAAGs",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備離線",
-        "content": "2"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 5,
-        "x": 0,
-        "y": 0,
-        "i": "1m5QNBFtvh",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "1m5QNBFtvh",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備總數",
-        "content": "8"
-      }
-    },
-    {
-      "grid": {
-        "w": 8,
-        "h": 11,
-        "x": 4,
-        "y": 4,
-        "i": "FLcILJajCe",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "FLcILJajCe",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/getAll",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 4,
-        "x": 4,
-        "y": 0,
-        "i": "4pwsIzQDMU",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "4pwsIzQDMU",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
-        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"name\",\"value\"]"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 0,
-        "y": 10,
-        "i": "GgcniNKIgR",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "GgcniNKIgR",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 10,
-        "h": 6,
-        "x": 0,
-        "y": 0,
-        "i": "E1znHK8l9P",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "E1znHK8l9P",
-      "parentId": "nhVqpLgJv0",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
-        "SelectKeys": "[\"name\",\"value\"]"
+        "ItemType": "AreaMap",
+        "zoom": "11",
+        "longitude": "-0.481747846041145",
+        "latitude": "51.3233379650232"
       }
     }
   ],
