@@ -51,30 +51,112 @@
       ]
     }
   ],
+  "ProjectList": [
+    {
+      "id": "AxbaYBrJJ2",
+      "name": "WiDMSB",
+      "description": "WiDMSB Project description ...",
+      "path": "WiDMSB",
+      "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/WiDMSB.svg",
+      "themeStyle": "{\n    \"palette\": {\n        \"primary\": {\n            \"main\": \"#33B3BB\"\n        }\n    },\n    \"components\": {\n        \"MuiToolbar\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#FFFFFF\",\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiListItemIcon\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiCard\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#FFFFFF\",\n                    \"borderRadius\": \"8px\",\n                    \"width\": \"100%\",\n                    \"height\": \"100%\"\n                }\n            }\n        },\n        \"MuiCardHeader\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#FFFFFF\",\n                    \"textAlign\": \"center\",\n                    \"padding\": \"5px\"\n                },\n                \"title\": {\n                    \"fontSize\": \"1.2rem\"\n                }\n            }\n        },\n        \"MuiContainer\": {\n            \"styleOverrides\": {\n                \"root\": {\n                }\n            }\n        }\n    }\n}"
+    },
+    {
+      "id": "Mlkc2TrA21",
+      "name": "WiBase",
+      "description": "WiBase Project description ...",
+      "path": "WiBase",
+      "logoUrl": "",
+      "themeStyle": "{\n  \"components\": {\n    \"MuiCard\": {\n      \"styleOverrides\": {\n          \"root\": {\n              \"width\": \"100%\",\n              \"height\": \"100%\"\n          }\n      }\n    },\n    \"MuiCardHeader\": {\n      \"styleOverrides\": {\n        \"root\": {\n            \"textAlign\": \"center\",\n            \"padding\": \"5px\"\n        },\n        \"title\": {\n            \"fontSize\": \"1.2rem\"\n        }\n      }\n    },\n    \"MuiContainer\": {\n      \"styleOverrides\": {\n          \"root\": {\n          }\n      }\n    }\n  }\n}"
+    },
+    {
+      "id": "111111",
+      "name": "Test",
+      "description": "",
+      "path": "Test",
+      "logoUrl": "",
+      "themeStyle": ""
+    },
+    {
+      "id": "222222",
+      "name": "222222",
+      "description": "",
+      "path": "222222",
+      "logoUrl": "",
+      "themeStyle": ""
+    },
+    {
+      "id": "333333",
+      "name": "333333",
+      "description": "",
+      "path": "333333",
+      "logoUrl": "",
+      "themeStyle": ""
+    },
+    {
+      "id": "444444",
+      "name": "444444",
+      "description": "",
+      "path": "444444",
+      "logoUrl": "",
+      "themeStyle": ""
+    }
+  ],
   "PageList": [
     {
+      "parentId": "AxbaYBrJJ2",
+      "type": "1",
       "title": "儀表板",
       "icon": "Dashboard",
       "path": "",
       "id": "qdPu8baCI9"
     },
     {
-      "id": "trF3LqtBuc",
+      "parentId": "AxbaYBrJJ2",
+      "type": "1",
       "title": "即時狀態監控",
       "icon": "OndemandVideo",
-      "path": "trF3LqtBuc"
+      "path": "Streaming",
+      "id": "trF3LqtBuc"
     },
     {
-      "id": "Lkne3xlTsd",
+      "parentId": "AxbaYBrJJ2",
+      "type": "1",
       "title": "裝置管理",
       "icon": "ManageAccounts",
-      "path": "Lkne3xlTsd"
+      "path": "DeviceManage",
+      "id": "Lkne3xlTsd"
     },
     {
+      "parentId": "AxbaYBrJJ2",
+      "type": "1",
       "title": "統計",
       "icon": "AlignVerticalBottom",
       "path": "dWrRHcbAYv",
       "id": "dWrRHcbAYv"
+    },
+    {
+      "id": "cIVfv9JS9T",
+      "parentId": "Mlkc2TrA21",
+      "type": "1",
+      "title": "Home",
+      "icon": "Assignment",
+      "path": ""
+    },
+    {
+      "id": "0xFFac9Ehb",
+      "parentId": "Mlkc2TrA21",
+      "type": "1",
+      "title": "A",
+      "icon": "Assignment",
+      "path": "A"
+    },
+    {
+      "id": "FRtV2PPibS",
+      "parentId": "Mlkc2TrA21",
+      "type": "1",
+      "title": "B",
+      "icon": "Assignment",
+      "path": "B"
     }
   ],
   "PageData": [
@@ -160,6 +242,32 @@
       "data": {
         "ItemType": "VideoStream",
         "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 9,
+        "h": 5,
+        "x": 0,
+        "y": 0,
+        "i": "3wmJDqQaqo",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "3wmJDqQaqo",
+      "parentId": "dWrRHcbAYv",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
       }
     },
     {
@@ -347,7 +455,7 @@
         "w": 12,
         "h": 11,
         "x": 0,
-        "y": 4,
+        "y": 0,
         "i": "2rzhhTZSxH",
         "minW": 2,
         "minH": 4,
@@ -377,18 +485,18 @@
     {
       "grid": {
         "w": 12,
-        "h": 5,
+        "h": 6,
         "x": 0,
         "y": 0,
-        "i": "3wmJDqQaqo",
+        "i": "ChtOHbc19s",
         "minW": 2,
         "minH": 4,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "3wmJDqQaqo",
-      "parentId": "dWrRHcbAYv",
+      "id": "ChtOHbc19s",
+      "parentId": "cIVfv9JS9T",
       "title": "",
       "data": {
         "ItemType": "BarChart",
@@ -405,22 +513,31 @@
         "w": 12,
         "h": 7,
         "x": 0,
-        "y": 5,
-        "i": "93SLjIwVAj",
+        "y": 6,
+        "i": "wSIyNUYfJb",
         "minW": 2,
         "minH": 4,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "93SLjIwVAj",
-      "parentId": "dWrRHcbAYv",
+      "id": "wSIyNUYfJb",
+      "parentId": "cIVfv9JS9T",
       "title": "",
       "data": {
-        "ItemType": "AreaMap",
-        "zoom": "11",
-        "longitude": "-0.481747846041145",
-        "latitude": "51.3233379650232"
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{}"
       }
     }
   ],
