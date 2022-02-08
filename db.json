@@ -157,6 +157,14 @@
       "title": "B",
       "icon": "Assignment",
       "path": "B"
+    },
+    {
+      "id": "UWj5VYzUxH",
+      "parentId": "Mlkc2TrA21",
+      "type": "1",
+      "title": "TEST1",
+      "icon": "Assignment",
+      "path": "TEST1"
     }
   ],
   "PageData": [
@@ -242,32 +250,6 @@
       "data": {
         "ItemType": "VideoStream",
         "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 9,
-        "h": 5,
-        "x": 0,
-        "y": 0,
-        "i": "3wmJDqQaqo",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "3wmJDqQaqo",
-      "parentId": "dWrRHcbAYv",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "title": "",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
-        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"name\",\"value\"]"
       }
     },
     {
@@ -538,6 +520,130 @@
         "tableFilter": "false",
         "selectableRows": "none",
         "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 5,
+        "h": 10,
+        "x": 0,
+        "y": 16,
+        "i": "vYyPHUTuTR",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "vYyPHUTuTR",
+      "parentId": "dWrRHcbAYv",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 7,
+        "h": 10,
+        "x": 5,
+        "y": 16,
+        "i": "vQmIo3K7sR",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "vQmIo3K7sR",
+      "parentId": "dWrRHcbAYv",
+      "title": "",
+      "data": {
+        "ItemType": "LineChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 10,
+        "x": 0,
+        "y": 6,
+        "i": "sdgFX2X20F",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "sdgFX2X20F",
+      "parentId": "dWrRHcbAYv",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 4,
+        "y": 0,
+        "i": "SqVtrJ0FRA",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "SqVtrJ0FRA",
+      "parentId": "dWrRHcbAYv",
+      "title": "",
+      "data": {
+        "ItemType": "PieChart"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 6,
+        "x": 0,
+        "y": 0,
+        "i": "AEaVgFGXW8",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "AEaVgFGXW8",
+      "parentId": "dWrRHcbAYv",
+      "title": "",
+      "data": {
+        "ItemType": "StatusCard"
       }
     }
   ],
