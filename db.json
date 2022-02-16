@@ -51,6 +51,26 @@
       ]
     }
   ],
+  "user":[
+    {
+      "name": "admin",
+      "project": [
+        "AxbaYBrJJ2", "111111"
+      ]
+    },
+    {
+      "name": "test",
+      "project": [
+        "Mlkc2TrA21", "111111"
+      ]
+    },
+    {
+      "name": "silence",
+      "project": [
+        "111111", "222222", "333333", "444444"
+      ]
+    }
+  ],
   "ProjectList": [
     {
       "id": "AxbaYBrJJ2",
@@ -70,7 +90,7 @@
     },
     {
       "id": "111111",
-      "name": "Test",
+      "name": "ShareProject",
       "description": "",
       "path": "Test",
       "logoUrl": "",
@@ -645,21 +665,314 @@
       "data": {
         "ItemType": "StatusCard"
       }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 12,
+        "x": 0,
+        "y": 0,
+        "i": "bQOmnhk5Vx",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "bQOmnhk5Vx",
+      "parentId": "",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 12,
+        "x": 0,
+        "y": 0,
+        "i": "WM49ZdEf8Z",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "WM49ZdEf8Z",
+      "parentId": "",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 10,
+        "x": 0,
+        "y": 0,
+        "i": "dvzqJSSqQX",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "dvzqJSSqQX",
+      "parentId": "",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 6,
+        "y": 0,
+        "i": "__new-dropping-item__",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "AF67a9sGGd",
+      "parentId": "",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 7,
+        "y": 0,
+        "i": "__new-dropping-item__",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "1eWfOLil0y",
+      "parentId": "",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 4,
+        "y": 0,
+        "i": "__new-dropping-item__",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "Qg8kYfGY6C",
+      "parentId": "",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 0,
+        "y": 0,
+        "i": "__new-dropping-item__",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "cRyhmfa5j9",
+      "parentId": "",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 0,
+        "y": 0,
+        "i": "__new-dropping-item__",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "zHl9GvglnK",
+      "parentId": "cIVfv9JS9T",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 10,
+        "x": 0,
+        "y": 0,
+        "i": "gzV1Oo4P6Z",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "gzV1Oo4P6Z",
+      "parentId": "0xFFac9Ehb",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 9,
+        "y": 0,
+        "i": "__new-dropping-item__",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "8axeebOUEo",
+      "parentId": "0xFFac9Ehb",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
     }
   ],
-  "signin": {
+  "authApi_token": {
     "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzMiJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMS0wNy0wMVwiLFwiZW1haWxcIjpcImRldmVsb3BfY29tbW9uQGljYXJlbWR4LmNvbVwiLFwiZ2VuZGVyXCI6MSxcImlkXCI6XCI4YTE1MmYxNGVjNDMxMWViYTc1NjAyMDAxNzA4OWMyNFwiLFwibmFtZVwiOlwiRGV2ZWxvcFwiLFwicGhvbmVcIjpcIjA5NzgwMTI3NzNcIixcInJvbGVcIjpcImNvbW1vbixvcmdhbml6YXRpb25fYWNjb3VudCxvcmdfZGV2ZWxvcCxkYXRhX2FuYWx5c2lzXCIsXCJ0eXBlXCI6XCJzeXN0ZW1cIn0iLCJzY29wZSI6WyJEQVRBIl0sImV4cCI6MjQyMDE3MTUzNywiYXV0aG9yaXRpZXMiOlsiU1lTVEVNOkVNUExPWUVFUyIsIlNZU1RFTTpEQVNIQk9BUkQiLCJTWVNURU06TE9HTElTVCIsIlNZU1RFTTpWT0xVTlRFRVIiLCJTWVNURU06UkVDT1JEUyIsIlNZU1RFTTpSRVNVTFRMSVNUIiwiU1lTVEVNOklOU1BFQ1RJT04iLCJTWVNURU06Uk9MRSIsIlNZU1RFTTpORVdSRUNPUkQiLCJTWVNURU06UEFMQVVSRVNVTFRMSVNUIiwiU1lTVEVNOlJFQ09SRFNfR0VORVJBTCIsIlNZU1RFTTpTVEFGRiIsIlNZU1RFTTpVU0VSTElTVCIsIlNZU1RFTTpTWVNURU0iLCJTWVNURU06VEVTVEdST1VQIl0sImp0aSI6IjE5ZGUwMzczLWNmYTAtNDhjMy1hYmFjLWJhYjUyOTE1MGJhZSIsImNsaWVudF9pZCI6ImM0In0.dR95gYojBp_c2jCw-LIoPPUpInheLiXUK7dz-VXIvBQ",
     "token_type": "bearer",
     "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzMiJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMS0wNy0wMVwiLFwiZW1haWxcIjpcImRldmVsb3BfY29tbW9uQGljYXJlbWR4LmNvbVwiLFwiZ2VuZGVyXCI6MSxcImlkXCI6XCI4YTE1MmYxNGVjNDMxMWViYTc1NjAyMDAxNzA4OWMyNFwiLFwibmFtZVwiOlwiRGV2ZWxvcFwiLFwicGhvbmVcIjpcIjA5NzgwMTI3NzNcIixcInJvbGVcIjpcImNvbW1vbixvcmdhbml6YXRpb25fYWNjb3VudCxvcmdfZGV2ZWxvcCxkYXRhX2FuYWx5c2lzXCIsXCJ0eXBlXCI6XCJzeXN0ZW1cIn0iLCJzY29wZSI6WyJEQVRBIl0sImF0aSI6IjE5ZGUwMzczLWNmYTAtNDhjMy1hYmFjLWJhYjUyOTE1MGJhZSIsImV4cCI6MjQyMDE3MTUzNywiYXV0aG9yaXRpZXMiOlsiU1lTVEVNOkVNUExPWUVFUyIsIlNZU1RFTTpEQVNIQk9BUkQiLCJTWVNURU06TE9HTElTVCIsIlNZU1RFTTpWT0xVTlRFRVIiLCJTWVNURU06UkVDT1JEUyIsIlNZU1RFTTpSRVNVTFRMSVNUIiwiU1lTVEVNOklOU1BFQ1RJT04iLCJTWVNURU06Uk9MRSIsIlNZU1RFTTpORVdSRUNPUkQiLCJTWVNURU06UEFMQVVSRVNVTFRMSVNUIiwiU1lTVEVNOlJFQ09SRFNfR0VORVJBTCIsIlNZU1RFTTpTVEFGRiIsIlNZU1RFTTpVU0VSTElTVCIsIlNZU1RFTTpTWVNURU0iLCJTWVNURU06VEVTVEdST1VQIl0sImp0aSI6ImZjZmY2OGRkLWI4MDQtNDM1OS04MjcwLTM4NDVkM2YzOWEzOCIsImNsaWVudF9pZCI6ImM0In0.0fXEnqTuzVR4vfPIA0G7A565lblDnGHtEwAqmb0kcME",
     "expires_in": 777599999,
-    "scope": "DATA",
-    "jti": "19de0373-cfa0-48c3-abac-bab529150bae"
+    "scopes": "DATA"
   },
-  "imageCardStatePanel":{
-     
-      "imageUrl": "https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      "state": "normal",
-      "content": "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like."
-   
+  "authApi_checktoken": {
+    "aud": [
+      "authApi"
+    ],
+    "user_name": "",
+    "scope": [
+      "all"
+    ],
+    "active": true,
+    "exp": 1644232267,
+    "authorities": [
+      "admin"
+    ],
+    "jti": "ab8542ee-e2fb-4b88-984d-e86d3d359040",
+    "client_id": "dmsb"
+  },
+  "authApi_refreshtoken": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiYXV0aEFwaSJdLCJ1c2VyX25hbWUiOiJhZG1pbl90ZXN0QHdpc3Ryb24uY29tIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY0NDIzMjI2NywiYXV0aG9yaXRpZXMiOlsiYWRtaW4iXSwianRpIjoiYWI4NTQyZWUtZTJmYi00Yjg4LTk4NGQtZTg2ZDNkMzU5MDQwIiwiY2xpZW50X2lkIjoiZG1zYiJ9.Lg7qAId_Uy0bQANiNbZkosq9IFlvzBd0OdXZ2V86BoQ",
+    "token_type": "bearer",
+    "expires_in": 28799,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiYXV0aEFwaSJdLCJ1c2VyX25hbWUiOiJhZG1pbl90ZXN0QHdpc3Ryb24uY29tIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6ImFiODU0MmVlLWUyZmItNGI4OC05ODRkLWU4NmQzZDM1OTA0MCIsImV4cCI6MTY0OTM4NzMxNiwiYXV0aG9yaXRpZXMiOlsiYWRtaW4iXSwianRpIjoiNzIyZDYxN2YtMWNmOC00YjExLWJiNTQtNTVlNjVmYmUxYzM0IiwiY2xpZW50X2lkIjoiZG1zYiJ9.-ZPdkb2XdGigFvhi5WDa2WA7x-NuxCKWzTauvSquB8Y",
+    "scopes": "all"
   }
 }
