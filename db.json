@@ -964,9 +964,9 @@
     "content": "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like."
   },
   "selectChart": {
+    "box1": [{ "label": "雞舍1","value": "https://dmsbjsonserver.herokuapp.com/selectChart" },
+      { "label": "雞舍2","value": "https://dmsbjsonserver.herokuapp.com/selectChartbox1" }],
     "chartDatas": {
-      "box1": [{ "label": "雞舍1","value": "https://dmsbjsonserver.herokuapp.com/selectChart" },
-        { "label": "雞舍2","value": "https://dmsbjsonserver.herokuapp.com/selectChartbox1" }],
       "labels": [
         "January",
         "February",
@@ -1009,9 +1009,9 @@
     }
   },
   "selectChartbox1": {
+    "box1": [{ "label": "雞舍1","value": "https://dmsbjsonserver.herokuapp.com/selectChart" },
+      { "label": "雞舍2","value": "https://dmsbjsonserver.herokuapp.com/selectChartbox1" }],
     "chartDatas": {
-      "box1": [{ "label": "雞舍1","value": "https://dmsbjsonserver.herokuapp.com/selectChart" },
-        { "label": "雞舍2","value": "https://dmsbjsonserver.herokuapp.com/selectChartbox1" }],
       "labels": [
         "January",
         "February",
