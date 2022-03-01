@@ -390,60 +390,6 @@
     },
     {
       "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 2,
-        "y": 0,
-        "i": "JOvUieAAGs",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "JOvUieAAGs",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備離線數",
-        "content": "off",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 0,
-        "y": 0,
-        "i": "1m5QNBFtvh",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "1m5QNBFtvh",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備在線數",
-        "content": "on",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]"
-      }
-    },
-    {
-      "grid": {
         "w": 8,
         "h": 10,
         "x": 4,
@@ -472,32 +418,6 @@
         "tableFilter": "false",
         "selectableRows": "none",
         "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 4,
-        "y": 0,
-        "i": "4pwsIzQDMU",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "4pwsIzQDMU",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
-        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
-        "AddKeys": "{}",
-        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
-        "SelectKeys": "[\"name\",\"value\"]",
-        "title": "上傳檔案數量"
       }
     },
     {
