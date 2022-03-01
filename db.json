@@ -1,14 +1,5 @@
 {
-  "Test": [
-    {
-      "A": 1,
-      "B": 2
-    },
-    {
-      "A": 2,
-      "B": 2
-    }
-  ],
+  "ExtraView": [],
   "user": [
     {
       "name": "admin",
@@ -95,11 +86,11 @@
     },
     {
       "id": "111111",
-      "name": "Test",
+      "name": "ShareProject",
       "description": "",
       "path": "Test",
       "logoUrl": "",
-      "themeStyle": ""
+      "themeStyle": "{\n    \"palette\": {\n        \"primary\": {\n            \"main\": \"#33AAAA\"\n        }\n    },\n    \"components\": {\n        \"MuiToolbar\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiListItemIcon\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiCard\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#FFFFFF\",\n                    \"borderRadius\": \"8px\",\n                    \"width\": \"100%\",\n                    \"height\": \"100%\"\n                }\n            }\n        },\n        \"MuiCardHeader\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#FFFFFF\",\n                    \"textAlign\": \"center\",\n                    \"padding\": \"5px\"\n                },\n                \"title\": {\n                    \"fontSize\": \"1.2rem\"\n                }\n            }\n        },\n        \"MuiContainer\": {\n            \"styleOverrides\": {\n                \"root\": {\n                }\n            }\n        }\n    }\n}"
     },
     {
       "id": "222222",
@@ -126,9 +117,30 @@
       "themeStyle": ""
     }
   ],
+  "PageGroup": [
+    {
+      "id": "n7PQA8kobh",
+      "parentId": "Mlkc2TrA21",
+      "title": "帳號管理",
+      "icon": "Assignment"
+    },
+    {
+      "id": "8V3DtTsibu",
+      "parentId": "Mlkc2TrA21",
+      "title": "裝置管理",
+      "icon": "Assignment"
+    },
+    {
+      "id": "uoH1gADHXt",
+      "parentId": "Mlkc2TrA21",
+      "title": "影像管理",
+      "icon": "Assignment"
+    }
+  ],
   "PageList": [
     {
       "parentId": "AxbaYBrJJ2",
+      "groupId": "none",
       "type": "1",
       "title": "儀表板",
       "icon": "Dashboard",
@@ -137,6 +149,7 @@
     },
     {
       "parentId": "AxbaYBrJJ2",
+      "groupId": "none",
       "type": "1",
       "title": "即時狀態監控",
       "icon": "OndemandVideo",
@@ -145,6 +158,7 @@
     },
     {
       "parentId": "AxbaYBrJJ2",
+      "groupId": "none",
       "type": "1",
       "title": "裝置管理",
       "icon": "ManageAccounts",
@@ -153,6 +167,7 @@
     },
     {
       "parentId": "AxbaYBrJJ2",
+      "groupId": "none",
       "type": "1",
       "title": "統計",
       "icon": "AlignVerticalBottom",
@@ -162,6 +177,7 @@
     {
       "id": "cIVfv9JS9T",
       "parentId": "Mlkc2TrA21",
+      "groupId": "n7PQA8kobh",
       "type": "1",
       "title": "Home",
       "icon": "Assignment",
@@ -170,6 +186,7 @@
     {
       "id": "0xFFac9Ehb",
       "parentId": "Mlkc2TrA21",
+      "groupId": "n7PQA8kobh",
       "type": "1",
       "title": "A",
       "icon": "Assignment",
@@ -178,6 +195,7 @@
     {
       "id": "FRtV2PPibS",
       "parentId": "Mlkc2TrA21",
+      "groupId": "n7PQA8kobh",
       "type": "1",
       "title": "B",
       "icon": "Assignment",
@@ -186,10 +204,56 @@
     {
       "id": "UWj5VYzUxH",
       "parentId": "Mlkc2TrA21",
+      "groupId": "none",
       "type": "1",
       "title": "TEST1",
       "icon": "Assignment",
       "path": "TEST1"
+    },
+    {
+      "id": "klhDYtEjOY",
+      "parentId": "111111",
+      "groupId": "none",
+      "type": "1",
+      "title": "klhDYtEjOY",
+      "icon": "Assignment",
+      "path": "klhDYtEjOY"
+    },
+    {
+      "id": "MsETsmHcWo",
+      "parentId": "111111",
+      "groupId": "none",
+      "type": "1",
+      "title": "MsETsmHcWo",
+      "icon": "Assignment",
+      "path": "MsETsmHcWo"
+    },
+    {
+      "id": "ANcwPVeydN",
+      "parentId": "111111",
+      "groupId": "none",
+      "type": "1",
+      "title": "ANcwPVeydN",
+      "icon": "Assignment",
+      "path": "ANcwPVeydN"
+    },
+    {
+      "id": "lLZBHKpeMa",
+      "parentId": "111111",
+      "groupId": "none",
+      "type": "1",
+      "title": "lLZBHKpeMa",
+      "icon": "Assignment",
+      "path": "lLZBHKpeMa"
+    },
+    {
+      "id": "8HmsJjnCho",
+      "parentId": "111111",
+      "groupId": "none",
+      "type": "1",
+      "title": "8HmsJjnCho",
+      "icon": "Assignment",
+      "path": "8HmsJjnCho"
     }
   ],
   "PageData": [
@@ -271,6 +335,186 @@
       },
       "id": "MaM8JErVHK",
       "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 0,
+        "y": 4,
+        "i": "FxabYBrDJ5",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "FxabYBrDJ5",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 8,
+        "y": 0,
+        "i": "I2scFubqqB",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "I2scFubqqB",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "LineChart",
+        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
+        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
+        "SelectKeys": "[\"name\",\"value\"]",
+        "title": "上傳檔案數量"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 2,
+        "y": 0,
+        "i": "JOvUieAAGs",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "JOvUieAAGs",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "StatusCard",
+        "title": "設備離線數",
+        "content": "off",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 0,
+        "y": 0,
+        "i": "1m5QNBFtvh",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "1m5QNBFtvh",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "StatusCard",
+        "title": "設備在線數",
+        "content": "on",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]"
+      }
+    },
+    {
+      "grid": {
+        "w": 8,
+        "h": 10,
+        "x": 4,
+        "y": 5,
+        "i": "FLcILJajCe",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "FLcILJajCe",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/getAll",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 4,
+        "y": 0,
+        "i": "4pwsIzQDMU",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "4pwsIzQDMU",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
+        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
+        "SelectKeys": "[\"name\",\"value\"]",
+        "title": "上傳檔案數量"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 0,
+        "y": 9,
+        "i": "GgcniNKIgR",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "GgcniNKIgR",
+      "parentId": "qdPu8baCI9",
       "title": "",
       "data": {
         "ItemType": "VideoStream",
@@ -771,142 +1015,10 @@
     },
     {
       "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 8,
-        "y": 0,
-        "i": "I2scFubqqB",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "I2scFubqqB",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "LineChart",
-        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
-        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
-        "AddKeys": "{}",
-        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
-        "SelectKeys": "[\"name\",\"value\"]",
-        "title": "上傳檔案數量"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 0,
-        "y": 4,
-        "i": "FxabYBrDJ5",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "FxabYBrDJ5",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 4,
-        "y": 0,
-        "i": "4pwsIzQDMU",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "4pwsIzQDMU",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
-        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
-        "AddKeys": "{}",
-        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
-        "SelectKeys": "[\"name\",\"value\"]",
-        "title": "上傳檔案數量"
-      }
-    },
-    {
-      "grid": {
-        "w": 8,
-        "h": 10,
-        "x": 4,
-        "y": 15,
-        "i": "FLcILJajCe",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "FLcILJajCe",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/getAll",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 0,
-        "y": 0,
-        "i": "1m5QNBFtvh",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "1m5QNBFtvh",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備在線數",
-        "content": "on",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]"
-      }
-    },
-    {
-      "grid": {
         "w": 2,
         "h": 4,
         "x": 2,
-        "y": 0,
+        "y": 35,
         "i": "JOvUieAAGs",
         "minW": 2,
         "minH": 4,
@@ -932,31 +1044,262 @@
       "grid": {
         "w": 4,
         "h": 5,
-        "x": 0,
-        "y": 9,
-        "i": "GgcniNKIgR",
+        "x": 4,
+        "y": 35,
+        "i": "4pwsIzQDMU",
         "minW": 2,
         "minH": 4,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "GgcniNKIgR",
+      "id": "4pwsIzQDMU",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
+        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
+        "SelectKeys": "[\"name\",\"value\"]",
+        "title": "上傳檔案數量"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 0,
+        "y": 35,
+        "i": "1m5QNBFtvh",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "1m5QNBFtvh",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "StatusCard",
+        "title": "設備在線數",
+        "content": "on",
+        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 8,
+        "y": 25,
+        "i": "I2scFubqqB",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "I2scFubqqB",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "LineChart",
+        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
+        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
+        "SelectKeys": "[\"name\",\"value\"]",
+        "title": "上傳檔案數量"
+      }
+    },
+    {
+      "grid": {
+        "w": 8,
+        "h": 10,
+        "x": 0,
+        "y": 25,
+        "i": "FLcILJajCe",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "0g5KVyivhU",
+      "parentId": "UWj5VYzUxH",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "http://localhost:3333/test",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
+      }
+    },
+    {
+      "grid": {
+        "w": 8,
+        "h": 12,
+        "x": 0,
+        "y": 40,
+        "i": "EBFyZfoXCy",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "EBFyZfoXCy",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "SelectChart",
+        "myLayout": "Box1",
+        "dataUrl": "http://localhost:3333/selectChart",
+        "title": "Title"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 5,
+        "x": 0,
+        "y": 52,
+        "i": "FxabYBrDJ5",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "FxabYBrDJ5",
       "parentId": "qdPu8baCI9",
       "title": "",
       "data": {
         "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
+        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 13,
+        "x": 0,
+        "y": 0,
+        "i": "MVVO5vzAOD",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "MVVO5vzAOD",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "SelectChart",
+        "myLayout": "Panel",
+        "dataUrl": "http://localhost:3333/selectChart",
+        "title": "Title2"
+      }
+    },
+    {
+      "grid": {
+        "w": 5,
+        "h": 12,
+        "x": 5,
+        "y": 13,
+        "i": "Z2IPFwJ64X",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "Z2IPFwJ64X",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "SelectChart",
+        "myLayout": "PcBox",
+        "dataUrl": "http://localhost:3333/selectChart",
+        "title": "Title"
+      }
+    },
+    {
+      "grid": {
+        "w": 5,
+        "h": 12,
+        "x": 0,
+        "y": 13,
+        "i": "tpZ8AMxvqQ",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "tpZ8AMxvqQ",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "headers": "{\"Content-Type\": \"application/json\"}",
+        "authorization": "false",
+        "createApi": "http://localhost:3333/Test",
+        "createMethod": "POST",
+        "updateApi": "http://localhost:3333/Test",
+        "updateMethod": "PUT",
+        "updateId": "id",
+        "deleteApi": "http://localhost:3333/Test",
+        "deleteMethod": "PUT",
+        "deleteId": "id"
       }
     }
   ],
-  "signin": {
+  "authApi_token": {
     "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzMiJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMS0wNy0wMVwiLFwiZW1haWxcIjpcImRldmVsb3BfY29tbW9uQGljYXJlbWR4LmNvbVwiLFwiZ2VuZGVyXCI6MSxcImlkXCI6XCI4YTE1MmYxNGVjNDMxMWViYTc1NjAyMDAxNzA4OWMyNFwiLFwibmFtZVwiOlwiRGV2ZWxvcFwiLFwicGhvbmVcIjpcIjA5NzgwMTI3NzNcIixcInJvbGVcIjpcImNvbW1vbixvcmdhbml6YXRpb25fYWNjb3VudCxvcmdfZGV2ZWxvcCxkYXRhX2FuYWx5c2lzXCIsXCJ0eXBlXCI6XCJzeXN0ZW1cIn0iLCJzY29wZSI6WyJEQVRBIl0sImV4cCI6MjQyMDE3MTUzNywiYXV0aG9yaXRpZXMiOlsiU1lTVEVNOkVNUExPWUVFUyIsIlNZU1RFTTpEQVNIQk9BUkQiLCJTWVNURU06TE9HTElTVCIsIlNZU1RFTTpWT0xVTlRFRVIiLCJTWVNURU06UkVDT1JEUyIsIlNZU1RFTTpSRVNVTFRMSVNUIiwiU1lTVEVNOklOU1BFQ1RJT04iLCJTWVNURU06Uk9MRSIsIlNZU1RFTTpORVdSRUNPUkQiLCJTWVNURU06UEFMQVVSRVNVTFRMSVNUIiwiU1lTVEVNOlJFQ09SRFNfR0VORVJBTCIsIlNZU1RFTTpTVEFGRiIsIlNZU1RFTTpVU0VSTElTVCIsIlNZU1RFTTpTWVNURU0iLCJTWVNURU06VEVTVEdST1VQIl0sImp0aSI6IjE5ZGUwMzczLWNmYTAtNDhjMy1hYmFjLWJhYjUyOTE1MGJhZSIsImNsaWVudF9pZCI6ImM0In0.dR95gYojBp_c2jCw-LIoPPUpInheLiXUK7dz-VXIvBQ",
     "token_type": "bearer",
     "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzMiJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMS0wNy0wMVwiLFwiZW1haWxcIjpcImRldmVsb3BfY29tbW9uQGljYXJlbWR4LmNvbVwiLFwiZ2VuZGVyXCI6MSxcImlkXCI6XCI4YTE1MmYxNGVjNDMxMWViYTc1NjAyMDAxNzA4OWMyNFwiLFwibmFtZVwiOlwiRGV2ZWxvcFwiLFwicGhvbmVcIjpcIjA5NzgwMTI3NzNcIixcInJvbGVcIjpcImNvbW1vbixvcmdhbml6YXRpb25fYWNjb3VudCxvcmdfZGV2ZWxvcCxkYXRhX2FuYWx5c2lzXCIsXCJ0eXBlXCI6XCJzeXN0ZW1cIn0iLCJzY29wZSI6WyJEQVRBIl0sImF0aSI6IjE5ZGUwMzczLWNmYTAtNDhjMy1hYmFjLWJhYjUyOTE1MGJhZSIsImV4cCI6MjQyMDE3MTUzNywiYXV0aG9yaXRpZXMiOlsiU1lTVEVNOkVNUExPWUVFUyIsIlNZU1RFTTpEQVNIQk9BUkQiLCJTWVNURU06TE9HTElTVCIsIlNZU1RFTTpWT0xVTlRFRVIiLCJTWVNURU06UkVDT1JEUyIsIlNZU1RFTTpSRVNVTFRMSVNUIiwiU1lTVEVNOklOU1BFQ1RJT04iLCJTWVNURU06Uk9MRSIsIlNZU1RFTTpORVdSRUNPUkQiLCJTWVNURU06UEFMQVVSRVNVTFRMSVNUIiwiU1lTVEVNOlJFQ09SRFNfR0VORVJBTCIsIlNZU1RFTTpTVEFGRiIsIlNZU1RFTTpVU0VSTElTVCIsIlNZU1RFTTpTWVNURU0iLCJTWVNURU06VEVTVEdST1VQIl0sImp0aSI6ImZjZmY2OGRkLWI4MDQtNDM1OS04MjcwLTM4NDVkM2YzOWEzOCIsImNsaWVudF9pZCI6ImM0In0.0fXEnqTuzVR4vfPIA0G7A565lblDnGHtEwAqmb0kcME",
     "expires_in": 777599999,
-    "scope": "DATA",
-    "jti": "19de0373-cfa0-48c3-abac-bab529150bae"
+    "scopes": "DATA"
+  },
+  "authApi_checktoken": {
+    "aud": [
+      "authApi"
+    ],
+    "user_name": "",
+    "scope": [
+      "all"
+    ],
+    "active": true,
+    "exp": 1644232267,
+    "authorities": [
+      "admin"
+    ],
+    "jti": "ab8542ee-e2fb-4b88-984d-e86d3d359040",
+    "client_id": "dmsb"
+  },
+  "authApi_refreshtoken": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiYXV0aEFwaSJdLCJ1c2VyX25hbWUiOiJhZG1pbl90ZXN0QHdpc3Ryb24uY29tIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY0NDIzMjI2NywiYXV0aG9yaXRpZXMiOlsiYWRtaW4iXSwianRpIjoiYWI4NTQyZWUtZTJmYi00Yjg4LTk4NGQtZTg2ZDNkMzU5MDQwIiwiY2xpZW50X2lkIjoiZG1zYiJ9.Lg7qAId_Uy0bQANiNbZkosq9IFlvzBd0OdXZ2V86BoQ",
+    "token_type": "bearer",
+    "expires_in": 28799,
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiYXV0aEFwaSJdLCJ1c2VyX25hbWUiOiJhZG1pbl90ZXN0QHdpc3Ryb24uY29tIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6ImFiODU0MmVlLWUyZmItNGI4OC05ODRkLWU4NmQzZDM1OTA0MCIsImV4cCI6MTY0OTM4NzMxNiwiYXV0aG9yaXRpZXMiOlsiYWRtaW4iXSwianRpIjoiNzIyZDYxN2YtMWNmOC00YjExLWJiNTQtNTVlNjVmYmUxYzM0IiwiY2xpZW50X2lkIjoiZG1zYiJ9.-ZPdkb2XdGigFvhi5WDa2WA7x-NuxCKWzTauvSquB8Y",
+    "scopes": "all"
   },
   "imageCardStatePanel": {
     "imageUrl": "https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
@@ -964,8 +1307,43 @@
     "content": "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like."
   },
   "selectChart": {
-    "box1": [{ "label": "雞舍1","value": "https://dmsbjsonserver.herokuapp.com/selectChart" },
-      { "label": "雞舍2","value": "https://dmsbjsonserver.herokuapp.com/selectChartbox1" }],
+    "box1": [
+      {
+        "label": "item1",
+        "value": "http://localhost:3333/selectChart"
+      },
+      {
+        "label": "item2",
+        "value": "http://localhost:3333/selectChartbox1"
+      }
+    ],
+    "pbox": [
+      {
+        "label": "item1",
+        "value": "A"
+      },
+      {
+        "label": "item2",
+        "value": "B"
+      }
+    ],
+    "cbox": [
+      {
+        "parentId": "A",
+        "label": "item1-1",
+        "value": "http://localhost:3333/selectChart"
+      },
+      {
+        "parentId": "A",
+        "label": "item1-2",
+        "value": "http://localhost:3333/selectChartbox1"
+      },
+      {
+        "parentId": "B",
+        "label": "item2-1",
+        "value": "http://localhost:3333/selectChartbox2"
+      }
+    ],
     "chartDatas": {
       "labels": [
         "January",
@@ -1009,8 +1387,43 @@
     }
   },
   "selectChartbox1": {
-    "box1": [{ "label": "雞舍1","value": "https://dmsbjsonserver.herokuapp.com/selectChart" },
-      { "label": "雞舍2","value": "https://dmsbjsonserver.herokuapp.com/selectChartbox1" }],
+    "box1": [
+      {
+        "label": "item1",
+        "value": "http://localhost:3333/selectChart"
+      },
+      {
+        "label": "item2",
+        "value": "http://localhost:3333/selectChartbox1"
+      }
+    ],
+    "pbox": [
+      {
+        "label": "item1",
+        "value": "A"
+      },
+      {
+        "label": "item2",
+        "value": "B"
+      }
+    ],
+    "cbox": [
+      {
+        "parentId": "A",
+        "label": "item1-1",
+        "value": "http://localhost:3333/selectChart"
+      },
+      {
+        "parentId": "A",
+        "label": "item1-2",
+        "value": "http://localhost:3333/selectChartbox1"
+      },
+      {
+        "parentId": "B",
+        "label": "item2-1",
+        "value": "http://localhost:3333/selectChartbox2"
+      }
+    ],
     "chartDatas": {
       "labels": [
         "January",
@@ -1053,34 +1466,134 @@
       ]
     }
   },
-  "authApi_token": {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzMiJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMS0wNy0wMVwiLFwiZW1haWxcIjpcImRldmVsb3BfY29tbW9uQGljYXJlbWR4LmNvbVwiLFwiZ2VuZGVyXCI6MSxcImlkXCI6XCI4YTE1MmYxNGVjNDMxMWViYTc1NjAyMDAxNzA4OWMyNFwiLFwibmFtZVwiOlwiRGV2ZWxvcFwiLFwicGhvbmVcIjpcIjA5NzgwMTI3NzNcIixcInJvbGVcIjpcImNvbW1vbixvcmdhbml6YXRpb25fYWNjb3VudCxvcmdfZGV2ZWxvcCxkYXRhX2FuYWx5c2lzXCIsXCJ0eXBlXCI6XCJzeXN0ZW1cIn0iLCJzY29wZSI6WyJEQVRBIl0sImV4cCI6MjQyMDE3MTUzNywiYXV0aG9yaXRpZXMiOlsiU1lTVEVNOkVNUExPWUVFUyIsIlNZU1RFTTpEQVNIQk9BUkQiLCJTWVNURU06TE9HTElTVCIsIlNZU1RFTTpWT0xVTlRFRVIiLCJTWVNURU06UkVDT1JEUyIsIlNZU1RFTTpSRVNVTFRMSVNUIiwiU1lTVEVNOklOU1BFQ1RJT04iLCJTWVNURU06Uk9MRSIsIlNZU1RFTTpORVdSRUNPUkQiLCJTWVNURU06UEFMQVVSRVNVTFRMSVNUIiwiU1lTVEVNOlJFQ09SRFNfR0VORVJBTCIsIlNZU1RFTTpTVEFGRiIsIlNZU1RFTTpVU0VSTElTVCIsIlNZU1RFTTpTWVNURU0iLCJTWVNURU06VEVTVEdST1VQIl0sImp0aSI6IjE5ZGUwMzczLWNmYTAtNDhjMy1hYmFjLWJhYjUyOTE1MGJhZSIsImNsaWVudF9pZCI6ImM0In0.dR95gYojBp_c2jCw-LIoPPUpInheLiXUK7dz-VXIvBQ",
-    "token_type": "bearer",
-    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsicmVzMiJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMS0wNy0wMVwiLFwiZW1haWxcIjpcImRldmVsb3BfY29tbW9uQGljYXJlbWR4LmNvbVwiLFwiZ2VuZGVyXCI6MSxcImlkXCI6XCI4YTE1MmYxNGVjNDMxMWViYTc1NjAyMDAxNzA4OWMyNFwiLFwibmFtZVwiOlwiRGV2ZWxvcFwiLFwicGhvbmVcIjpcIjA5NzgwMTI3NzNcIixcInJvbGVcIjpcImNvbW1vbixvcmdhbml6YXRpb25fYWNjb3VudCxvcmdfZGV2ZWxvcCxkYXRhX2FuYWx5c2lzXCIsXCJ0eXBlXCI6XCJzeXN0ZW1cIn0iLCJzY29wZSI6WyJEQVRBIl0sImF0aSI6IjE5ZGUwMzczLWNmYTAtNDhjMy1hYmFjLWJhYjUyOTE1MGJhZSIsImV4cCI6MjQyMDE3MTUzNywiYXV0aG9yaXRpZXMiOlsiU1lTVEVNOkVNUExPWUVFUyIsIlNZU1RFTTpEQVNIQk9BUkQiLCJTWVNURU06TE9HTElTVCIsIlNZU1RFTTpWT0xVTlRFRVIiLCJTWVNURU06UkVDT1JEUyIsIlNZU1RFTTpSRVNVTFRMSVNUIiwiU1lTVEVNOklOU1BFQ1RJT04iLCJTWVNURU06Uk9MRSIsIlNZU1RFTTpORVdSRUNPUkQiLCJTWVNURU06UEFMQVVSRVNVTFRMSVNUIiwiU1lTVEVNOlJFQ09SRFNfR0VORVJBTCIsIlNZU1RFTTpTVEFGRiIsIlNZU1RFTTpVU0VSTElTVCIsIlNZU1RFTTpTWVNURU0iLCJTWVNURU06VEVTVEdST1VQIl0sImp0aSI6ImZjZmY2OGRkLWI4MDQtNDM1OS04MjcwLTM4NDVkM2YzOWEzOCIsImNsaWVudF9pZCI6ImM0In0.0fXEnqTuzVR4vfPIA0G7A565lblDnGHtEwAqmb0kcME",
-    "expires_in": 777599999,
-    "scopes": "DATA"
+  "selectChartbox2": {
+    "pbox": [
+      {
+        "label": "item1",
+        "value": "A"
+      },
+      {
+        "label": "item2",
+        "value": "B"
+      }
+    ],
+    "cbox": [
+      {
+        "parentId": "A",
+        "label": "item1-1",
+        "value": "http://localhost:3333/selectChart"
+      },
+      {
+        "parentId": "A",
+        "label": "item1-2",
+        "value": "http://localhost:3333/selectChartbox1"
+      },
+      {
+        "parentId": "B",
+        "label": "item2-1",
+        "value": "http://localhost:3333/selectChartbox2"
+      }
+    ],
+    "chartDatas": {
+      "labels": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July"
+      ],
+      "datasets": [
+        {
+          "label": "Dataset 1",
+          "data": [
+            66,
+            89,
+            77,
+            33,
+            22,
+            11,
+            66
+          ],
+          "backgroundColor": "rgba(255, 99, 132, 0.5)",
+          "borderColor": "rgba(255, 99, 132, 0.5)"
+        },
+        {
+          "label": "Dataset 2",
+          "data": [
+            55,
+            81,
+            19,
+            20,
+            15,
+            40,
+            55
+          ],
+          "backgroundColor": "rgba(53, 162, 235, 0.5)",
+          "borderColor": "rgba(53, 162, 235, 0.5)"
+        }
+      ]
+    }
   },
-  "authApi_checktoken": {
-    "aud": [
-      "authApi"
+  "PercentageChart01": {
+    "pbox": [
+      {
+        "label": "item1",
+        "value": "A"
+      },
+      {
+        "label": "item2",
+        "value": "B"
+      }
     ],
-    "user_name": "",
-    "scope": [
-      "all"
+    "cbox": [
+      {
+        "parentId": "A",
+        "label": "item1-1",
+        "value": "http://localhost:3333/PercentageChart01"
+      },
+      {
+        "parentId": "A",
+        "label": "item1-2",
+        "value": "http://localhost:3333/PercentageChart02"
+      },
+      {
+        "parentId": "B",
+        "label": "item2-1",
+        "value": "http://localhost:3333/PercentageChart03"
+      }
     ],
-    "active": true,
-    "exp": 1644232267,
-    "authorities": [
-      "admin"
-    ],
-    "jti": "ab8542ee-e2fb-4b88-984d-e86d3d359040",
-    "client_id": "dmsb"
-  },
-  "authApi_refreshtoken": {
-    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiYXV0aEFwaSJdLCJ1c2VyX25hbWUiOiJhZG1pbl90ZXN0QHdpc3Ryb24uY29tIiwic2NvcGUiOlsiYWxsIl0sImV4cCI6MTY0NDIzMjI2NywiYXV0aG9yaXRpZXMiOlsiYWRtaW4iXSwianRpIjoiYWI4NTQyZWUtZTJmYi00Yjg4LTk4NGQtZTg2ZDNkMzU5MDQwIiwiY2xpZW50X2lkIjoiZG1zYiJ9.Lg7qAId_Uy0bQANiNbZkosq9IFlvzBd0OdXZ2V86BoQ",
-    "token_type": "bearer",
-    "expires_in": 28799,
-    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiYXV0aEFwaSJdLCJ1c2VyX25hbWUiOiJhZG1pbl90ZXN0QHdpc3Ryb24uY29tIiwic2NvcGUiOlsiYWxsIl0sImF0aSI6ImFiODU0MmVlLWUyZmItNGI4OC05ODRkLWU4NmQzZDM1OTA0MCIsImV4cCI6MTY0OTM4NzMxNiwiYXV0aG9yaXRpZXMiOlsiYWRtaW4iXSwianRpIjoiNzIyZDYxN2YtMWNmOC00YjExLWJiNTQtNTVlNjVmYmUxYzM0IiwiY2xpZW50X2lkIjoiZG1zYiJ9.-ZPdkb2XdGigFvhi5WDa2WA7x-NuxCKWzTauvSquB8Y",
-    "scopes": "all"
+    "chartDatas": {
+      "labels": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Green",
+        "Purple",
+        "Orange"
+      ],
+      "datasets": [
+        {
+          "label": "# of Votes",
+          "data": [
+            12,
+            19,
+            3,
+            5,
+            2,
+            3
+          ],
+          "backgroundColor": [
+            "rgba(255, 99, 132, 0.2)",
+            "rgba(54, 162, 235, 0.2)",
+            "rgba(255, 206, 86, 0.2)",
+            "rgba(75, 192, 192, 0.2)",
+            "rgba(153, 102, 255, 0.2)",
+            "rgba(255, 159, 64, 0.2)"
+          ]
+        }
+      ]
+    }
   }
 }
