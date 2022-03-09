@@ -1,5 +1,4 @@
 {
-  "ExtraView": [],
   "user": [
     {
       "name": "admin",
@@ -178,7 +177,7 @@
       "id": "cIVfv9JS9T",
       "parentId": "Mlkc2TrA21",
       "groupId": "n7PQA8kobh",
-      "type": "2",
+      "type": "1",
       "title": "首頁",
       "icon": "Assignment",
       "path": "",
@@ -302,10 +301,11 @@
       "id": "tXBQSrEvSJ",
       "parentId": "Mlkc2TrA21",
       "groupId": "uoH1gADHXt",
-      "type": "1",
+      "type": "2",
       "title": "影像監控",
       "icon": "VisibilityTwoTone",
-      "path": "Streaming"
+      "path": "Streaming",
+      "filePath": "WiBase/Demo/Streaming"
     },
     {
       "id": "CPhGY4ovNa",
@@ -426,32 +426,6 @@
     },
     {
       "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 8,
-        "y": 0,
-        "i": "I2scFubqqB",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "I2scFubqqB",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "LineChart",
-        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
-        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
-        "AddKeys": "{}",
-        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
-        "SelectKeys": "[\"name\",\"value\"]",
-        "title": "上傳檔案數量"
-      }
-    },
-    {
-      "grid": {
         "w": 8,
         "h": 10,
         "x": 4,
@@ -537,64 +511,6 @@
     },
     {
       "grid": {
-        "w": 12,
-        "h": 6,
-        "x": 0,
-        "y": 0,
-        "i": "ChtOHbc19s",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "ChtOHbc19s",
-      "parentId": "cIVfv9JS9T",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "title": "",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
-        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"name\",\"value\"]"
-      }
-    },
-    {
-      "grid": {
-        "w": 12,
-        "h": 7,
-        "x": 0,
-        "y": 6,
-        "i": "wSIyNUYfJb",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "wSIyNUYfJb",
-      "parentId": "cIVfv9JS9T",
-      "title": "",
-      "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "chip": "{}"
-      }
-    },
-    {
-      "grid": {
         "w": 5,
         "h": 10,
         "x": 0,
@@ -675,26 +591,6 @@
         "tableFilter": "false",
         "selectableRows": "none",
         "chip": "{}"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 4,
-        "y": 0,
-        "i": "SqVtrJ0FRA",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "SqVtrJ0FRA",
-      "parentId": "dWrRHcbAYv",
-      "title": "",
-      "data": {
-        "ItemType": "PieChart"
       }
     },
     {
@@ -900,32 +796,6 @@
       },
       "id": "cRyhmfa5j9",
       "parentId": "",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "title": "",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
-        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"name\",\"value\"]"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 0,
-        "y": 0,
-        "i": "__new-dropping-item__",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "zHl9GvglnK",
-      "parentId": "cIVfv9JS9T",
       "title": "",
       "data": {
         "ItemType": "BarChart",
@@ -1436,6 +1306,99 @@
         "customColumns": "[\n    {\n        \"name\": \"image\",\n        \"index\": 0,\n        \"value\": \"snapshotUrl\",\n        \"viewComponent\": \"image\"\n    },\n    {\n        \"name\": \"Screen\",\n        \"index\": 1,\n        \"value\": \"\",\n        \"viewComponent\": \"customDialog\"\n    }\n]",
         "interval": "false"
       }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 6,
+        "x": 0,
+        "y": 0,
+        "i": "ChtOHbc19s",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "ChtOHbc19s",
+      "parentId": "cIVfv9JS9T",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 7,
+        "x": 0,
+        "y": 10,
+        "i": "wSIyNUYfJb",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "wSIyNUYfJb",
+      "parentId": "cIVfv9JS9T",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 0,
+        "y": 6,
+        "i": "zHl9GvglnK",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "zHl9GvglnK",
+      "parentId": "cIVfv9JS9T",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart",
+        "title": "",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"name\",\"value\"]"
+      }
+    }
+  ],
+  "ProjectComponent": [
+    {
+      "title": "Walkie-Talkie",
+      "type": "topbar",
+      "filePath": "WiBase/Demo/WalkieTalkieButton",
+      "id": "cyowNyRYtM",
+      "projectId": "Mlkc2TrA21"
     }
   ],
   "authApi_token": {
