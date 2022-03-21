@@ -80,8 +80,19 @@
       "name": "WiBase",
       "description": "WiBase Project description ...",
       "path": "WiBase",
-      "logoUrl": "",
-      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}"
+      "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/logo_Wistron.svg",
+      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+      "component": [
+        {
+          "title": "Walkie-Talkie",
+          "type": "topbar",
+          "filePath": "WiBase/Demo/WalkieTalkieButton",
+          "id": "cyowNyRYtM",
+          "projectId": "Mlkc2TrA21"
+        }
+      ],
+      "dataHost": "http://localhost:3333/CustomProjectData/Mlkc2TrA21",
+      "apiHost": "https://wibase.bovia.com.tw/"
     },
     {
       "id": "111111",
@@ -277,16 +288,6 @@
       "icon": "KeyboardTwoTone",
       "path": "DeviceList",
       "filePath": "WiBase/Demo/DeviceList"
-    },
-    {
-      "id": "PmcAxlO31j",
-      "parentId": "Mlkc2TrA21",
-      "groupId": "uoH1gADHXt",
-      "type": "2",
-      "title": "即時影音位置",
-      "icon": "LocationOnTwoTone",
-      "path": "Location",
-      "filePath": "WiBase/Demo/Location"
     },
     {
       "id": "LX9fy6h3wF",
@@ -1034,44 +1035,6 @@
     },
     {
       "grid": {
-        "w": 12,
-        "h": 14,
-        "x": 0,
-        "y": 0,
-        "i": "7ZgxA2O6JR",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "7ZgxA2O6JR",
-      "parentId": "PmcAxlO31j",
-      "title": "",
-      "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "http://13.76.250.220:8083/bovia/api/web/live/list",
-        "Method": "GET",
-        "RequestData": "{}",
-        "GetInData": "[\"liveList\"]",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]",
-        "interval": "true",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "columnSet": "[\"id\",\"name\",\"groupId\",\"startTime\"]",
-        "chip": "{}",
-        "customColumns": "[\n    {\n        \"name\": \"image\",\n        \"index\": 0,\n        \"value\": \"snapshotUrl\",\n        \"viewComponent\": \"image\"\n    },\n    {\n        \"name\": \"Screen\",\n        \"index\": 1,\n        \"value\": \"\",\n        \"viewComponent\": \"custom\"\n    }\n]"
-      }
-    },
-    {
-      "grid": {
         "w": 4,
         "h": 5,
         "x": 0,
@@ -1725,5 +1688,463 @@
         }
       ]
     }
-  }
+  },
+  "CustomProjectData": [
+    {
+      "id": "Mlkc2TrA21",
+      "projectSetting": {
+        "id": "Mlkc2TrA21",
+        "name": "WiBase",
+        "description": "WiBase Project description ...",
+        "path": "WiBase",
+        "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/logo_Wistron.svg",
+        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+        "component": [
+          {
+            "title": "Walkie-Talkie",
+            "type": "topbar",
+            "filePath": "WiBase/Demo/WalkieTalkieButton",
+            "id": "cyowNyRYtM",
+            "projectId": "Mlkc2TrA21"
+          }
+        ],
+        "dataHost": "http://localhost:3333/CustomProjectData/Mlkc2TrA21",
+        "apiHost": "https://wibase.bovia.com.tw/"
+      },
+      "pageGroup": [
+        {
+          "id": "n7PQA8kobh",
+          "parentId": "Mlkc2TrA21",
+          "title": "帳號管理",
+          "icon": "Assignment"
+        },
+        {
+          "id": "8V3DtTsibu",
+          "parentId": "Mlkc2TrA21",
+          "title": "裝置管理",
+          "icon": "Assignment"
+        },
+        {
+          "id": "uoH1gADHXt",
+          "parentId": "Mlkc2TrA21",
+          "title": "影像管理",
+          "icon": "Assignment"
+        }
+      ],
+      "pageList": [
+        {
+          "id": "cIVfv9JS9T",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "n7PQA8kobh",
+          "type": "1",
+          "title": "首頁",
+          "icon": "Assignment",
+          "path": "",
+          "filePath": "WiBase/ViewPage/Home"
+        },
+        {
+          "id": "0xFFac9Ehb",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "n7PQA8kobh",
+          "type": "2",
+          "title": "分租管理",
+          "icon": "GroupTwoTone",
+          "path": "Group",
+          "filePath": "WiBase/Demo/Group"
+        },
+        {
+          "id": "FRtV2PPibS",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "n7PQA8kobh",
+          "type": "2",
+          "title": "組織管理",
+          "icon": "GroupAddTwoTone",
+          "path": "GroupAdd",
+          "filePath": "WiBase/Demo/GroupAdd"
+        },
+        {
+          "id": "UWj5VYzUxH",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "n7PQA8kobh",
+          "type": "2",
+          "title": "權限管理",
+          "icon": "GroupsTwoTone",
+          "path": "AuthGroup",
+          "filePath": "WiBase/Demo/AuthGroup"
+        },
+        {
+          "id": "Yi9PADMl2b",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "n7PQA8kobh",
+          "type": "2",
+          "title": "帳號管理",
+          "icon": "AccountCircleTwoTone",
+          "path": "Account",
+          "filePath": "WiBase/Demo/Account"
+        },
+        {
+          "id": "U01JjDYRj4",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "8V3DtTsibu",
+          "type": "2",
+          "title": "設備列表",
+          "icon": "KeyboardTwoTone",
+          "path": "DeviceList",
+          "filePath": "WiBase/Demo/DeviceList"
+        },
+        {
+          "id": "LX9fy6h3wF",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "uoH1gADHXt",
+          "type": "1",
+          "title": "歷史軌跡",
+          "icon": "ManageSearchTwoTone",
+          "path": "History"
+        },
+        {
+          "id": "tXBQSrEvSJ",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "uoH1gADHXt",
+          "type": "2",
+          "title": "影像監控",
+          "icon": "VisibilityTwoTone",
+          "path": "Streaming",
+          "filePath": "WiBase/Demo/Streaming"
+        },
+        {
+          "id": "CPhGY4ovNa",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "uoH1gADHXt",
+          "type": "2",
+          "title": "紀錄列表",
+          "icon": "ListAltTwoTone",
+          "path": "LogList",
+          "filePath": "WiBase/Demo/LogList"
+        }
+      ],
+      "pageData": [
+        {
+          "grid": {
+            "w": 12,
+            "h": 6,
+            "x": 0,
+            "y": 0,
+            "i": "ChtOHbc19s",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "ChtOHbc19s",
+          "parentId": "cIVfv9JS9T",
+          "title": "",
+          "data": {
+            "ItemType": "BarChart",
+            "title": "",
+            "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+            "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+            "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[\"name\",\"value\"]"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 7,
+            "x": 0,
+            "y": 10,
+            "i": "wSIyNUYfJb",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "wSIyNUYfJb",
+          "parentId": "cIVfv9JS9T",
+          "title": "",
+          "data": {
+            "ItemType": "DataTable",
+            "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+            "Filter": "{}",
+            "AddKeys": "{}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
+            "search": "false",
+            "download": "false",
+            "print": "false",
+            "viewColumns": "false",
+            "tableFilter": "false",
+            "selectableRows": "none",
+            "chip": "{}"
+          }
+        },
+        {
+          "grid": {
+            "w": 2,
+            "h": 4,
+            "x": 0,
+            "y": 6,
+            "i": "zHl9GvglnK",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "zHl9GvglnK",
+          "parentId": "cIVfv9JS9T",
+          "title": "",
+          "data": {
+            "ItemType": "BarChart",
+            "title": "",
+            "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+            "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
+            "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[\"name\",\"value\"]"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 17,
+            "x": 0,
+            "y": 0,
+            "i": "uThmCq3fiD",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "uThmCq3fiD",
+          "parentId": "LX9fy6h3wF",
+          "title": "",
+          "data": {
+            "ItemType": "DataTable",
+            "DataUrl": "http://13.76.250.220:8083/bovia/api/web/video/search",
+            "Method": "POST",
+            "RequestData": "{ \"postId\": [     \"SI1-02\"   ],\"startTime\": \"2022-01-26T00:00:00Z\",   \"stopTime\": \"2022-04-28T09:00:00Z\" }",
+            "GetInData": "[\"videoList\"]",
+            "Filter": "{}",
+            "AddKeys": "{}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[]",
+            "customColumns": "[\n    {\n        \"name\": \"image\",\n        \"index\": 0,\n        \"value\": \"snapshotUrl\",\n        \"viewComponent\": \"image\"\n    },\n    {\n        \"name\": \"Screen\",\n        \"index\": 1,\n        \"value\": \"\",\n        \"viewComponent\": \"customDialog\"\n    }\n]",
+            "interval": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 0,
+            "y": 0,
+            "i": "WsnFEdJV4D",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "WsnFEdJV4D",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDEiLCJ6IjoiMjAyMi0wMy0wNFQxMTo1MjowNSswODowMCIsImciOjEsIm4iOiIyMDIyMDMwNC9TSTEtMDFfMjAyMjAzMDRfMDM1MjA1Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTg0MywiaWF0IjoxNjQ2Mzg4MjQzLCJpc3MiOiJXSUJBU0UifQ.-G4XkjDzwKqbIRHgTYTjrsw4e2flmoH6N_S-_UlOxDU/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 0,
+            "y": 5,
+            "i": "OnP15pq8S8",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "OnP15pq8S8",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wM1QxNDo1NzozNyswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMy9TSTEtMDJfMjAyMjAzMDNfMDY1NzM3Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.IUDUKZyaBtkdvpvewgW_NFI04pkg7OgqRGy1fZp-Dvw/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 4,
+            "y": 5,
+            "i": "3m1AQwu63T",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "3m1AQwu63T",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNjozMDowMCswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDgzMDAwLm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.MbpufQfbSQXZubFXAlgT1jwuimcfu_z_2B24Wxbqbl4/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 8,
+            "y": 5,
+            "i": "FjY8kVxpOp",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "FjY8kVxpOp",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNDozMjozMyswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDYzMjMyLm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.efFYbojoUWzt0OvNtRjYk_WeBPR8KtGKMM4WCDfXRJc/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 0,
+            "y": 10,
+            "i": "5Qxhdsf9wC",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "5Qxhdsf9wC",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNDoyNzo1NyswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDYyNzU2Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.eacQ2oWeKLudN5NndnbBG4D58Wz68xKzWxVvSxinjhI/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 4,
+            "y": 10,
+            "i": "fOoSSgcU6I",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "fOoSSgcU6I",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UxOSIsInoiOiIyMDIyLTAzLTA0VDExOjAxOjI5KzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTE5XzIwMjIwMzA0XzAzMDEyOC5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTIxMTksImlhdCI6MTY0NjM4ODUxOSwiaXNzIjoiV0lCQVNFIn0.mPrOhS9rGb4-wJjzWZ-_brYf-SQpKhFQkjmdRvqOSek/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 8,
+            "y": 10,
+            "i": "9hMoQayVeW",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "9hMoQayVeW",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNDozMDozOSswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDYzMDM4Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MjE4MCwiaWF0IjoxNjQ2Mzg4NTgwLCJpc3MiOiJXSUJBU0UifQ.REKgc7W_d2945mcb9ouhKd84ScYDeuoopxrLg8-RzHM/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 4,
+            "y": 0,
+            "i": "siDOvX9Bel",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "siDOvX9Bel",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UyMCIsInoiOiIyMDIyLTAzLTA0VDExOjAzOjAwKzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTIwXzIwMjIwMzA0XzAzMDMwMC5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTE4NDMsImlhdCI6MTY0NjM4ODI0MywiaXNzIjoiV0lCQVNFIn0.-ShoNFKzZVv3d_2HEPdGHoDUpuZGg9H6tSsv56GrCfE/video",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 5,
+            "x": 8,
+            "y": 0,
+            "i": "JarvTBbfIE",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "JarvTBbfIE",
+          "parentId": "tXBQSrEvSJ",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UyMCIsInoiOiIyMDIyLTAzLTA0VDExOjAxOjIwKzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTIwXzIwMjIwMzA0XzAzMDExOS5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTE4NDMsImlhdCI6MTY0NjM4ODI0MywiaXNzIjoiV0lCQVNFIn0.qWXbO79HOz4i8dLLklEgESQwmycZAu4w_r24Kpt8h-o/video",
+            "hls": "false"
+          }
+        }
+      ]
+    }
+  ]
 }
