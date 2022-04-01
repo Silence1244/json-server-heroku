@@ -307,15 +307,6 @@
       "icon": "ListAltTwoTone",
       "path": "LogList",
       "filePath": "WiBase/Demo/LogList"
-    },
-    {
-      "id": "3HYxipeyx1",
-      "parentId": "Mlkc2TrA21",
-      "groupId": "none",
-      "type": "1",
-      "title": "3HYxipeyx1",
-      "icon": "Assignment",
-      "path": "3HYxipeyx1"
     }
   ],
   "PageData": [
@@ -1276,26 +1267,6 @@
         "columnSet": "[\"size\"]",
         "chip": "{}"
       }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 0,
-        "y": 0,
-        "i": "0zhKq02q1S",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "0zhKq02q1S",
-      "parentId": "3HYxipeyx1",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart"
-      }
     }
   ],
   "ProjectComponent": [
@@ -1767,15 +1738,6 @@
           "icon": "ListAltTwoTone",
           "path": "LogList",
           "filePath": "WiBase/Demo/LogList"
-        },
-        {
-          "id": "3HYxipeyx1",
-          "parentId": "Mlkc2TrA21",
-          "groupId": "none",
-          "type": "1",
-          "title": "3HYxipeyx1",
-          "icon": "Assignment",
-          "path": "3HYxipeyx1"
         }
       ],
       "pageData": [
