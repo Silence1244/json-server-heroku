@@ -307,6 +307,15 @@
       "icon": "ListAltTwoTone",
       "path": "LogList",
       "filePath": "WiBase/Demo/LogList"
+    },
+    {
+      "id": "3HYxipeyx1",
+      "parentId": "Mlkc2TrA21",
+      "groupId": "none",
+      "type": "1",
+      "title": "3HYxipeyx1",
+      "icon": "Assignment",
+      "path": "3HYxipeyx1"
     }
   ],
   "PageData": [
@@ -1267,6 +1276,26 @@
         "columnSet": "[\"size\"]",
         "chip": "{}"
       }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 4,
+        "x": 0,
+        "y": 0,
+        "i": "0zhKq02q1S",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "0zhKq02q1S",
+      "parentId": "3HYxipeyx1",
+      "title": "",
+      "data": {
+        "ItemType": "BarChart"
+      }
     }
   ],
   "ProjectComponent": [
@@ -1275,6 +1304,13 @@
       "type": "topbar",
       "filePath": "WiBase/Demo/WalkieTalkieButton",
       "id": "cyowNyRYtM",
+      "projectId": "Mlkc2TrA21"
+    },
+    {
+      "title": "login",
+      "type": "login",
+      "filePath": "WiBase/Login",
+      "id": "g3O9Eq2sha",
       "projectId": "Mlkc2TrA21"
     }
   ],
@@ -1620,6 +1656,13 @@
             "filePath": "WiBase/Demo/WalkieTalkieButton",
             "id": "cyowNyRYtM",
             "projectId": "Mlkc2TrA21"
+          },
+          {
+            "title": "login",
+            "type": "login",
+            "filePath": "WiBase/Login",
+            "id": "g3O9Eq2sha",
+            "projectId": "Mlkc2TrA21"
           }
         ],
         "dataHost": "http://localhost:3333/CustomProjectData/Mlkc2TrA21",
@@ -1724,9 +1767,56 @@
           "icon": "ListAltTwoTone",
           "path": "LogList",
           "filePath": "WiBase/Demo/LogList"
+        },
+        {
+          "id": "3HYxipeyx1",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "none",
+          "type": "1",
+          "title": "3HYxipeyx1",
+          "icon": "Assignment",
+          "path": "3HYxipeyx1"
         }
       ],
       "pageData": [
+        {
+          "grid": {
+            "w": 12,
+            "h": 17,
+            "x": 0,
+            "y": 0,
+            "i": "uThmCq3fiD",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "uThmCq3fiD",
+          "parentId": "LX9fy6h3wF",
+          "title": "",
+          "data": {
+            "ItemType": "DataTable",
+            "DataUrl": "http://13.76.250.220:8083/bovia/api/web/video/search",
+            "Method": "POST",
+            "RequestData": "{ \"postId\": [     \"SI1-02\"   ],\"startTime\": \"2022-01-26T00:00:00Z\",   \"stopTime\": \"2022-04-28T09:00:00Z\" }",
+            "GetInData": "[\"videoList\"]",
+            "Filter": "{}",
+            "AddKeys": "{}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[]",
+            "customColumns": "[\n    {\n        \"name\": \"圖片\",\n        \"index\": 0,\n        \"value\": \"snapshotUrl\",\n        \"viewComponent\": \"image\"\n    },\n{\n        \"name\": \"影片類型\",\n        \"index\": 1,\n        \"value\": \"type\"\n    },\n{\n        \"name\": \"開始時間\",\n        \"index\": 2,\n        \"value\": \"startTime\"\n    },\n{\n        \"name\": \"結束時間\",\n        \"index\": 3,\n        \"value\": \"stopTime\"\n    },\n    {\n        \"name\": \"檢視\",\n        \"index\": 4,\n        \"value\": \"\",\n        \"viewComponent\": \"customDialog\"\n    },\n{\n        \"name\": \"下載\",\n        \"index\": 5,\n        \"value\": \"downloadUrl\",\n        \"viewComponent\": \"download\"\n    }\n]",
+            "interval": "false",
+            "search": "false",
+            "download": "false",
+            "print": "false",
+            "viewColumns": "false",
+            "tableFilter": "false",
+            "selectableRows": "none",
+            "columnSet": "[\"size\"]",
+            "chip": "{}"
+          }
+        },
         {
           "grid": {
             "w": 4,
@@ -1936,40 +2026,22 @@
         },
         {
           "grid": {
-            "w": 12,
-            "h": 17,
+            "w": 2,
+            "h": 4,
             "x": 0,
             "y": 0,
-            "i": "uThmCq3fiD",
+            "i": "0zhKq02q1S",
             "minW": 2,
             "minH": 4,
             "moved": false,
             "static": false,
             "isDraggable": true
           },
-          "id": "uThmCq3fiD",
-          "parentId": "LX9fy6h3wF",
+          "id": "0zhKq02q1S",
+          "parentId": "3HYxipeyx1",
           "title": "",
           "data": {
-            "ItemType": "DataTable",
-            "DataUrl": "http://13.76.250.220:8083/bovia/api/web/video/search",
-            "Method": "POST",
-            "RequestData": "{ \"postId\": [     \"SI1-02\"   ],\"startTime\": \"2022-01-26T00:00:00Z\",   \"stopTime\": \"2022-04-28T09:00:00Z\" }",
-            "GetInData": "[\"videoList\"]",
-            "Filter": "{}",
-            "AddKeys": "{}",
-            "RenameKeys": "{}",
-            "SelectKeys": "[]",
-            "customColumns": "[\n    {\n        \"name\": \"圖片\",\n        \"index\": 0,\n        \"value\": \"snapshotUrl\",\n        \"viewComponent\": \"image\"\n    },\n{\n        \"name\": \"影片類型\",\n        \"index\": 1,\n        \"value\": \"type\"\n    },\n{\n        \"name\": \"開始時間\",\n        \"index\": 2,\n        \"value\": \"startTime\"\n    },\n{\n        \"name\": \"結束時間\",\n        \"index\": 3,\n        \"value\": \"stopTime\"\n    },\n    {\n        \"name\": \"檢視\",\n        \"index\": 4,\n        \"value\": \"\",\n        \"viewComponent\": \"customDialog\"\n    },\n{\n        \"name\": \"下載\",\n        \"index\": 5,\n        \"value\": \"downloadUrl\",\n        \"viewComponent\": \"download\"\n    }\n]",
-            "interval": "false",
-            "search": "false",
-            "download": "false",
-            "print": "false",
-            "viewColumns": "false",
-            "tableFilter": "false",
-            "selectableRows": "none",
-            "columnSet": "[\"size\"]",
-            "chip": "{}"
+            "ItemType": "BarChart"
           }
         }
       ]
