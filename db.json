@@ -89,6 +89,13 @@
           "filePath": "WiBase/Demo/WalkieTalkieButton",
           "id": "cyowNyRYtM",
           "projectId": "Mlkc2TrA21"
+        },
+        {
+          "title": "login",
+          "type": "login",
+          "filePath": "WiBase/Login",
+          "id": "g3O9Eq2sha",
+          "projectId": "Mlkc2TrA21"
         }
       ],
       "dataHost": "http://localhost:3333/CustomProjectData/Mlkc2TrA21",
@@ -96,11 +103,14 @@
     },
     {
       "id": "111111",
-      "name": "ShareProject",
+      "name": "Smart Farming",
       "description": "",
       "path": "Test",
-      "logoUrl": "",
-      "themeStyle": "{\n    \"palette\": {\n        \"primary\": {\n            \"main\": \"#33AAAA\"\n        }\n    },\n    \"components\": {\n        \"MuiToolbar\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiListItemIcon\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiCard\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#FFFFFF\",\n                    \"borderRadius\": \"8px\",\n                    \"width\": \"100%\",\n                    \"height\": \"100%\"\n                }\n            }\n        },\n        \"MuiCardHeader\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#FFFFFF\",\n                    \"textAlign\": \"center\",\n                    \"padding\": \"5px\"\n                },\n                \"title\": {\n                    \"fontSize\": \"1.2rem\"\n                }\n            }\n        },\n        \"MuiContainer\": {\n            \"styleOverrides\": {\n                \"root\": {\n                }\n            }\n        }\n    }\n}"
+      "logoUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/logo.png?raw=true",
+      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#ffac42\",\n\t\t\t\"main\": \"#f47b00\",\n\t\t\t\"dark\": \"#ba4c00\",\n\t\t\t\"contrastText\": \"#000000\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#f47b00\",\n\t\t\t\t\t\"color\": \"#000000\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+      "component": [],
+      "apiHost": "",
+      "dataHost": "http://localhost:3333/CustomProjectData/111111"
     },
     {
       "id": "222222",
@@ -219,7 +229,7 @@
       "parentId": "111111",
       "groupId": "none",
       "type": "1",
-      "title": "klhDYtEjOY",
+      "title": "Dashboard",
       "icon": "Assignment",
       "path": "klhDYtEjOY"
     },
@@ -228,7 +238,7 @@
       "parentId": "111111",
       "groupId": "none",
       "type": "1",
-      "title": "MsETsmHcWo",
+      "title": "地區管理",
       "icon": "Assignment",
       "path": "MsETsmHcWo"
     },
@@ -237,7 +247,7 @@
       "parentId": "111111",
       "groupId": "none",
       "type": "1",
-      "title": "ANcwPVeydN",
+      "title": "設備類別管理",
       "icon": "Assignment",
       "path": "ANcwPVeydN"
     },
@@ -246,7 +256,7 @@
       "parentId": "111111",
       "groupId": "none",
       "type": "1",
-      "title": "lLZBHKpeMa",
+      "title": "設備監控管理",
       "icon": "Assignment",
       "path": "lLZBHKpeMa"
     },
@@ -255,7 +265,7 @@
       "parentId": "111111",
       "groupId": "none",
       "type": "1",
-      "title": "8HmsJjnCho",
+      "title": "物種飼養管理",
       "icon": "Assignment",
       "path": "8HmsJjnCho"
     },
@@ -280,33 +290,14 @@
       "filePath": "WiBase/Demo/DeviceList"
     },
     {
-      "id": "LX9fy6h3wF",
-      "parentId": "Mlkc2TrA21",
-      "groupId": "uoH1gADHXt",
-      "type": "1",
-      "title": "歷史軌跡",
-      "icon": "ManageSearchTwoTone",
-      "path": "History"
-    },
-    {
       "id": "tXBQSrEvSJ",
       "parentId": "Mlkc2TrA21",
       "groupId": "uoH1gADHXt",
       "type": "2",
       "title": "影像監控",
       "icon": "VisibilityTwoTone",
-      "path": "Streaming",
+      "path": "",
       "filePath": "WiBase/Demo/Streaming"
-    },
-    {
-      "id": "CPhGY4ovNa",
-      "parentId": "Mlkc2TrA21",
-      "groupId": "uoH1gADHXt",
-      "type": "2",
-      "title": "紀錄列表",
-      "icon": "ListAltTwoTone",
-      "path": "LogList",
-      "filePath": "WiBase/Demo/LogList"
     }
   ],
   "PageData": [
@@ -1232,56 +1223,58 @@
     },
     {
       "grid": {
-        "w": 12,
+        "w": 4,
         "h": 17,
         "x": 0,
         "y": 0,
-        "i": "uThmCq3fiD",
+        "i": "xAcx2goYeh",
         "minW": 2,
         "minH": 4,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "uThmCq3fiD",
-      "parentId": "LX9fy6h3wF",
+      "id": "xAcx2goYeh",
+      "parentId": "klhDYtEjOY",
       "title": "",
       "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "http://13.76.250.220:8083/bovia/api/web/video/search",
-        "Method": "POST",
-        "RequestData": "{ \"postId\": [     \"SI1-02\"   ],\"startTime\": \"2022-01-26T00:00:00Z\",   \"stopTime\": \"2022-04-28T09:00:00Z\" }",
-        "GetInData": "[\"videoList\"]",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]",
-        "customColumns": "[\n    {\n        \"name\": \"圖片\",\n        \"index\": 0,\n        \"value\": \"snapshotUrl\",\n        \"viewComponent\": \"image\"\n    },\n{\n        \"name\": \"影片類型\",\n        \"index\": 1,\n        \"value\": \"type\"\n    },\n{\n        \"name\": \"開始時間\",\n        \"index\": 2,\n        \"value\": \"startTime\"\n    },\n{\n        \"name\": \"結束時間\",\n        \"index\": 3,\n        \"value\": \"stopTime\"\n    },\n    {\n        \"name\": \"檢視\",\n        \"index\": 4,\n        \"value\": \"\",\n        \"viewComponent\": \"customDialog\"\n    },\n{\n        \"name\": \"下載\",\n        \"index\": 5,\n        \"value\": \"downloadUrl\",\n        \"viewComponent\": \"download\"\n    }\n]",
-        "interval": "false",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "columnSet": "[\"size\"]",
-        "chip": "{}"
+        "ItemType": "PercentageChart"
+      }
+    },
+    {
+      "grid": {
+        "w": 8,
+        "h": 17,
+        "x": 4,
+        "y": 0,
+        "i": "9VrwfdlZZh",
+        "minW": 2,
+        "minH": 4,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "9VrwfdlZZh",
+      "parentId": "klhDYtEjOY",
+      "title": "",
+      "data": {
+        "ItemType": "SelectChart"
       }
     }
   ],
   "ProjectComponent": [
     {
-      "title": "Walkie-Talkie",
-      "type": "topbar",
-      "filePath": "WiBase/Demo/WalkieTalkieButton",
-      "id": "cyowNyRYtM",
-      "projectId": "Mlkc2TrA21"
-    },
-    {
       "title": "login",
       "type": "login",
       "filePath": "WiBase/Login",
       "id": "g3O9Eq2sha",
+      "projectId": "Mlkc2TrA21"
+    },
+    {
+      "title": "Talk",
+      "type": "topbar",
+      "filePath": "WiBase/Demo/WalkieTalkieButton",
+      "id": "fYsTwC6vbL",
       "projectId": "Mlkc2TrA21"
     }
   ],
@@ -1612,6 +1605,90 @@
   },
   "CustomProjectData": [
     {
+      "id": "111111",
+      "projectSetting": {
+        "id": "111111",
+        "name": "ShareProject",
+        "description": "",
+        "path": "Test",
+        "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/DMSBuilder.svg",
+        "themeStyle": "{\n    \"palette\": {\n        \"primary\": {\n            \"main\": \"#33AAAA\"\n        }\n    },\n    \"components\": {\n        \"MuiToolbar\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiListItemIcon\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiCard\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#FFFFFF\",\n                    \"borderRadius\": \"8px\",\n                    \"width\": \"100%\",\n                    \"height\": \"100%\"\n                }\n            }\n        },\n        \"MuiCardHeader\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#FFFFFF\",\n                    \"textAlign\": \"center\",\n                    \"padding\": \"5px\"\n                },\n                \"title\": {\n                    \"fontSize\": \"1.2rem\"\n                }\n            }\n        },\n        \"MuiContainer\": {\n            \"styleOverrides\": {\n                \"root\": {\n                }\n            }\n        }\n    }\n}",
+        "component": [],
+        "apiHost": "",
+        "dataHost": "http://localhost:3333/CustomProjectData/111111"
+      },
+      "pageGroup": [],
+      "pageList": [
+        {
+          "id": "klhDYtEjOY",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "Dashboard",
+          "icon": "Assignment",
+          "path": "klhDYtEjOY"
+        },
+        {
+          "id": "MsETsmHcWo",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "地區管理",
+          "icon": "Assignment",
+          "path": "MsETsmHcWo"
+        },
+        {
+          "id": "ANcwPVeydN",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "設備類別管理",
+          "icon": "Assignment",
+          "path": "ANcwPVeydN"
+        },
+        {
+          "id": "lLZBHKpeMa",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "設備監控管理",
+          "icon": "Assignment",
+          "path": "lLZBHKpeMa"
+        },
+        {
+          "id": "8HmsJjnCho",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "物種飼養管理",
+          "icon": "Assignment",
+          "path": "8HmsJjnCho"
+        }
+      ],
+      "pageData": [
+        {
+          "grid": {
+            "w": 8,
+            "h": 17,
+            "x": 4,
+            "y": 0,
+            "i": "9VrwfdlZZh",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "9VrwfdlZZh",
+          "parentId": "klhDYtEjOY",
+          "title": "",
+          "data": {
+            "ItemType": "SelectChart"
+          }
+        }
+      ]
+    },
+    {
       "id": "Mlkc2TrA21",
       "projectSetting": {
         "id": "Mlkc2TrA21",
@@ -1622,17 +1699,17 @@
         "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
         "component": [
           {
-            "title": "Walkie-Talkie",
-            "type": "topbar",
-            "filePath": "WiBase/Demo/WalkieTalkieButton",
-            "id": "cyowNyRYtM",
-            "projectId": "Mlkc2TrA21"
-          },
-          {
             "title": "login",
             "type": "login",
             "filePath": "WiBase/Login",
             "id": "g3O9Eq2sha",
+            "projectId": "Mlkc2TrA21"
+          },
+          {
+            "title": "Talk",
+            "type": "topbar",
+            "filePath": "WiBase/Demo/WalkieTalkieButton",
+            "id": "fYsTwC6vbL",
             "projectId": "Mlkc2TrA21"
           }
         ],
@@ -1711,74 +1788,17 @@
           "filePath": "WiBase/Demo/DeviceList"
         },
         {
-          "id": "LX9fy6h3wF",
-          "parentId": "Mlkc2TrA21",
-          "groupId": "uoH1gADHXt",
-          "type": "1",
-          "title": "歷史軌跡",
-          "icon": "ManageSearchTwoTone",
-          "path": "History"
-        },
-        {
           "id": "tXBQSrEvSJ",
           "parentId": "Mlkc2TrA21",
           "groupId": "uoH1gADHXt",
           "type": "2",
           "title": "影像監控",
           "icon": "VisibilityTwoTone",
-          "path": "Streaming",
+          "path": "",
           "filePath": "WiBase/Demo/Streaming"
-        },
-        {
-          "id": "CPhGY4ovNa",
-          "parentId": "Mlkc2TrA21",
-          "groupId": "uoH1gADHXt",
-          "type": "2",
-          "title": "紀錄列表",
-          "icon": "ListAltTwoTone",
-          "path": "LogList",
-          "filePath": "WiBase/Demo/LogList"
         }
       ],
       "pageData": [
-        {
-          "grid": {
-            "w": 12,
-            "h": 17,
-            "x": 0,
-            "y": 0,
-            "i": "uThmCq3fiD",
-            "minW": 2,
-            "minH": 4,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "uThmCq3fiD",
-          "parentId": "LX9fy6h3wF",
-          "title": "",
-          "data": {
-            "ItemType": "DataTable",
-            "DataUrl": "http://13.76.250.220:8083/bovia/api/web/video/search",
-            "Method": "POST",
-            "RequestData": "{ \"postId\": [     \"SI1-02\"   ],\"startTime\": \"2022-01-26T00:00:00Z\",   \"stopTime\": \"2022-04-28T09:00:00Z\" }",
-            "GetInData": "[\"videoList\"]",
-            "Filter": "{}",
-            "AddKeys": "{}",
-            "RenameKeys": "{}",
-            "SelectKeys": "[]",
-            "customColumns": "[\n    {\n        \"name\": \"圖片\",\n        \"index\": 0,\n        \"value\": \"snapshotUrl\",\n        \"viewComponent\": \"image\"\n    },\n{\n        \"name\": \"影片類型\",\n        \"index\": 1,\n        \"value\": \"type\"\n    },\n{\n        \"name\": \"開始時間\",\n        \"index\": 2,\n        \"value\": \"startTime\"\n    },\n{\n        \"name\": \"結束時間\",\n        \"index\": 3,\n        \"value\": \"stopTime\"\n    },\n    {\n        \"name\": \"檢視\",\n        \"index\": 4,\n        \"value\": \"\",\n        \"viewComponent\": \"customDialog\"\n    },\n{\n        \"name\": \"下載\",\n        \"index\": 5,\n        \"value\": \"downloadUrl\",\n        \"viewComponent\": \"download\"\n    }\n]",
-            "interval": "false",
-            "search": "false",
-            "download": "false",
-            "print": "false",
-            "viewColumns": "false",
-            "tableFilter": "false",
-            "selectableRows": "none",
-            "columnSet": "[\"size\"]",
-            "chip": "{}"
-          }
-        },
         {
           "grid": {
             "w": 4,
@@ -1984,26 +2004,6 @@
             "title": "",
             "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UyMCIsInoiOiIyMDIyLTAzLTA0VDExOjAxOjIwKzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTIwXzIwMjIwMzA0XzAzMDExOS5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTE4NDMsImlhdCI6MTY0NjM4ODI0MywiaXNzIjoiV0lCQVNFIn0.qWXbO79HOz4i8dLLklEgESQwmycZAu4w_r24Kpt8h-o/video",
             "hls": "false"
-          }
-        },
-        {
-          "grid": {
-            "w": 2,
-            "h": 4,
-            "x": 0,
-            "y": 0,
-            "i": "0zhKq02q1S",
-            "minW": 2,
-            "minH": 4,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "0zhKq02q1S",
-          "parentId": "3HYxipeyx1",
-          "title": "",
-          "data": {
-            "ItemType": "BarChart"
           }
         }
       ]
