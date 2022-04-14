@@ -2120,7 +2120,7 @@
           "title": "分組管理",
           "icon": "GroupTwoTone",
           "path": "Group",
-          "filePath": "WiBase/Group",
+          "filePath": "WiBase/Demo/Group",
           "title_en": "Group"
         },
         {
@@ -2130,9 +2130,9 @@
           "type": "2",
           "title": "組織管理",
           "icon": "GroupAddTwoTone",
-          "path": "Oranize",
-          "filePath": "WiBase/Oranize",
-          "title_en": "Oranize"
+          "path": "Organize",
+          "filePath": "WiBase/Demo/Organize",
+          "title_en": "Organize"
         },
         {
           "id": "UWj5VYzUxH",
@@ -2153,7 +2153,7 @@
           "title": "帳號管理",
           "icon": "AccountCircleTwoTone",
           "path": "Account",
-          "filePath": "WiBase/Account",
+          "filePath": "WiBase/Demo/Account",
           "title_en": "Account"
         },
         {
