@@ -316,7 +316,7 @@
       "type": "2",
       "title": "影像監控",
       "icon": "VisibilityTwoTone",
-      "path": "",
+      "path": "Monitor",
       "filePath": "WiBase/Streaming",
       "title_en": "Monitor"
     },
@@ -1379,10 +1379,10 @@
         "GetInData": "[\"results\",\"device_list\"]",
         "Filter": "{\"device_model\":\"BestShapeGo\"}",
         "AddKeys": "{}",
-        "RenameKeys": "{\"device_model\":\"device model\"}",
-        "SelectKeys": "[]",
+        "RenameKeys": "{}",
+        "SelectKeys": "[\"device_model\",\"mac_addr\",\"device_id\",\"photo_preview_url\",\"active_status\",\"online\",\"device_name\",\"last_active_time\"]",
         "interval": "false",
-        "customColumns": "[\n]",
+        "customColumns": "[]",
         "search": "false",
         "download": "false",
         "print": "false",
@@ -1412,7 +1412,7 @@
       "data": {
         "ItemType": "SelectChart",
         "myLayout": "Panel",
-        "dataUrl": "http://localhost:3333/selectChart",
+        "dataUrl": "https://dmsbjsonserver.herokuapp.com/selectChart",
         "title": "Title"
       }
     }
@@ -1426,9 +1426,9 @@
       "projectId": "Mlkc2TrA21"
     },
     {
-      "title": "Talk",
+      "title": "PushToTalk",
       "type": "topbar",
-      "filePath": "WiBase/Demo/WalkieTalkieButton",
+      "filePath": "WiBase/PushToTalk",
       "id": "Y0MuG6wmfM",
       "projectId": "Mlkc2TrA21"
     },
@@ -1926,141 +1926,6 @@
       ]
     },
     {
-      "id": "222222",
-      "projectSetting": {
-        "id": "222222",
-        "name": "Best Shape Go",
-        "description": "",
-        "path": "222222",
-        "logoUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/bestshapeGoLogo2.png?raw=true",
-        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#99d066\",\n\t\t\t\"main\": \"#689f38\",\n\t\t\t\"dark\": \"#387002\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#629749\",\n\t\t\t\"main\": \"#33691e\",\n\t\t\t\"dark\": \"#003d00\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#689f38\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
-        "component": [
-          {
-            "title": "Login",
-            "type": "login",
-            "filePath": "BestShapeGo/Login",
-            "id": "5sFeNHYB5E",
-            "projectId": "222222"
-          }
-        ],
-        "apiHost": "",
-        "dataHost": "http://localhost:3333/CustomProjectData/222222"
-      },
-      "pageGroup": [],
-      "pageList": [
-        {
-          "id": "UJK8yyRuUp",
-          "parentId": "222222",
-          "groupId": "none",
-          "type": "1",
-          "title": "Dashboard",
-          "icon": "AutoAwesomeMosaic",
-          "path": "UJK8yyRuUp"
-        },
-        {
-          "id": "QOlspeVRVk",
-          "parentId": "222222",
-          "groupId": "none",
-          "type": "1",
-          "title": "裝置清單",
-          "icon": "Assignment",
-          "path": "QOlspeVRVk"
-        },
-        {
-          "id": "oJQLUav1NO",
-          "parentId": "222222",
-          "groupId": "none",
-          "type": "1",
-          "title": "裝置位置",
-          "icon": "LocationOn",
-          "path": "oJQLUav1NO"
-        }
-      ],
-      "pageData": [
-        {
-          "grid": {
-            "w": 12,
-            "h": 16,
-            "x": 0,
-            "y": 0,
-            "i": "uiwTwOKJL5",
-            "minW": 2,
-            "minH": 1,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "uiwTwOKJL5",
-          "parentId": "oJQLUav1NO",
-          "title": "",
-          "data": {
-            "ItemType": "DeviceMap"
-          }
-        },
-        {
-          "grid": {
-            "w": 12,
-            "h": 11,
-            "x": 0,
-            "y": 0,
-            "i": "tjgVX1jMvr",
-            "minW": 2,
-            "minH": 1,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "tjgVX1jMvr",
-          "parentId": "QOlspeVRVk",
-          "title": "",
-          "data": {
-            "ItemType": "DataTable",
-            "DataUrl": "http://20.194.108.196:3008/api/devices",
-            "Method": "GET",
-            "RequestData": "{}",
-            "GetInData": "[\"results\",\"device_list\"]",
-            "Filter": "{\"device_model\":\"BestShapeGo\"}",
-            "AddKeys": "{}",
-            "RenameKeys": "{}",
-            "SelectKeys": "[]",
-            "interval": "false",
-            "customColumns": "[\n]",
-            "search": "false",
-            "download": "false",
-            "print": "false",
-            "viewColumns": "false",
-            "tableFilter": "false",
-            "selectableRows": "none",
-            "columnSet": "[]",
-            "chip": "{}"
-          }
-        },
-        {
-          "grid": {
-            "w": 6,
-            "h": 14,
-            "x": 0,
-            "y": 0,
-            "i": "DvKZxSl2VF",
-            "minW": 2,
-            "minH": 1,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "DvKZxSl2VF",
-          "parentId": "UJK8yyRuUp",
-          "title": "",
-          "data": {
-            "ItemType": "SelectChart",
-            "myLayout": "Panel",
-            "dataUrl": "http://localhost:3333/selectChart",
-            "title": "Title"
-          }
-        }
-      ]
-    },
-    {
       "id": "Mlkc2TrA21",
       "projectSetting": {
         "id": "Mlkc2TrA21",
@@ -2174,7 +2039,7 @@
           "type": "2",
           "title": "影像監控",
           "icon": "VisibilityTwoTone",
-          "path": "",
+          "path": "Monitor",
           "filePath": "WiBase/Streaming",
           "title_en": "Monitor"
         }
@@ -2385,6 +2250,141 @@
             "title": "",
             "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UyMCIsInoiOiIyMDIyLTAzLTA0VDExOjAxOjIwKzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTIwXzIwMjIwMzA0XzAzMDExOS5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTE4NDMsImlhdCI6MTY0NjM4ODI0MywiaXNzIjoiV0lCQVNFIn0.qWXbO79HOz4i8dLLklEgESQwmycZAu4w_r24Kpt8h-o/video",
             "hls": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "222222",
+      "projectSetting": {
+        "id": "222222",
+        "name": "Best Shape Go",
+        "description": "",
+        "path": "222222",
+        "logoUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/bestshapeGoLogo2.png?raw=true",
+        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#99d066\",\n\t\t\t\"main\": \"#689f38\",\n\t\t\t\"dark\": \"#387002\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#629749\",\n\t\t\t\"main\": \"#33691e\",\n\t\t\t\"dark\": \"#003d00\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#689f38\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+        "component": [
+          {
+            "title": "Login",
+            "type": "login",
+            "filePath": "BestShapeGo/Login",
+            "id": "5sFeNHYB5E",
+            "projectId": "222222"
+          }
+        ],
+        "apiHost": "",
+        "dataHost": "http://localhost:3333/CustomProjectData/222222"
+      },
+      "pageGroup": [],
+      "pageList": [
+        {
+          "id": "UJK8yyRuUp",
+          "parentId": "222222",
+          "groupId": "none",
+          "type": "1",
+          "title": "Dashboard",
+          "icon": "AutoAwesomeMosaic",
+          "path": "UJK8yyRuUp"
+        },
+        {
+          "id": "QOlspeVRVk",
+          "parentId": "222222",
+          "groupId": "none",
+          "type": "1",
+          "title": "裝置清單",
+          "icon": "Assignment",
+          "path": "QOlspeVRVk"
+        },
+        {
+          "id": "oJQLUav1NO",
+          "parentId": "222222",
+          "groupId": "none",
+          "type": "1",
+          "title": "裝置位置",
+          "icon": "LocationOn",
+          "path": "oJQLUav1NO"
+        }
+      ],
+      "pageData": [
+        {
+          "grid": {
+            "w": 12,
+            "h": 11,
+            "x": 0,
+            "y": 0,
+            "i": "tjgVX1jMvr",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "tjgVX1jMvr",
+          "parentId": "QOlspeVRVk",
+          "title": "",
+          "data": {
+            "ItemType": "DataTable",
+            "DataUrl": "http://20.194.108.196:3008/api/devices",
+            "Method": "GET",
+            "RequestData": "{}",
+            "GetInData": "[\"results\",\"device_list\"]",
+            "Filter": "{\"device_model\":\"BestShapeGo\"}",
+            "AddKeys": "{}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[\"device_model\",\"mac_addr\",\"device_id\",\"photo_preview_url\",\"active_status\",\"online\",\"device_name\",\"last_active_time\"]",
+            "interval": "false",
+            "customColumns": "[]",
+            "search": "false",
+            "download": "false",
+            "print": "false",
+            "viewColumns": "false",
+            "tableFilter": "false",
+            "selectableRows": "none",
+            "columnSet": "[]",
+            "chip": "{}"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 16,
+            "x": 0,
+            "y": 0,
+            "i": "uiwTwOKJL5",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "uiwTwOKJL5",
+          "parentId": "oJQLUav1NO",
+          "title": "",
+          "data": {
+            "ItemType": "DeviceMap"
+          }
+        },
+        {
+          "grid": {
+            "w": 6,
+            "h": 14,
+            "x": 0,
+            "y": 0,
+            "i": "DvKZxSl2VF",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "DvKZxSl2VF",
+          "parentId": "UJK8yyRuUp",
+          "title": "",
+          "data": {
+            "ItemType": "SelectChart",
+            "myLayout": "Panel",
+            "dataUrl": "https://dmsbjsonserver.herokuapp.com/selectChart",
+            "title": "Title"
           }
         }
       ]
