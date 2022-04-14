@@ -2090,6 +2090,13 @@
             "filePath": "WiBase/PushToTalk",
             "id": "Y0MuG6wmfM",
             "projectId": "Mlkc2TrA21"
+          },
+          {
+            "title": "Style",
+            "type": "style",
+            "filePath": "WiBase/Style/styles.css",
+            "id": "cpBcAtbN9c",
+            "projectId": "Mlkc2TrA21"
           }
         ],
         "dataHost": "http://localhost:3333/CustomProjectData/Mlkc2TrA21",
