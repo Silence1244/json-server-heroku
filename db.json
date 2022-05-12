@@ -1,21 +1,29 @@
 {
   "user": [
     {
+      "id": "admin",
       "name": "admin",
       "project": [
         "AxbaYBrJJ2",
-        "111111"
+        "ge195bvNox",
+        "4oLdDbVh9y"
       ]
     },
     {
+      "id": "test",
       "name": "test",
       "project": [
         "Mlkc2TrA21",
         "111111",
-        "222222"
+        "222222",
+        "Z1WlXzpIgX",
+        "F3kgT3QZyC",
+        "RTPI5c2Nar",
+        "d7lpLgneXL"
       ]
     },
     {
+      "id": "silence",
       "name": "silence",
       "project": [
         "111111",
@@ -70,11 +78,14 @@
   "ProjectList": [
     {
       "id": "AxbaYBrJJ2",
-      "name": "WiDMSB",
+      "name": "Demo_DMSB",
       "description": "WiDMSB Project description ...",
-      "path": "WiDMSB",
-      "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/WiDMSB.svg",
-      "themeStyle": "{\n    \"palette\": {\n        \"primary\": {\n            \"main\": \"#33B3BB\"\n        }\n    },\n    \"components\": {\n        \"MuiToolbar\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#FFFFFF\",\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiListItemIcon\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"color\": \"#33B3BB\"\n                }\n            }\n        },\n        \"MuiCard\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#FFFFFF\",\n                    \"borderRadius\": \"8px\",\n                    \"width\": \"100%\",\n                    \"height\": \"100%\"\n                }\n            }\n        },\n        \"MuiCardHeader\": {\n            \"styleOverrides\": {\n                \"root\": {\n                    \"backgroundColor\": \"#33B3BB\",\n                    \"color\": \"#FFFFFF\",\n                    \"textAlign\": \"center\",\n                    \"padding\": \"5px\"\n                },\n                \"title\": {\n                    \"fontSize\": \"1.2rem\"\n                }\n            }\n        },\n        \"MuiContainer\": {\n            \"styleOverrides\": {\n                \"root\": {\n                }\n            }\n        }\n    }\n}"
+      "path": "Demo_DMSB",
+      "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/DMSBuilder.svg",
+      "themeStyle": "{}",
+      "component": [],
+      "apiHost": "",
+      "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/AxbaYBrJJ2"
     },
     {
       "id": "Mlkc2TrA21",
@@ -82,25 +93,34 @@
       "description": "WiBase Project description ...",
       "path": "WiBase",
       "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/logo_Wistron.svg",
-      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n        \"MuiAppBar\":{\n            \"styleOverrides\": {\n                \"colorPrimary\": {\n                    \"background\": \"radial-gradient(circle at 245px, #02759F 32px,transparent 33px), linear-gradient(to right, #FFFFFF 245px, #02759F 245px)\"\n                }\n            }\n        }\n\t}\n}",
       "component": [
-        {
-          "title": "Walkie-Talkie",
-          "type": "topbar",
-          "filePath": "WiBase/Demo/WalkieTalkieButton",
-          "id": "cyowNyRYtM",
-          "projectId": "Mlkc2TrA21"
-        },
         {
           "title": "login",
           "type": "login",
           "filePath": "WiBase/Login",
           "id": "g3O9Eq2sha",
           "projectId": "Mlkc2TrA21"
+        },
+        {
+          "title": "PushToTalk",
+          "type": "topbar",
+          "filePath": "WiBase/PushToTalk",
+          "id": "Y0MuG6wmfM",
+          "projectId": "Mlkc2TrA21"
+        },
+        {
+          "title": "style",
+          "type": "style",
+          "filePath": "WiBase/Style/styles.css",
+          "id": "qzwEARcIhS",
+          "projectId": "Mlkc2TrA21"
         }
       ],
-      "dataHost": "http://localhost:3333/CustomProjectData/Mlkc2TrA21",
-      "apiHost": "https://wibase.bovia.com.tw/"
+      "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/Mlkc2TrA21",
+      "apiHost": "",
+      "menuControl": "right",
+      "menuControlColor": "white"
     },
     {
       "id": "111111",
@@ -111,24 +131,18 @@
       "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#ffac42\",\n\t\t\t\"main\": \"#f47b00\",\n\t\t\t\"dark\": \"#ba4c00\",\n\t\t\t\"contrastText\": \"#000000\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#f47b00\",\n\t\t\t\t\t\"color\": \"#000000\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
       "component": [],
       "apiHost": "",
-      "dataHost": "http://localhost:3333/CustomProjectData/111111"
+      "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/111111",
+      "menuControlColor": "white",
+      "menuControl": "left"
     },
     {
       "id": "222222",
       "name": "Best Shape Go",
       "description": "",
       "path": "222222",
-      "logoUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/bestshapeGoLogo2.png?raw=true",
-      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#99d066\",\n\t\t\t\"main\": \"#689f38\",\n\t\t\t\"dark\": \"#387002\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#629749\",\n\t\t\t\"main\": \"#33691e\",\n\t\t\t\"dark\": \"#003d00\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#689f38\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
-      "component": [
-        {
-          "title": "Login",
-          "type": "login",
-          "filePath": "BestShapeGo/Login",
-          "id": "5sFeNHYB5E",
-          "projectId": "222222"
-        }
-      ],
+      "logoUrl": "",
+      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#4e94ca\",\n\t\t\t\"main\": \"#006699\",\n\t\t\t\"dark\": \"#003c6b\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#4f83cc\",\n\t\t\t\"main\": \"#01579b\",\n\t\t\t\"dark\": \"#002f6c\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#006699\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+      "component": [],
       "apiHost": "",
       "dataHost": "http://localhost:3333/CustomProjectData/222222"
     },
@@ -147,6 +161,346 @@
       "path": "444444",
       "logoUrl": "",
       "themeStyle": ""
+    },
+    {
+      "id": "Z1WlXzpIgX",
+      "name": "DMSBuilder",
+      "path": "DMSBuilder",
+      "description": "",
+      "logoUrl": "",
+      "themeStyle": "",
+      "component": [],
+      "apiHost": "",
+      "dataHost": ""
+    },
+    {
+      "id": "F3kgT3QZyC",
+      "name": "qwe",
+      "path": "qwe"
+    },
+    {
+      "id": "RTPI5c2Nar",
+      "name": "tte",
+      "path": "tte"
+    },
+    {
+      "id": "d7lpLgneXL",
+      "name": "Test123",
+      "path": "d7lpLgneXL"
+    },
+    {
+      "id": "889j3Ciy4B",
+      "name": "WiZAVIU",
+      "path": "889j3Ciy4B"
+    },
+    {
+      "id": "Gu0dD4EeEZ",
+      "name": "1233333",
+      "path": "Gu0dD4EeEZ"
+    },
+    {
+      "id": "nV34uRKwvy",
+      "name": "WiZAVIU",
+      "path": "nV34uRKwvy"
+    },
+    {
+      "id": "0UQukFMWxg",
+      "name": "1weqwe",
+      "path": "0UQukFMWxg"
+    },
+    {
+      "id": "ABldJmDomL",
+      "name": "WiZAVIU",
+      "path": "ABldJmDomL"
+    },
+    {
+      "id": "jWxOCZSo0y",
+      "name": "1234AA",
+      "path": "jWxOCZSo0y"
+    },
+    {
+      "id": "ge195bvNox",
+      "name": "WiZAVIU",
+      "path": "WiZAVIU",
+      "component": [
+        {
+          "title": "Login",
+          "type": "login",
+          "filePath": "WiBase/Login",
+          "id": "Q7GOCZm5MI",
+          "projectId": "ge195bvNox"
+        },
+        {
+          "title": "PushToTalk",
+          "type": "topbar",
+          "filePath": "WiBase/PushToTalk",
+          "id": "pVoWvM16Pb",
+          "projectId": "ge195bvNox"
+        },
+        {
+          "title": "Style",
+          "type": "style",
+          "filePath": "WiBase/Style/styles.css",
+          "id": "I0SBzbYea8",
+          "projectId": "ge195bvNox"
+        }
+      ],
+      "description": "",
+      "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/logo_Wistron.svg",
+      "apiHost": "",
+      "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/ge195bvNox",
+      "themeStyle": "{\n \"palette\": {\n  \"primary\": {\n   \"light\": \"#EFF5F7\",\n   \"main\": \"#02759F\",\n   \"dark\": \"#02759F\",\n   \"contrastText\": \"#FFFFFF\"\n  },\n  \"secondary\": {\n   \"light\": \"#9c786c\",\n   \"main\": \"#6d4c41\",\n   \"dark\": \"#40241a\",\n   \"contrastText\": \"#7B7878\"\n  },\n  \"background\": {\n   \"default\": \"#EFF5F7\"\n  }\n },\n \"typography\": {\n  \"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n },\n \"components\": {\n  \"MuiListItemIcon\": {\n   \"styleOverrides\": {\n    \"root\": {}\n   }\n  },\n  \"MuiCard\": {\n   \"styleOverrides\": {\n    \"root\": {\n     \"backgroundColor\": \"#FFFFFF\",\n     \"borderRadius\": \"8px\",\n     \"width\": \"100%\",\n     \"height\": \"100%\"\n    }\n   }\n  },\n  \"MuiCardHeader\": {\n   \"styleOverrides\": {\n    \"root\": {\n     \"backgroundColor\": \"#02759F\",\n     \"color\": \"#FFFFFF\",\n     \"textAlign\": \"center\",\n     \"padding\": \"5px\"\n    },\n    \"title\": {\n     \"fontSize\": \"1.2rem\"\n    }\n   }\n  },\n  \"MuiContainer\": {\n   \"styleOverrides\": {\n    \"root\": {}\n   }\n  }\n }\n}"
+    },
+    {
+      "id": "4oLdDbVh9y",
+      "name": "Bestshape_Go",
+      "path": "bestshape_go",
+      "component": [],
+      "description": "",
+      "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/bestshapeGoLogo2.png",
+      "apiHost": "",
+      "dataHost": "https://dmsb-jsonserver.azurewebsites.net/CustomProjectData/4oLdDbVh9y",
+      "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#99d066\",\n\t\t\t\"main\": \"#689f38\",\n\t\t\t\"dark\": \"#387002\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#629749\",\n\t\t\t\"main\": \"#33691e\",\n\t\t\t\"dark\": \"#003d00\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#689f38\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+      "menuControlColor": "white",
+      "menuControl": "left"
+    }
+  ],
+  "DataSet": [
+    {
+      "id": "iasOe3AcHt",
+      "projectId": "AxbaYBrJJ2",
+      "title": "DataSet2",
+      "rows": [
+        {
+          "column": "name",
+          "type": "String"
+        },
+        {
+          "column": "value",
+          "type": "String"
+        }
+      ],
+      "grid": {
+        "w": 1,
+        "h": 1,
+        "x": 1,
+        "y": 0,
+        "i": "iasOe3AcHt",
+        "moved": false,
+        "static": false
+      }
+    },
+    {
+      "id": "2aQ0iMeopk",
+      "projectId": "AxbaYBrJJ2",
+      "title": "DataSet1",
+      "rows": [
+        {
+          "column": "Column1",
+          "type": "String"
+        },
+        {
+          "column": "Column2",
+          "type": "String"
+        }
+      ],
+      "grid": {
+        "w": 1,
+        "h": 1,
+        "x": 0,
+        "y": 0,
+        "i": "2aQ0iMeopk",
+        "moved": false,
+        "static": false
+      }
+    },
+    {
+      "id": "eoatlwUIJB",
+      "projectId": "d7lpLgneXL",
+      "title": "eoatlwUIJB",
+      "rows": [],
+      "grid": {
+        "w": 1,
+        "h": 1,
+        "x": 1,
+        "y": 0,
+        "i": "eoatlwUIJB",
+        "moved": false,
+        "static": false
+      }
+    },
+    {
+      "id": "Qm84xTUtYm",
+      "projectId": "Z1WlXzpIgX",
+      "title": "DataSet1",
+      "rows": [
+        {
+          "column": "Column1",
+          "type": "String"
+        },
+        {
+          "column": "Column2",
+          "type": "String"
+        },
+        {
+          "column": "Column3",
+          "type": "String"
+        },
+        {
+          "column": "Column4",
+          "type": "String"
+        }
+      ],
+      "grid": {
+        "i": "Qm84xTUtYm",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "id": "bChwXBsSuh",
+      "projectId": "Z1WlXzpIgX",
+      "title": "DataSet2",
+      "rows": [
+        {
+          "column": "AA",
+          "type": "String"
+        },
+        {
+          "column": "BB",
+          "type": "String"
+        },
+        {
+          "column": "CC",
+          "type": "String"
+        },
+        {
+          "column": "DD",
+          "type": "String"
+        },
+        {
+          "column": "EE",
+          "type": "String"
+        }
+      ],
+      "grid": {
+        "w": 1,
+        "h": 1,
+        "x": 1,
+        "y": 0,
+        "i": "bChwXBsSuh",
+        "moved": false,
+        "static": false
+      }
+    },
+    {
+      "id": "6m0dxMNmZo",
+      "projectId": "Z1WlXzpIgX",
+      "title": "Map",
+      "rows": [
+        {
+          "column": "lat",
+          "type": "String"
+        },
+        {
+          "column": "lon",
+          "type": "String"
+        },
+        {
+          "column": "zoom",
+          "type": "String"
+        }
+      ],
+      "grid": {
+        "h": 1,
+        "i": "6m0dxMNmZo",
+        "static": false,
+        "moved": false,
+        "w": 1,
+        "x": 2,
+        "y": 0
+      }
+    },
+    {
+      "id": "PcNJXkUkba",
+      "projectId": "Mlkc2TrA21",
+      "title": "Test_DataSet1",
+      "rows": [
+        {
+          "column": "Column1",
+          "type": "String"
+        },
+        {
+          "column": "Column2",
+          "type": "String"
+        },
+        {
+          "column": "Column3",
+          "type": "String"
+        },
+        {
+          "column": "Column4",
+          "type": "String"
+        },
+        {
+          "column": "Column5",
+          "type": "String"
+        },
+        {
+          "column": "Column6",
+          "type": "String"
+        }
+      ],
+      "grid": {
+        "i": "PcNJXkUkba",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "id": "6irr1GNcOP",
+      "projectId": "d7lpLgneXL",
+      "title": "6irr1GNcOP",
+      "rows": [],
+      "grid": {
+        "i": "6irr1GNcOP",
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    },
+    {
+      "id": "hZDTTlQAiF",
+      "projectId": "Mlkc2TrA21",
+      "title": "Test_DataSet2",
+      "rows": [
+        {
+          "column": "A",
+          "type": "String"
+        },
+        {
+          "column": "B",
+          "type": "String"
+        },
+        {
+          "column": "C",
+          "type": "String"
+        }
+      ],
+      "grid": {
+        "h": 1,
+        "i": "hZDTTlQAiF",
+        "static": false,
+        "moved": false,
+        "w": 1,
+        "x": 1,
+        "y": 0
+      }
     }
   ],
   "PageGroup": [
@@ -154,22 +508,64 @@
       "id": "n7PQA8kobh",
       "parentId": "Mlkc2TrA21",
       "title": "帳號管理",
-      "icon": "Assignment",
-      "title_en": "Account"
+      "title_en": "Account",
+      "icon": "Assignment"
     },
     {
       "id": "8V3DtTsibu",
       "parentId": "Mlkc2TrA21",
       "title": "裝置管理",
-      "icon": "Assignment",
-      "title_en": "Device"
+      "title_en": "Device",
+      "icon": "Assignment"
     },
     {
       "id": "uoH1gADHXt",
       "parentId": "Mlkc2TrA21",
       "title": "影像管理",
-      "icon": "Assignment",
-      "title_en": "Streaming"
+      "title_en": "Streaming",
+      "icon": "Assignment"
+    },
+    {
+      "id": "NdiNRYHj9u",
+      "parentId": "ge195bvNox",
+      "title": "帳號管理",
+      "title_en": "帳號管理",
+      "icon": "Assignment"
+    },
+    {
+      "id": "iAyckUHNta",
+      "parentId": "ge195bvNox",
+      "title": "裝置管理",
+      "title_en": "裝置管理",
+      "icon": "Assignment"
+    },
+    {
+      "id": "UWHnlNmvUd",
+      "parentId": "ge195bvNox",
+      "title": "影像管理",
+      "title_en": "影像管理",
+      "icon": "Assignment"
+    },
+    {
+      "id": "PUwHKa48Wh",
+      "parentId": "4oLdDbVh9y",
+      "title": "儀表板",
+      "title_en": "Dashboard",
+      "icon": "Assignment"
+    },
+    {
+      "id": "GFoEydUzJq",
+      "parentId": "4oLdDbVh9y",
+      "title": "裝置",
+      "title_en": "Device",
+      "icon": "Assignment"
+    },
+    {
+      "id": "tDXUALpBc9",
+      "parentId": "4oLdDbVh9y",
+      "title": "設定",
+      "title_en": "Settings",
+      "icon": "Assignment"
     }
   ],
   "PageList": [
@@ -177,59 +573,67 @@
       "parentId": "AxbaYBrJJ2",
       "groupId": "none",
       "type": "1",
-      "title": "儀表板",
+      "title": "Chart",
+      "title_en": "Chart",
       "icon": "Dashboard",
       "path": "",
-      "id": "qdPu8baCI9"
+      "id": "qdPu8baCI9",
+      "filePath": ""
     },
     {
       "parentId": "AxbaYBrJJ2",
       "groupId": "none",
       "type": "1",
-      "title": "即時狀態監控",
+      "title": "Video Grid",
+      "title_en": "Video Grid",
       "icon": "OndemandVideo",
       "path": "Streaming",
-      "id": "trF3LqtBuc"
+      "id": "trF3LqtBuc",
+      "filePath": ""
     },
     {
       "parentId": "AxbaYBrJJ2",
       "groupId": "none",
       "type": "1",
-      "title": "裝置管理",
+      "title": "Table",
+      "title_en": "Table",
       "icon": "ManageAccounts",
       "path": "DeviceManage",
-      "id": "Lkne3xlTsd"
+      "id": "Lkne3xlTsd",
+      "filePath": ""
     },
     {
       "parentId": "AxbaYBrJJ2",
       "groupId": "none",
       "type": "1",
-      "title": "統計",
+      "title": "Power BI 1",
+      "title_en": "Power BI 1",
       "icon": "AlignVerticalBottom",
       "path": "dWrRHcbAYv",
-      "id": "dWrRHcbAYv"
+      "id": "dWrRHcbAYv",
+      "filePath": ""
     },
     {
       "id": "0xFFac9Ehb",
       "parentId": "Mlkc2TrA21",
       "groupId": "n7PQA8kobh",
       "type": "2",
-      "title": "分組管理",
+      "title": "群組管理",
+      "title_en": "Group",
       "icon": "GroupTwoTone",
       "path": "Group",
-      "filePath": "WiBase/Demo/Group",
-      "title_en": "Group"
+      "filePath": "WiBase/Group"
     },
     {
-      "id": "FRtV2PPibS",
+      "id": "Yi9PADMl2b",
       "parentId": "Mlkc2TrA21",
       "groupId": "n7PQA8kobh",
       "type": "2",
-      "title": "組織管理",
-      "icon": "GroupAddTwoTone",
-      "path": "Organize",
-      "filePath": "WiBase/Demo/Organize",
-      "title_en": "Organize"
+      "title": "帳號管理",
+      "title_en": "Account",
+      "icon": "AccountCircleTwoTone",
+      "path": "Account",
+      "filePath": "WiBase/Account"
     },
     {
       "id": "UWj5VYzUxH",
@@ -237,10 +641,10 @@
       "groupId": "n7PQA8kobh",
       "type": "2",
       "title": "權限管理",
+      "title_en": "Permission",
       "icon": "GroupsTwoTone",
-      "path": "AuthGroup",
-      "filePath": "WiBase/AuthGroup",
-      "title_en": "Auth Group"
+      "path": "Permission",
+      "filePath": "WiBase/Permission"
     },
     {
       "id": "klhDYtEjOY",
@@ -248,6 +652,7 @@
       "groupId": "none",
       "type": "1",
       "title": "Dashboard",
+      "title_en": "",
       "icon": "Assignment",
       "path": "klhDYtEjOY"
     },
@@ -257,6 +662,7 @@
       "groupId": "none",
       "type": "1",
       "title": "地區管理",
+      "title_en": "",
       "icon": "Assignment",
       "path": "MsETsmHcWo"
     },
@@ -266,6 +672,7 @@
       "groupId": "none",
       "type": "1",
       "title": "設備類別管理",
+      "title_en": "",
       "icon": "Assignment",
       "path": "ANcwPVeydN"
     },
@@ -275,28 +682,20 @@
       "groupId": "none",
       "type": "1",
       "title": "設備監控管理",
+      "title_en": "",
       "icon": "Assignment",
       "path": "lLZBHKpeMa"
     },
     {
       "id": "8HmsJjnCho",
       "parentId": "111111",
-      "groupId": "none",
-      "type": "1",
+      "groupId": "control",
+      "type": "0",
       "title": "物種飼養管理",
+      "title_en": "",
       "icon": "Assignment",
-      "path": "8HmsJjnCho"
-    },
-    {
-      "id": "Yi9PADMl2b",
-      "parentId": "Mlkc2TrA21",
-      "groupId": "n7PQA8kobh",
-      "type": "2",
-      "title": "帳號管理",
-      "icon": "AccountCircleTwoTone",
-      "path": "Account",
-      "filePath": "WiBase/Demo/Account",
-      "title_en": "Account"
+      "path": "8HmsJjnCho",
+      "filePath": ""
     },
     {
       "id": "U01JjDYRj4",
@@ -304,10 +703,10 @@
       "groupId": "8V3DtTsibu",
       "type": "2",
       "title": "設備列表",
+      "title_en": "Device List",
       "icon": "KeyboardTwoTone",
       "path": "DeviceList",
-      "filePath": "WiBase/DeviceList",
-      "title_en": "Device List"
+      "filePath": "WiBase/DeviceList"
     },
     {
       "id": "tXBQSrEvSJ",
@@ -315,10 +714,10 @@
       "groupId": "uoH1gADHXt",
       "type": "2",
       "title": "影像監控",
+      "title_en": "Monitor",
       "icon": "VisibilityTwoTone",
       "path": "",
-      "filePath": "WiBase/Streaming",
-      "title_en": "Monitor"
+      "filePath": "WiBase/Streaming"
     },
     {
       "id": "UJK8yyRuUp",
@@ -326,7 +725,7 @@
       "groupId": "none",
       "type": "1",
       "title": "Dashboard",
-      "icon": "AutoAwesomeMosaic",
+      "icon": "Assignment",
       "path": "UJK8yyRuUp"
     },
     {
@@ -344,305 +743,245 @@
       "groupId": "none",
       "type": "1",
       "title": "裝置位置",
-      "icon": "LocationOn",
+      "icon": "Assignment",
       "path": "oJQLUav1NO"
+    },
+    {
+      "id": "Pa5lbm9KdI",
+      "parentId": "Z1WlXzpIgX",
+      "groupId": "none",
+      "type": "1",
+      "title": "Pa5lbm9KdI",
+      "title_en": "Pa5lbm9KdI",
+      "icon": "Assignment",
+      "path": "Pa5lbm9KdI"
+    },
+    {
+      "id": "HQFH5TJJA6",
+      "parentId": "Mlkc2TrA21",
+      "groupId": "control",
+      "type": "2",
+      "title": "日誌",
+      "title_en": "Log List",
+      "icon": "Notes",
+      "path": "Log",
+      "filePath": "WiBase/LogList"
+    },
+    {
+      "id": "igb6k9cdTX",
+      "parentId": "ge195bvNox",
+      "groupId": "NdiNRYHj9u",
+      "type": "2",
+      "title": "群組管理",
+      "title_en": "群組管理",
+      "icon": "GroupTwoTone",
+      "path": "Group",
+      "filePath": "WiBase/Group"
+    },
+    {
+      "id": "rzzgoTYFHv",
+      "parentId": "ge195bvNox",
+      "groupId": "NdiNRYHj9u",
+      "type": "2",
+      "title": "帳號管理",
+      "title_en": "帳號管理",
+      "icon": "AccountCircleTwoTone",
+      "path": "Account",
+      "filePath": "WiBase/Account"
+    },
+    {
+      "id": "k10yRnyXIn",
+      "parentId": "ge195bvNox",
+      "groupId": "NdiNRYHj9u",
+      "type": "2",
+      "title": "權限管理",
+      "title_en": "權限管理",
+      "icon": "GroupsTwoTone",
+      "path": "Permission",
+      "filePath": "WiBase/Permission"
+    },
+    {
+      "id": "SGoRKzR2QW",
+      "parentId": "ge195bvNox",
+      "groupId": "iAyckUHNta",
+      "type": "2",
+      "title": "設備列表",
+      "title_en": "設備列表",
+      "icon": "KeyboardTwoTone",
+      "path": "DeviceList",
+      "filePath": "WiBase/DeviceList"
+    },
+    {
+      "id": "AdLYb8sf6n",
+      "parentId": "ge195bvNox",
+      "groupId": "UWHnlNmvUd",
+      "type": "2",
+      "title": "影像監控",
+      "title_en": "影像監控",
+      "icon": "VisibilityTwoTone",
+      "path": "",
+      "filePath": "WiBase/Streaming"
+    },
+    {
+      "id": "Gij2IJ8hVJ",
+      "parentId": "ge195bvNox",
+      "groupId": "UWHnlNmvUd",
+      "type": "2",
+      "title": "日誌",
+      "title_en": "日誌",
+      "icon": "Assignment",
+      "path": "Notes",
+      "filePath": "WiBase/LogList"
+    },
+    {
+      "id": "gdvDirP8Fc",
+      "parentId": "F3kgT3QZyC",
+      "groupId": "none",
+      "type": "1",
+      "title": "gdvDirP8Fc",
+      "title_en": "gdvDirP8Fc",
+      "icon": "Assignment",
+      "path": "gdvDirP8Fc"
+    },
+    {
+      "id": "doXpgv3rty",
+      "parentId": "AxbaYBrJJ2",
+      "groupId": "none",
+      "type": "1",
+      "title": "Power BI 2",
+      "title_en": "Power BI 2",
+      "icon": "Assignment",
+      "path": "doXpgv3rty",
+      "filePath": ""
+    },
+    {
+      "id": "t8ap7FRUvy",
+      "parentId": "F3kgT3QZyC",
+      "groupId": "none",
+      "type": "1",
+      "title": "t8ap7FRUvy",
+      "title_en": "t8ap7FRUvy",
+      "icon": "Assignment",
+      "path": "t8ap7FRUvy"
+    },
+    {
+      "id": "up1kzsSpcg",
+      "parentId": "F3kgT3QZyC",
+      "groupId": "none",
+      "type": "1",
+      "title": "up1kzsSpcg",
+      "title_en": "up1kzsSpcg",
+      "icon": "Assignment",
+      "path": "up1kzsSpcg"
+    },
+    {
+      "id": "Ujh8Pi5bfh",
+      "parentId": "F3kgT3QZyC",
+      "groupId": "none",
+      "type": "1",
+      "title": "Ujh8Pi5bfh",
+      "title_en": "Ujh8Pi5bfh",
+      "icon": "Assignment",
+      "path": "Ujh8Pi5bfh"
+    },
+    {
+      "id": "injW8SF6BR",
+      "parentId": "Mlkc2TrA21",
+      "groupId": "control",
+      "type": "2",
+      "title": "儀表板",
+      "title_en": "Dashboard",
+      "icon": "DevicesTwoTone",
+      "path": "Dashboard",
+      "filePath": "WiBase/Dashboard"
+    },
+    {
+      "id": "h9LTB1JZeg",
+      "parentId": "AxbaYBrJJ2",
+      "groupId": "none",
+      "type": "1",
+      "title": "testVideos",
+      "title_en": "h9LTB1JZeg",
+      "icon": "Assignment",
+      "path": "h9LTB1JZeg",
+      "filePath": ""
+    },
+    {
+      "id": "q1cAJgSVnh",
+      "parentId": "4oLdDbVh9y",
+      "groupId": "PUwHKa48Wh",
+      "type": "1",
+      "title": "即時狀態",
+      "title_en": "Status",
+      "icon": "Assignment",
+      "path": "status",
+      "filePath": ""
+    },
+    {
+      "id": "vk8Btnb3ZV",
+      "parentId": "4oLdDbVh9y",
+      "groupId": "PUwHKa48Wh",
+      "type": "1",
+      "title": "地圖檢視",
+      "title_en": "Map view",
+      "icon": "Assignment",
+      "path": "map_view",
+      "filePath": ""
+    },
+    {
+      "id": "zZy7wIZDvb",
+      "parentId": "4oLdDbVh9y",
+      "groupId": "GFoEydUzJq",
+      "type": "1",
+      "title": "裝置清單",
+      "title_en": "Device list",
+      "icon": "Assignment",
+      "path": "device_list",
+      "filePath": ""
+    },
+    {
+      "id": "5odQFv66rn",
+      "parentId": "4oLdDbVh9y",
+      "groupId": "tDXUALpBc9",
+      "type": "1",
+      "title": "裝置設定",
+      "title_en": "Device settings",
+      "icon": "Assignment",
+      "path": "device_settings",
+      "filePath": ""
+    },
+    {
+      "id": "nKLISH17PQ",
+      "parentId": "4oLdDbVh9y",
+      "groupId": "GFoEydUzJq",
+      "type": "1",
+      "title": "裝置資料",
+      "title_en": "Device Data",
+      "icon": "Assignment",
+      "path": "device_data",
+      "filePath": ""
+    },
+    {
+      "id": "A4xeu4X0KX",
+      "parentId": "d7lpLgneXL",
+      "groupId": "none",
+      "type": "1",
+      "title": "A4xeu4X0KX",
+      "title_en": "A4xeu4X0KX",
+      "icon": "Assignment",
+      "path": "A4xeu4X0KX"
+    },
+    {
+      "id": "XEpwRdd4t3",
+      "groupId": "none",
+      "type": "1",
+      "title": "XEpwRdd4t3",
+      "title_en": "XEpwRdd4t3",
+      "icon": "Assignment",
+      "path": "XEpwRdd4t3"
     }
   ],
   "PageData": [
-    {
-      "grid": {
-        "w": 6,
-        "h": 8,
-        "x": 0,
-        "y": 0,
-        "i": "RyQMzpaXaH",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "RyQMzpaXaH",
-      "parentId": "trF3LqtBuc",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 6,
-        "h": 8,
-        "x": 6,
-        "y": 8,
-        "i": "9VjTwjCf4X",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "9VjTwjCf4X",
-      "parentId": "trF3LqtBuc",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/sCipc4NM/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 6,
-        "h": 8,
-        "x": 6,
-        "y": 0,
-        "i": "CxGyiGZfFZ",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "CxGyiGZfFZ",
-      "parentId": "trF3LqtBuc",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/yMDBJbry/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 6,
-        "h": 8,
-        "x": 0,
-        "y": 8,
-        "i": "MaM8JErVHK",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "MaM8JErVHK",
-      "parentId": "trF3LqtBuc",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 0,
-        "y": 4,
-        "i": "FxabYBrDJ5",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "FxabYBrDJ5",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 8,
-        "h": 10,
-        "x": 4,
-        "y": 5,
-        "i": "FLcILJajCe",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "FLcILJajCe",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/getAll",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 0,
-        "y": 9,
-        "i": "GgcniNKIgR",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "GgcniNKIgR",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/xlY3HZp8/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 12,
-        "h": 11,
-        "x": 0,
-        "y": 0,
-        "i": "2rzhhTZSxH",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "2rzhhTZSxH",
-      "parentId": "Lkne3xlTsd",
-      "title": "",
-      "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/getAll",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "chip": "{\"status\":{\"ON\":\"success\",\"OFF\":\"error\",\"NONE\":\"default\"}}"
-      }
-    },
-    {
-      "grid": {
-        "w": 5,
-        "h": 10,
-        "x": 0,
-        "y": 16,
-        "i": "vYyPHUTuTR",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "vYyPHUTuTR",
-      "parentId": "dWrRHcbAYv",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "title": "",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
-        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"name\",\"value\"]"
-      }
-    },
-    {
-      "grid": {
-        "w": 7,
-        "h": 10,
-        "x": 5,
-        "y": 16,
-        "i": "vQmIo3K7sR",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "vQmIo3K7sR",
-      "parentId": "dWrRHcbAYv",
-      "title": "",
-      "data": {
-        "ItemType": "LineChart",
-        "title": "",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{\"年\":[\"110\"],\"月\":{\"Min\":\"01\",\"Max\":\"12\"}}",
-        "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"name\",\"value\"]"
-      }
-    },
-    {
-      "grid": {
-        "w": 12,
-        "h": 10,
-        "x": 0,
-        "y": 6,
-        "i": "sdgFX2X20F",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "sdgFX2X20F",
-      "parentId": "dWrRHcbAYv",
-      "title": "",
-      "data": {
-        "ItemType": "DataTable",
-        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[\"年\",\"月\",\"總運量\",\"日均運量\",\"假日均運量\",\"補票日均筆數\"]",
-        "search": "false",
-        "download": "false",
-        "print": "false",
-        "viewColumns": "false",
-        "tableFilter": "false",
-        "selectableRows": "none",
-        "chip": "{}"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 6,
-        "x": 0,
-        "y": 0,
-        "i": "AEaVgFGXW8",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "AEaVgFGXW8",
-      "parentId": "dWrRHcbAYv",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard"
-      }
-    },
     {
       "grid": {
         "w": 12,
@@ -835,231 +1174,6 @@
         "AddKeys": "{\"name\":[\"年\",\"月\"],\"value\":[\"日均運量\"]}",
         "RenameKeys": "{}",
         "SelectKeys": "[\"name\",\"value\"]"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 2,
-        "y": 35,
-        "i": "JOvUieAAGs",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "JOvUieAAGs",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備離線數",
-        "content": "off",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 4,
-        "y": 35,
-        "i": "4pwsIzQDMU",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "4pwsIzQDMU",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "BarChart",
-        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
-        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
-        "AddKeys": "{}",
-        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
-        "SelectKeys": "[\"name\",\"value\"]",
-        "title": "上傳檔案數量"
-      }
-    },
-    {
-      "grid": {
-        "w": 2,
-        "h": 4,
-        "x": 0,
-        "y": 35,
-        "i": "1m5QNBFtvh",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "1m5QNBFtvh",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "StatusCard",
-        "title": "設備在線數",
-        "content": "on",
-        "DataUrl": "http://13.76.250.220:8080/api/drone/numberOfDeiveWithStatus",
-        "Filter": "{}",
-        "AddKeys": "{}",
-        "RenameKeys": "{}",
-        "SelectKeys": "[]"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 8,
-        "y": 25,
-        "i": "I2scFubqqB",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "I2scFubqqB",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "LineChart",
-        "DataUrl": "http://13.76.250.220:8080/Blob/vidoNumberBasedOnDate/",
-        "Filter": "{\"date\":{\"Min\":\"2022-01-01\",\"Max\":\"2022-01-31\"}}",
-        "AddKeys": "{}",
-        "RenameKeys": "{\"date\":\"name\", \"count\":\"value\"}",
-        "SelectKeys": "[\"name\",\"value\"]",
-        "title": "上傳檔案數量"
-      }
-    },
-    {
-      "grid": {
-        "w": 8,
-        "h": 12,
-        "x": 0,
-        "y": 40,
-        "i": "EBFyZfoXCy",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "EBFyZfoXCy",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "SelectChart",
-        "myLayout": "Box1",
-        "dataUrl": "http://localhost:3333/selectChart",
-        "title": "Title"
-      }
-    },
-    {
-      "grid": {
-        "w": 4,
-        "h": 5,
-        "x": 0,
-        "y": 52,
-        "i": "FxabYBrDJ5",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "FxabYBrDJ5",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "VideoStream",
-        "StreamUrl": "http://52.187.61.81:8000/live/lKqGYz2A/index.m3u8"
-      }
-    },
-    {
-      "grid": {
-        "w": 6,
-        "h": 13,
-        "x": 0,
-        "y": 0,
-        "i": "MVVO5vzAOD",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "MVVO5vzAOD",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "SelectChart",
-        "myLayout": "Panel",
-        "dataUrl": "http://localhost:3333/selectChart",
-        "title": "Title2"
-      }
-    },
-    {
-      "grid": {
-        "w": 5,
-        "h": 12,
-        "x": 5,
-        "y": 13,
-        "i": "Z2IPFwJ64X",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "Z2IPFwJ64X",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "ItemType": "SelectChart",
-        "myLayout": "PcBox",
-        "dataUrl": "http://localhost:3333/selectChart",
-        "title": "Title"
-      }
-    },
-    {
-      "grid": {
-        "w": 5,
-        "h": 12,
-        "x": 0,
-        "y": 13,
-        "i": "tpZ8AMxvqQ",
-        "minW": 2,
-        "minH": 4,
-        "moved": false,
-        "static": false,
-        "isDraggable": true
-      },
-      "id": "tpZ8AMxvqQ",
-      "parentId": "qdPu8baCI9",
-      "title": "",
-      "data": {
-        "headers": "{\"Content-Type\": \"application/json\"}",
-        "authorization": "false",
-        "createApi": "http://localhost:3333/Test",
-        "createMethod": "POST",
-        "updateApi": "http://localhost:3333/Test",
-        "updateMethod": "PUT",
-        "updateId": "id",
-        "deleteApi": "http://localhost:3333/Test",
-        "deleteMethod": "PUT",
-        "deleteId": "id"
       }
     },
     {
@@ -1271,6 +1385,29 @@
     },
     {
       "grid": {
+        "w": 4,
+        "h": 13,
+        "x": 1,
+        "y": 0,
+        "i": "J2tHBZeKJ5",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "J2tHBZeKJ5",
+      "parentId": "UJK8yyRuUp",
+      "title": "",
+      "data": {
+        "ItemType": "PercentageChart",
+        "myLayout": "Panel",
+        "dataUrl": "http://localhost:3333/percentagechart01",
+        "title": "Title"
+      }
+    },
+    {
+      "grid": {
         "w": 12,
         "h": 16,
         "x": 0,
@@ -1358,36 +1495,107 @@
     {
       "grid": {
         "w": 12,
-        "h": 11,
+        "h": 14,
         "x": 0,
         "y": 0,
-        "i": "tjgVX1jMvr",
+        "i": "pmc0peeOPM",
         "minW": 2,
         "minH": 1,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "tjgVX1jMvr",
-      "parentId": "QOlspeVRVk",
+      "id": "pmc0peeOPM",
+      "parentId": "gdvDirP8Fc",
+      "title": "",
+      "data": {
+        "ItemType": "CustomPowerBI",
+        "authenticationMode": "ServicePrincipal",
+        "SereverIP": "http://localhost:8080/getEmbedToken",
+        "authorityUri": "https://login.microsoftonline.com/",
+        "scope": "https://analysis.windows.net/powerbi/api/.default",
+        "apiUrl": "https://api.powerbi.com/",
+        "clientId": "e4fbbe5d-6b30-457e-9dd2-502fb6e5ea6c",
+        "workspaceId": "a5000458-3542-44b1-928f-da2f40ceccec",
+        "reportId": "fc6999e1-1774-473b-a158-05f8baa6e631",
+        "pbiUsername": "testAzureAdmin@testazureactivedirectory9.onmicrosoft.com",
+        "pbiPassword": "Haju18134",
+        "clientSecret": "vjY8Q~MBZ0ZFRm8WNxKmM7YEORQafUFRkppxWc0j",
+        "tenantId": "bbc0cbd3-4aed-43d2-888c-1c42870c000d"
+      }
+    },
+    {
+      "grid": {
+        "w": 8,
+        "h": 17,
+        "x": 0,
+        "y": 0,
+        "i": "WGHkzpxx7P",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "WGHkzpxx7P",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "SelectChart"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 17,
+        "x": 8,
+        "y": 0,
+        "i": "dYIwKvuwbU",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "dYIwKvuwbU",
+      "parentId": "qdPu8baCI9",
+      "title": "",
+      "data": {
+        "ItemType": "PercentageChart"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 13,
+        "x": 0,
+        "y": 0,
+        "i": "opN30vecp8",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "opN30vecp8",
+      "parentId": "Lkne3xlTsd",
       "title": "",
       "data": {
         "ItemType": "DataTable",
-        "DataUrl": "http://20.194.108.196:3008/api/devices",
+        "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
         "Method": "GET",
         "RequestData": "{}",
-        "GetInData": "[\"results\",\"device_list\"]",
-        "Filter": "{\"device_model\":\"BestShapeGo\"}",
+        "GetInData": "[]",
+        "Filter": "{}",
         "AddKeys": "{}",
         "RenameKeys": "{}",
-        "SelectKeys": "[\"device_model\",\"mac_addr\",\"device_id\",\"photo_preview_url\",\"active_status\",\"online\",\"device_name\",\"last_active_time\"]",
+        "SelectKeys": "[]",
         "interval": "false",
-        "customColumns": "[]",
         "search": "false",
         "download": "false",
         "print": "false",
         "viewColumns": "false",
-        "tableFilter": "false",
+        "tableFilter": "true",
         "selectableRows": "none",
         "columnSet": "[]",
         "chip": "{}"
@@ -1395,25 +1603,588 @@
     },
     {
       "grid": {
-        "w": 6,
-        "h": 14,
+        "w": 4,
+        "h": 4,
         "x": 0,
         "y": 0,
-        "i": "DvKZxSl2VF",
+        "i": "kGxUeRGVEl",
         "minW": 2,
         "minH": 1,
         "moved": false,
         "static": false,
         "isDraggable": true
       },
-      "id": "DvKZxSl2VF",
-      "parentId": "UJK8yyRuUp",
+      "id": "kGxUeRGVEl",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "https://www.youtube.com/watch?v=PvJr2efA6n0",
+        "hls": "false"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 4,
+        "x": 0,
+        "y": 4,
+        "i": "anH1t7vHxp",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "anH1t7vHxp",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "https://www.youtube.com/watch?v=6ghffcNt3Nw",
+        "hls": "false"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 4,
+        "x": 0,
+        "y": 8,
+        "i": "P4ssWJUmqX",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "P4ssWJUmqX",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "https://www.youtube.com/watch?v=xaX8ykwz21o",
+        "hls": "false"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 4,
+        "x": 4,
+        "y": 0,
+        "i": "QaDtbbvOtT",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "QaDtbbvOtT",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "https://www.youtube.com/watch?v=RttyIGHbN_w",
+        "hls": "false"
+      }
+    },
+    {
+      "grid": {
+        "w": 8,
+        "h": 8,
+        "x": 4,
+        "y": 4,
+        "i": "sQ1zpjDWjB",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "sQ1zpjDWjB",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "https://www.youtube.com/watch?v=WY9LB6qSIgE",
+        "hls": "false"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 4,
+        "x": 8,
+        "y": 0,
+        "i": "ecWSpO12hu",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "ecWSpO12hu",
+      "parentId": "trF3LqtBuc",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "https://www.youtube.com/watch?v=MnODaP-1JaE",
+        "hls": "false"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 14,
+        "x": 0,
+        "y": 0,
+        "i": "iJEr1mbVll",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "iJEr1mbVll",
+      "parentId": "dWrRHcbAYv",
+      "title": "",
+      "data": {
+        "ItemType": "CustomPowerBI",
+        "authenticationMode": "ServicePrincipal",
+        "SereverIP": "http://23.98.64.135:8080/getEmbedToken",
+        "authorityUri": "https://login.microsoftonline.com/",
+        "scope": "https://analysis.windows.net/powerbi/api/",
+        "apiUrl": "https://api.powerbi.com/",
+        "clientId": "e4fbbe5d-6b30-457e-9dd2-502fb6e5ea6c",
+        "workspaceId": "a5000458-3542-44b1-928f-da2f40ceccec",
+        "reportId": "d0960ccf-152f-45d0-893d-437ba57bfa24",
+        "pbiUsername": "",
+        "pbiPassword": "",
+        "clientSecret": "vjY8Q~MBZ0ZFRm8WNxKmM7YEORQafUFRkppxWc0j",
+        "tenantId": "bbc0cbd3-4aed-43d2-888c-1c42870c000d"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 14,
+        "x": 0,
+        "y": 0,
+        "i": "4WE4ozIutP",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "4WE4ozIutP",
+      "parentId": "doXpgv3rty",
+      "title": "",
+      "data": {
+        "ItemType": "CustomPowerBI",
+        "authenticationMode": "ServicePrincipal",
+        "SereverIP": "http://23.98.64.135:8080/getEmbedToken",
+        "authorityUri": "https://login.microsoftonline.com/",
+        "scope": "https://analysis.windows.net/powerbi/api/",
+        "apiUrl": "https://api.powerbi.com/",
+        "clientId": "e4fbbe5d-6b30-457e-9dd2-502fb6e5ea6c",
+        "workspaceId": "a5000458-3542-44b1-928f-da2f40ceccec",
+        "reportId": "d98425ad-d1b1-408b-9e9a-105db1714054",
+        "pbiUsername": "",
+        "pbiPassword": "",
+        "clientSecret": "vjY8Q~MBZ0ZFRm8WNxKmM7YEORQafUFRkppxWc0j",
+        "tenantId": "bbc0cbd3-4aed-43d2-888c-1c42870c000d"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 6,
+        "x": 0,
+        "y": 6,
+        "i": "9O6cIgtn73",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "9O6cIgtn73",
+      "parentId": "h9LTB1JZeg",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "http://20.210.184.138:8000/livet/black3.flv",
+        "hls": "true"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 6,
+        "x": 6,
+        "y": 0,
+        "i": "mZFv9BznlK",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "mZFv9BznlK",
+      "parentId": "h9LTB1JZeg",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "http://20.210.184.138:8000/livet/black2.flv",
+        "hls": "true"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 6,
+        "x": 6,
+        "y": 7,
+        "i": "SQ626sCKGx",
+        "minW": 2,
+        "minH": 1,
+        "moved": true,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "SQ626sCKGx",
+      "parentId": "h9LTB1JZeg",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "http://20.210.184.138:8000/livet/black4.flv",
+        "hls": "true"
+      }
+    },
+    {
+      "grid": {
+        "w": 6,
+        "h": 6,
+        "x": 0,
+        "y": 0,
+        "i": "NfxqydZqHT",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "NfxqydZqHT",
+      "parentId": "h9LTB1JZeg",
+      "title": "",
+      "data": {
+        "ItemType": "VideoStream",
+        "title": "",
+        "StreamUrl": "http://20.210.184.138:8000/livet/black1.flv",
+        "hls": "true"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 14,
+        "x": 0,
+        "y": 0,
+        "i": "eKMiMDhHdl",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "eKMiMDhHdl",
+      "parentId": "vk8Btnb3ZV",
+      "title": "",
+      "data": {
+        "ItemType": "DeviceMap",
+        "myLayout": "None",
+        "dataUrl": "https://dmsbjsonserver.herokuapp.com/deviceMapApi",
+        "latitude": "24.1210678",
+        "longitude": "121.7380334"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 4,
+        "x": 1,
+        "y": 0,
+        "i": "6wUzZohKZK",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "6wUzZohKZK",
+      "parentId": "Pa5lbm9KdI",
+      "title": "",
+      "data": {
+        "ItemType": "CustomGaugeChart",
+        "marginInPercent": "0.05",
+        "cornerRadius": "6",
+        "nrOfLevels": "6",
+        "percent": "0.4",
+        "arcPadding": "0.05",
+        "arcWidth": "0.2",
+        "startColor": "#e1d1ff",
+        "endColor": "#00ff1e",
+        "textColor": "#000000",
+        "needleColor": "#464a4f",
+        "needleBaseColor": "#464a4f"
+      }
+    },
+    {
+      "grid": {
+        "w": 4,
+        "h": 4,
+        "x": 6,
+        "y": 0,
+        "i": "N41MVN4IF6",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "N41MVN4IF6",
+      "parentId": "Pa5lbm9KdI",
+      "title": "",
+      "data": {
+        "ItemType": "CustomGaugeChart",
+        "marginInPercent": "0.05",
+        "cornerRadius": "6",
+        "nrOfLevels": "6",
+        "percent": "0.4",
+        "arcPadding": "0.05",
+        "arcWidth": "0.2",
+        "startColor": "#ff0019",
+        "endColor": "#00ff1e",
+        "textColor": "#000000",
+        "needleColor": "#464a4f",
+        "needleBaseColor": "#464a4f"
+      }
+    },
+    {
+      "grid": {
+        "w": 3,
+        "h": 5,
+        "x": 2,
+        "y": 0,
+        "i": "seTQ5IAuHx",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "seTQ5IAuHx",
+      "parentId": "q1cAJgSVnh",
+      "title": "",
+      "data": {
+        "ItemType": "StatusCard",
+        "title": "裝置數量",
+        "content": "status_code",
+        "DataUrl": "http://20.210.100.143:3000/api/deviceTypes",
+        "GetInData": "[\"results\",\"device_type_list\"]",
+        "Filter": "{\"device_type_name\":\"BSGo\"}",
+        "AddKeys": "{}",
+        "RenameKeys": "{}",
+        "SelectKeys": "[]"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 13,
+        "x": 0,
+        "y": 5,
+        "i": "P8pnNJOwfC",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "P8pnNJOwfC",
+      "parentId": "q1cAJgSVnh",
       "title": "",
       "data": {
         "ItemType": "SelectChart",
         "myLayout": "Panel",
         "dataUrl": "https://dmsbjsonserver.herokuapp.com/selectChart",
-        "title": "Title"
+        "title": "每日里程統計"
+      }
+    },
+    {
+      "grid": {
+        "w": 2,
+        "h": 5,
+        "x": 0,
+        "y": 0,
+        "i": "RiJFe8LERC",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "RiJFe8LERC",
+      "parentId": "q1cAJgSVnh",
+      "title": "",
+      "data": {
+        "ItemType": "ImageCard",
+        "myLayout": "None",
+        "imageUrl": "http://20.194.108.196:3008/device_img/Andy_test_device_781229d1-4425-4a96-91d1-6db563f87e31_preview.png"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 13,
+        "x": 0,
+        "y": 0,
+        "i": "LBFgYa6edN",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "LBFgYa6edN",
+      "parentId": "zZy7wIZDvb",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "http://20.210.100.143:3000/api/devices",
+        "Method": "GET",
+        "RequestData": "{}",
+        "GetInData": "[\"results\",\"device_list\"]",
+        "Filter": "{\"device_type_name\":\"BSGo\"}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"device_name\":\"裝置名稱\",\"device_id\":\"裝置 ID\",\"online\":\"上線狀態\",\"register_status\":\"啟用狀態\",\"heartbeat_time\":\"最後上線時間\",\"mac_addr\":\"MAC 位置\"}",
+        "SelectKeys": "[\"裝置名稱\",\"裝置 ID\",\"MAC 位置\",\"上線狀態\",\"啟用狀態\",\"最後上線時間\"]",
+        "interval": "false",
+        "customColumns": "[\n]",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "columnSet": "[\"裝置名稱\",\"裝置 ID\",\"MAC 位置\",\"上線狀態\",\"啟用狀態\",\"最後上線時間\"]",
+        "chip": "{\"上線狀態\":{\"1\":\"success\",\"0\":\"error\"},\"啟用狀態\":{\"1\":\"success\",\"0\":\"error\"}}"
+      }
+    },
+    {
+      "grid": {
+        "w": 12,
+        "h": 12,
+        "x": 0,
+        "y": 0,
+        "i": "npzEon0e0d",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "npzEon0e0d",
+      "parentId": "nKLISH17PQ",
+      "title": "",
+      "data": {
+        "ItemType": "DataTable",
+        "DataUrl": "http://20.210.100.143:3010/api/data?deviceId=34bceaf0-cc32-11ec-8831-2f2f4dab36b4",
+        "Method": "GET",
+        "RequestData": "{}",
+        "GetInData": "[\"results\",\"devicedata_list\"]",
+        "Filter": "{}",
+        "AddKeys": "{}",
+        "RenameKeys": "{\"topic\":\"資料類別\",\"data_id\":\"資料 ID\",\"create_time\":\"資料時間\"}",
+        "SelectKeys": "[\"資料類別\",\"資料 ID\",\"資料時間\"]",
+        "interval": "false",
+        "search": "false",
+        "download": "false",
+        "print": "false",
+        "viewColumns": "false",
+        "tableFilter": "false",
+        "selectableRows": "none",
+        "columnSet": "[\"資料類別\",\"資料 ID\",\"資料時間\"]",
+        "chip": "{}"
+      }
+    },
+    {
+      "grid": {
+        "w": 7,
+        "h": 7,
+        "x": 3,
+        "y": 0,
+        "i": "nY4bIQ8XDO",
+        "minW": 2,
+        "minH": 1,
+        "moved": false,
+        "static": false,
+        "isDraggable": true
+      },
+      "id": "nY4bIQ8XDO",
+      "parentId": "MsETsmHcWo",
+      "title": "",
+      "data": {
+        "points": [
+          {
+            "x": 68,
+            "y": 173.5,
+            "iconType": "materialIcon",
+            "deviceKind": "video",
+            "index": 0,
+            "iconName": "AccessAlarm",
+            "updateSecond": "5",
+            "url": "https://wibase.bovia.com.tw/streamer-mgr/live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiNzNhY2Y4MWQtZjQ0Zi03MTIwLTdjMGUtZWVmY2VkOGFmMzRlIiwidCI6IndpYmFzZTA4IiwieiI6IiIsImciOjEsIm4iOiJsaXZlLm0zdTgiLCJmIjoiSExTIiwiZnQiOiIiLCJleHAiOjE2NDk2NjA2MzIsImlhdCI6MTY0OTY1NzAzMiwiaXNzIjoiV0lCQVNFIn0.7SmdvTOBkVbLgqblsy2FIQEJ3vIql2J9YOYD06iUpnQ/hls"
+          },
+          {
+            "x": 425,
+            "y": 187.5,
+            "iconType": "button",
+            "deviceKind": "line",
+            "index": 1,
+            "name": "A1",
+            "api": "https://dmsb-jsonserver-develop.azurewebsites.net/ImageDragApi",
+            "updateSecond": "2",
+            "chartUrl": "https://dmsb-jsonserver-develop.azurewebsites.net/selectChart",
+            "maxValue": "30",
+            "minValue": "10",
+            "url": "https://dmsb-jsonserver-develop.azurewebsites.net/selectChart"
+          },
+          {
+            "x": 371,
+            "y": 134.5,
+            "iconType": "button",
+            "deviceKind": "line",
+            "index": 2,
+            "name": "A2",
+            "api": "https://dmsb-jsonserver-develop.azurewebsites.net/ImageDragApi",
+            "updateSecond": "5"
+          }
+        ],
+        "myLayout": "None",
+        "imageUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/Chicken_floor.png?raw=true",
+        "ItemType": "FloorPlan"
       }
     }
   ],
@@ -1433,18 +2204,39 @@
       "projectId": "Mlkc2TrA21"
     },
     {
+      "title": "style",
+      "type": "style",
+      "filePath": "WiBase/Style/styles.css",
+      "id": "qzwEARcIhS",
+      "projectId": "Mlkc2TrA21"
+    },
+    {
       "title": "Login",
       "type": "login",
-      "filePath": "BestShapeGo/Login",
-      "id": "5sFeNHYB5E",
-      "projectId": "222222"
+      "filePath": "WiBase/Login",
+      "id": "Q7GOCZm5MI",
+      "projectId": "ge195bvNox"
+    },
+    {
+      "title": "PushToTalk",
+      "type": "topbar",
+      "filePath": "WiBase/PushToTalk",
+      "id": "pVoWvM16Pb",
+      "projectId": "ge195bvNox"
     },
     {
       "title": "Style",
       "type": "style",
       "filePath": "WiBase/Style/styles.css",
-      "id": "cpBcAtbN9c",
-      "projectId": "Mlkc2TrA21"
+      "id": "I0SBzbYea8",
+      "projectId": "ge195bvNox"
+    },
+    {
+      "title": "Login",
+      "type": "login",
+      "filePath": "/Login",
+      "id": "yTAx6w3nXk",
+      "projectId": "4oLdDbVh9y"
     }
   ],
   "authApi_token": {
@@ -1497,6 +2289,10 @@
       "hlsUrl": "https://wibase.bovia.com.tw/streamer-mgr/live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiNzNhY2Y4MWQtZjQ0Zi03MTIwLTdjMGUtZWVmY2VkOGFmMzRlIiwidCI6IndpYmFzZTA3IiwieiI6IiIsImciOjEsIm4iOiJsaXZlLm0zdTgiLCJmIjoiSExTIiwiZnQiOiIiLCJleHAiOjE2NDk2NjA2MzIsImlhdCI6MTY0OTY1NzAzMiwiaXNzIjoiV0lCQVNFIn0.K3eGkEccD8M8xtm8hnOsHPMaGALp0Ku3QUpu2uhxKAc/hls"
     }
   ],
+  "imageDragApi": {
+    "value": 50,
+    "unit": "%"
+  },
   "fillAPI": [
     {
       "title": "雞舍1",
@@ -1803,153 +2599,15 @@
   },
   "CustomProjectData": [
     {
-      "id": "111111",
-      "projectSetting": {
-        "id": "111111",
-        "name": "Smart Farming",
-        "description": "",
-        "path": "Test",
-        "logoUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/logo.png?raw=true",
-        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#ffac42\",\n\t\t\t\"main\": \"#f47b00\",\n\t\t\t\"dark\": \"#ba4c00\",\n\t\t\t\"contrastText\": \"#000000\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#f47b00\",\n\t\t\t\t\t\"color\": \"#000000\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
-        "component": [],
-        "apiHost": "",
-        "dataHost": "http://localhost:3333/CustomProjectData/111111"
-      },
-      "pageGroup": [],
-      "pageList": [
-        {
-          "id": "klhDYtEjOY",
-          "parentId": "111111",
-          "groupId": "none",
-          "type": "1",
-          "title": "Dashboard",
-          "icon": "Assignment",
-          "path": "klhDYtEjOY"
-        },
-        {
-          "id": "MsETsmHcWo",
-          "parentId": "111111",
-          "groupId": "none",
-          "type": "1",
-          "title": "地區管理",
-          "icon": "Assignment",
-          "path": "MsETsmHcWo"
-        },
-        {
-          "id": "ANcwPVeydN",
-          "parentId": "111111",
-          "groupId": "none",
-          "type": "1",
-          "title": "設備類別管理",
-          "icon": "Assignment",
-          "path": "ANcwPVeydN"
-        },
-        {
-          "id": "lLZBHKpeMa",
-          "parentId": "111111",
-          "groupId": "none",
-          "type": "1",
-          "title": "設備監控管理",
-          "icon": "Assignment",
-          "path": "lLZBHKpeMa"
-        },
-        {
-          "id": "8HmsJjnCho",
-          "parentId": "111111",
-          "groupId": "none",
-          "type": "1",
-          "title": "物種飼養管理",
-          "icon": "Assignment",
-          "path": "8HmsJjnCho"
-        }
-      ],
-      "pageData": [
-        {
-          "grid": {
-            "w": 4,
-            "h": 17,
-            "x": 0,
-            "y": 0,
-            "i": "xAcx2goYeh",
-            "minW": 2,
-            "minH": 4,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "xAcx2goYeh",
-          "parentId": "klhDYtEjOY",
-          "title": "",
-          "data": {
-            "ItemType": "PercentageChart"
-          }
-        },
-        {
-          "grid": {
-            "w": 8,
-            "h": 17,
-            "x": 4,
-            "y": 0,
-            "i": "9VrwfdlZZh",
-            "minW": 2,
-            "minH": 4,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "9VrwfdlZZh",
-          "parentId": "klhDYtEjOY",
-          "title": "",
-          "data": {
-            "ItemType": "SelectChart"
-          }
-        },
-        {
-          "grid": {
-            "w": 12,
-            "h": 1,
-            "x": 0,
-            "y": 17,
-            "i": "TugEh5SrJK",
-            "minW": 2,
-            "minH": 1,
-            "moved": false,
-            "static": false,
-            "isDraggable": true
-          },
-          "id": "TugEh5SrJK",
-          "parentId": "klhDYtEjOY",
-          "title": "",
-          "data": {
-            "ItemType": "AIMessage",
-            "myLayout": "None",
-            "imageUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/AIchicken.png?raw=true",
-            "dataUrl": "http://localhost:3333/imageCardStatePanel",
-            "imageHeight": "",
-            "color": "#ffffff",
-            "bgColor": "#DD2E44"
-          }
-        }
-      ]
-    },
-    {
       "id": "222222",
       "projectSetting": {
         "id": "222222",
         "name": "Best Shape Go",
         "description": "",
         "path": "222222",
-        "logoUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/bestshapeGoLogo2.png?raw=true",
-        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#99d066\",\n\t\t\t\"main\": \"#689f38\",\n\t\t\t\"dark\": \"#387002\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#629749\",\n\t\t\t\"main\": \"#33691e\",\n\t\t\t\"dark\": \"#003d00\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#689f38\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
-        "component": [
-          {
-            "title": "Login",
-            "type": "login",
-            "filePath": "BestShapeGo/Login",
-            "id": "5sFeNHYB5E",
-            "projectId": "222222"
-          }
-        ],
+        "logoUrl": "",
+        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#4e94ca\",\n\t\t\t\"main\": \"#006699\",\n\t\t\t\"dark\": \"#003c6b\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#4f83cc\",\n\t\t\t\"main\": \"#01579b\",\n\t\t\t\"dark\": \"#002f6c\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#006699\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+        "component": [],
         "apiHost": "",
         "dataHost": "http://localhost:3333/CustomProjectData/222222"
       },
@@ -1961,7 +2619,7 @@
           "groupId": "none",
           "type": "1",
           "title": "Dashboard",
-          "icon": "AutoAwesomeMosaic",
+          "icon": "Assignment",
           "path": "UJK8yyRuUp"
         },
         {
@@ -1979,47 +2637,32 @@
           "groupId": "none",
           "type": "1",
           "title": "裝置位置",
-          "icon": "LocationOn",
+          "icon": "Assignment",
           "path": "oJQLUav1NO"
         }
       ],
       "pageData": [
         {
           "grid": {
-            "w": 12,
-            "h": 11,
-            "x": 0,
+            "w": 4,
+            "h": 13,
+            "x": 1,
             "y": 0,
-            "i": "tjgVX1jMvr",
+            "i": "J2tHBZeKJ5",
             "minW": 2,
             "minH": 1,
             "moved": false,
             "static": false,
             "isDraggable": true
           },
-          "id": "tjgVX1jMvr",
-          "parentId": "QOlspeVRVk",
+          "id": "J2tHBZeKJ5",
+          "parentId": "UJK8yyRuUp",
           "title": "",
           "data": {
-            "ItemType": "DataTable",
-            "DataUrl": "http://20.194.108.196:3008/api/devices",
-            "Method": "GET",
-            "RequestData": "{}",
-            "GetInData": "[\"results\",\"device_list\"]",
-            "Filter": "{\"device_model\":\"BestShapeGo\"}",
-            "AddKeys": "{}",
-            "RenameKeys": "{}",
-            "SelectKeys": "[\"device_model\",\"mac_addr\",\"device_id\",\"photo_preview_url\",\"active_status\",\"online\",\"device_name\",\"last_active_time\"]",
-            "interval": "false",
-            "customColumns": "[]",
-            "search": "false",
-            "download": "false",
-            "print": "false",
-            "viewColumns": "false",
-            "tableFilter": "false",
-            "selectableRows": "none",
-            "columnSet": "[]",
-            "chip": "{}"
+            "ItemType": "PercentageChart",
+            "myLayout": "Panel",
+            "dataUrl": "http://localhost:3333/percentagechart01",
+            "title": "Title"
           }
         },
         {
@@ -2041,28 +2684,589 @@
           "data": {
             "ItemType": "DeviceMap"
           }
+        }
+      ]
+    },
+    {
+      "id": "ge195bvNox",
+      "projectSetting": {
+        "id": "ge195bvNox",
+        "name": "WiZAVIU",
+        "path": "WiZAVIU",
+        "component": [
+          {
+            "title": "Login",
+            "type": "login",
+            "filePath": "WiBase/Login",
+            "id": "Q7GOCZm5MI",
+            "projectId": "ge195bvNox"
+          },
+          {
+            "title": "PushToTalk",
+            "type": "topbar",
+            "filePath": "WiBase/PushToTalk",
+            "id": "pVoWvM16Pb",
+            "projectId": "ge195bvNox"
+          },
+          {
+            "title": "Style",
+            "type": "style",
+            "filePath": "WiBase/Style/styles.css",
+            "id": "I0SBzbYea8",
+            "projectId": "ge195bvNox"
+          }
+        ],
+        "description": "",
+        "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/logo_Wistron.svg",
+        "apiHost": "",
+        "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/ge195bvNox",
+        "themeStyle": "{\n \"palette\": {\n  \"primary\": {\n   \"light\": \"#EFF5F7\",\n   \"main\": \"#02759F\",\n   \"dark\": \"#02759F\",\n   \"contrastText\": \"#FFFFFF\"\n  },\n  \"secondary\": {\n   \"light\": \"#9c786c\",\n   \"main\": \"#6d4c41\",\n   \"dark\": \"#40241a\",\n   \"contrastText\": \"#7B7878\"\n  },\n  \"background\": {\n   \"default\": \"#EFF5F7\"\n  }\n },\n \"typography\": {\n  \"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n },\n \"components\": {\n  \"MuiListItemIcon\": {\n   \"styleOverrides\": {\n    \"root\": {}\n   }\n  },\n  \"MuiCard\": {\n   \"styleOverrides\": {\n    \"root\": {\n     \"backgroundColor\": \"#FFFFFF\",\n     \"borderRadius\": \"8px\",\n     \"width\": \"100%\",\n     \"height\": \"100%\"\n    }\n   }\n  },\n  \"MuiCardHeader\": {\n   \"styleOverrides\": {\n    \"root\": {\n     \"backgroundColor\": \"#02759F\",\n     \"color\": \"#FFFFFF\",\n     \"textAlign\": \"center\",\n     \"padding\": \"5px\"\n    },\n    \"title\": {\n     \"fontSize\": \"1.2rem\"\n    }\n   }\n  },\n  \"MuiContainer\": {\n   \"styleOverrides\": {\n    \"root\": {}\n   }\n  }\n }\n}"
+      },
+      "pageGroup": [
+        {
+          "id": "NdiNRYHj9u",
+          "parentId": "ge195bvNox",
+          "title": "帳號管理",
+          "title_en": "帳號管理",
+          "icon": "Assignment"
         },
         {
+          "id": "iAyckUHNta",
+          "parentId": "ge195bvNox",
+          "title": "裝置管理",
+          "title_en": "裝置管理",
+          "icon": "Assignment"
+        },
+        {
+          "id": "UWHnlNmvUd",
+          "parentId": "ge195bvNox",
+          "title": "影像管理",
+          "title_en": "影像管理",
+          "icon": "Assignment"
+        }
+      ],
+      "pageList": [
+        {
+          "id": "igb6k9cdTX",
+          "parentId": "ge195bvNox",
+          "groupId": "NdiNRYHj9u",
+          "type": "2",
+          "title": "群組管理",
+          "title_en": "群組管理",
+          "icon": "GroupTwoTone",
+          "path": "Group",
+          "filePath": "WiBase/Group"
+        },
+        {
+          "id": "rzzgoTYFHv",
+          "parentId": "ge195bvNox",
+          "groupId": "NdiNRYHj9u",
+          "type": "2",
+          "title": "帳號管理",
+          "title_en": "帳號管理",
+          "icon": "AccountCircleTwoTone",
+          "path": "Account",
+          "filePath": "WiBase/Account"
+        },
+        {
+          "id": "k10yRnyXIn",
+          "parentId": "ge195bvNox",
+          "groupId": "NdiNRYHj9u",
+          "type": "2",
+          "title": "權限管理",
+          "title_en": "權限管理",
+          "icon": "GroupsTwoTone",
+          "path": "Permission",
+          "filePath": "WiBase/Permission"
+        },
+        {
+          "id": "SGoRKzR2QW",
+          "parentId": "ge195bvNox",
+          "groupId": "iAyckUHNta",
+          "type": "2",
+          "title": "設備列表",
+          "title_en": "設備列表",
+          "icon": "KeyboardTwoTone",
+          "path": "DeviceList",
+          "filePath": "WiBase/DeviceList"
+        },
+        {
+          "id": "AdLYb8sf6n",
+          "parentId": "ge195bvNox",
+          "groupId": "UWHnlNmvUd",
+          "type": "2",
+          "title": "影像監控",
+          "title_en": "影像監控",
+          "icon": "VisibilityTwoTone",
+          "path": "",
+          "filePath": "WiBase/Streaming"
+        },
+        {
+          "id": "Gij2IJ8hVJ",
+          "parentId": "ge195bvNox",
+          "groupId": "UWHnlNmvUd",
+          "type": "2",
+          "title": "日誌",
+          "title_en": "日誌",
+          "icon": "Assignment",
+          "path": "Notes",
+          "filePath": "WiBase/LogList"
+        }
+      ],
+      "pageData": []
+    },
+    {
+      "id": "AxbaYBrJJ2",
+      "projectSetting": {
+        "id": "AxbaYBrJJ2",
+        "name": "Demo_DMSB",
+        "description": "WiDMSB Project description ...",
+        "path": "Demo_DMSB",
+        "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/DMSBuilder.svg",
+        "themeStyle": "{}",
+        "component": [],
+        "apiHost": "",
+        "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/AxbaYBrJJ2"
+      },
+      "pageGroup": [],
+      "pageList": [
+        {
+          "parentId": "AxbaYBrJJ2",
+          "groupId": "none",
+          "type": "1",
+          "title": "Chart",
+          "title_en": "Chart",
+          "icon": "Dashboard",
+          "path": "",
+          "id": "qdPu8baCI9",
+          "filePath": ""
+        },
+        {
+          "parentId": "AxbaYBrJJ2",
+          "groupId": "none",
+          "type": "1",
+          "title": "Video Grid",
+          "title_en": "Video Grid",
+          "icon": "OndemandVideo",
+          "path": "Streaming",
+          "id": "trF3LqtBuc",
+          "filePath": ""
+        },
+        {
+          "parentId": "AxbaYBrJJ2",
+          "groupId": "none",
+          "type": "1",
+          "title": "Table",
+          "title_en": "Table",
+          "icon": "ManageAccounts",
+          "path": "DeviceManage",
+          "id": "Lkne3xlTsd",
+          "filePath": ""
+        },
+        {
+          "parentId": "AxbaYBrJJ2",
+          "groupId": "none",
+          "type": "1",
+          "title": "Power BI 1",
+          "title_en": "Power BI 1",
+          "icon": "AlignVerticalBottom",
+          "path": "dWrRHcbAYv",
+          "id": "dWrRHcbAYv",
+          "filePath": ""
+        },
+        {
+          "id": "doXpgv3rty",
+          "parentId": "AxbaYBrJJ2",
+          "groupId": "none",
+          "type": "1",
+          "title": "Power BI 2",
+          "title_en": "Power BI 2",
+          "icon": "Assignment",
+          "path": "doXpgv3rty",
+          "filePath": ""
+        },
+        {
+          "id": "h9LTB1JZeg",
+          "parentId": "AxbaYBrJJ2",
+          "groupId": "none",
+          "type": "1",
+          "title": "testVideos",
+          "title_en": "h9LTB1JZeg",
+          "icon": "Assignment",
+          "path": "h9LTB1JZeg",
+          "filePath": ""
+        }
+      ],
+      "pageData": [
+        {
           "grid": {
-            "w": 6,
-            "h": 14,
+            "w": 8,
+            "h": 17,
             "x": 0,
             "y": 0,
-            "i": "DvKZxSl2VF",
+            "i": "WGHkzpxx7P",
             "minW": 2,
             "minH": 1,
             "moved": false,
             "static": false,
             "isDraggable": true
           },
-          "id": "DvKZxSl2VF",
-          "parentId": "UJK8yyRuUp",
+          "id": "WGHkzpxx7P",
+          "parentId": "qdPu8baCI9",
           "title": "",
           "data": {
-            "ItemType": "SelectChart",
-            "myLayout": "Panel",
-            "dataUrl": "https://dmsbjsonserver.herokuapp.com/selectChart",
-            "title": "Title"
+            "ItemType": "SelectChart"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 17,
+            "x": 8,
+            "y": 0,
+            "i": "dYIwKvuwbU",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "dYIwKvuwbU",
+          "parentId": "qdPu8baCI9",
+          "title": "",
+          "data": {
+            "ItemType": "PercentageChart"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 4,
+            "x": 0,
+            "y": 0,
+            "i": "kGxUeRGVEl",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "kGxUeRGVEl",
+          "parentId": "trF3LqtBuc",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://www.youtube.com/watch?v=PvJr2efA6n0",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 4,
+            "x": 0,
+            "y": 4,
+            "i": "anH1t7vHxp",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "anH1t7vHxp",
+          "parentId": "trF3LqtBuc",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://www.youtube.com/watch?v=6ghffcNt3Nw",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 4,
+            "x": 0,
+            "y": 8,
+            "i": "P4ssWJUmqX",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "P4ssWJUmqX",
+          "parentId": "trF3LqtBuc",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://www.youtube.com/watch?v=xaX8ykwz21o",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 4,
+            "x": 4,
+            "y": 0,
+            "i": "QaDtbbvOtT",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "QaDtbbvOtT",
+          "parentId": "trF3LqtBuc",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://www.youtube.com/watch?v=RttyIGHbN_w",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 8,
+            "h": 8,
+            "x": 4,
+            "y": 4,
+            "i": "sQ1zpjDWjB",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "sQ1zpjDWjB",
+          "parentId": "trF3LqtBuc",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://www.youtube.com/watch?v=WY9LB6qSIgE",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 4,
+            "h": 4,
+            "x": 8,
+            "y": 0,
+            "i": "ecWSpO12hu",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "ecWSpO12hu",
+          "parentId": "trF3LqtBuc",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "https://www.youtube.com/watch?v=MnODaP-1JaE",
+            "hls": "false"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 13,
+            "x": 0,
+            "y": 0,
+            "i": "opN30vecp8",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "opN30vecp8",
+          "parentId": "Lkne3xlTsd",
+          "title": "",
+          "data": {
+            "ItemType": "DataTable",
+            "DataUrl": "https://data.kcg.gov.tw/dataset/6f29f6f4-2549-4473-aa90-bf60d10895dc/resource/30dfc2cf-17b5-4a40-8bb7-c511ea166bd3/download/lightrailtraffic.json",
+            "Method": "GET",
+            "RequestData": "{}",
+            "GetInData": "[]",
+            "Filter": "{}",
+            "AddKeys": "{}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[]",
+            "interval": "false",
+            "search": "false",
+            "download": "false",
+            "print": "false",
+            "viewColumns": "false",
+            "tableFilter": "true",
+            "selectableRows": "none",
+            "columnSet": "[]",
+            "chip": "{}"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 14,
+            "x": 0,
+            "y": 0,
+            "i": "iJEr1mbVll",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "iJEr1mbVll",
+          "parentId": "dWrRHcbAYv",
+          "title": "",
+          "data": {
+            "ItemType": "CustomPowerBI",
+            "authenticationMode": "ServicePrincipal",
+            "SereverIP": "http://23.98.64.135:8080/getEmbedToken",
+            "authorityUri": "https://login.microsoftonline.com/",
+            "scope": "https://analysis.windows.net/powerbi/api/",
+            "apiUrl": "https://api.powerbi.com/",
+            "clientId": "e4fbbe5d-6b30-457e-9dd2-502fb6e5ea6c",
+            "workspaceId": "a5000458-3542-44b1-928f-da2f40ceccec",
+            "reportId": "d0960ccf-152f-45d0-893d-437ba57bfa24",
+            "pbiUsername": "",
+            "pbiPassword": "",
+            "clientSecret": "vjY8Q~MBZ0ZFRm8WNxKmM7YEORQafUFRkppxWc0j",
+            "tenantId": "bbc0cbd3-4aed-43d2-888c-1c42870c000d"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 14,
+            "x": 0,
+            "y": 0,
+            "i": "4WE4ozIutP",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "4WE4ozIutP",
+          "parentId": "doXpgv3rty",
+          "title": "",
+          "data": {
+            "ItemType": "CustomPowerBI",
+            "authenticationMode": "ServicePrincipal",
+            "SereverIP": "http://23.98.64.135:8080/getEmbedToken",
+            "authorityUri": "https://login.microsoftonline.com/",
+            "scope": "https://analysis.windows.net/powerbi/api/",
+            "apiUrl": "https://api.powerbi.com/",
+            "clientId": "e4fbbe5d-6b30-457e-9dd2-502fb6e5ea6c",
+            "workspaceId": "a5000458-3542-44b1-928f-da2f40ceccec",
+            "reportId": "d98425ad-d1b1-408b-9e9a-105db1714054",
+            "pbiUsername": "",
+            "pbiPassword": "",
+            "clientSecret": "vjY8Q~MBZ0ZFRm8WNxKmM7YEORQafUFRkppxWc0j",
+            "tenantId": "bbc0cbd3-4aed-43d2-888c-1c42870c000d"
+          }
+        },
+        {
+          "grid": {
+            "w": 6,
+            "h": 6,
+            "x": 0,
+            "y": 6,
+            "i": "9O6cIgtn73",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "9O6cIgtn73",
+          "parentId": "h9LTB1JZeg",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "http://20.210.184.138:8000/livet/black3.flv",
+            "hls": "true"
+          }
+        },
+        {
+          "grid": {
+            "w": 6,
+            "h": 6,
+            "x": 6,
+            "y": 0,
+            "i": "mZFv9BznlK",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "mZFv9BznlK",
+          "parentId": "h9LTB1JZeg",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "http://20.210.184.138:8000/livet/black2.flv",
+            "hls": "true"
+          }
+        },
+        {
+          "grid": {
+            "w": 6,
+            "h": 6,
+            "x": 6,
+            "y": 7,
+            "i": "SQ626sCKGx",
+            "minW": 2,
+            "minH": 1,
+            "moved": true,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "SQ626sCKGx",
+          "parentId": "h9LTB1JZeg",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "http://20.210.184.138:8000/livet/black4.flv",
+            "hls": "true"
+          }
+        },
+        {
+          "grid": {
+            "w": 6,
+            "h": 6,
+            "x": 0,
+            "y": 0,
+            "i": "NfxqydZqHT",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "NfxqydZqHT",
+          "parentId": "h9LTB1JZeg",
+          "title": "",
+          "data": {
+            "ItemType": "VideoStream",
+            "title": "",
+            "StreamUrl": "http://20.210.184.138:8000/livet/black1.flv",
+            "hls": "true"
           }
         }
       ]
@@ -2075,7 +3279,7 @@
         "description": "WiBase Project description ...",
         "path": "WiBase",
         "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/logo_Wistron.svg",
-        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n        \"MuiAppBar\":{\n            \"styleOverrides\": {\n                \"colorPrimary\": {\n                    \"background\": \"radial-gradient(circle at 245px, #02759F 32px,transparent 33px), linear-gradient(to right, #FFFFFF 245px, #02759F 245px)\"\n                }\n            }\n        }\n\t}\n}",
         "component": [
           {
             "title": "login",
@@ -2092,37 +3296,39 @@
             "projectId": "Mlkc2TrA21"
           },
           {
-            "title": "Style",
+            "title": "style",
             "type": "style",
             "filePath": "WiBase/Style/styles.css",
-            "id": "cpBcAtbN9c",
+            "id": "qzwEARcIhS",
             "projectId": "Mlkc2TrA21"
           }
         ],
-        "dataHost": "http://localhost:3333/CustomProjectData/Mlkc2TrA21",
-        "apiHost": "https://wibase.bovia.com.tw/"
+        "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/Mlkc2TrA21",
+        "apiHost": "",
+        "menuControl": "right",
+        "menuControlColor": "white"
       },
       "pageGroup": [
         {
           "id": "n7PQA8kobh",
           "parentId": "Mlkc2TrA21",
           "title": "帳號管理",
-          "icon": "Assignment",
-          "title_en": "Account"
+          "title_en": "Account",
+          "icon": "Assignment"
         },
         {
           "id": "8V3DtTsibu",
           "parentId": "Mlkc2TrA21",
           "title": "裝置管理",
-          "icon": "Assignment",
-          "title_en": "Device"
+          "title_en": "Device",
+          "icon": "Assignment"
         },
         {
           "id": "uoH1gADHXt",
           "parentId": "Mlkc2TrA21",
           "title": "影像管理",
-          "icon": "Assignment",
-          "title_en": "Streaming"
+          "title_en": "Streaming",
+          "icon": "Assignment"
         }
       ],
       "pageList": [
@@ -2131,33 +3337,11 @@
           "parentId": "Mlkc2TrA21",
           "groupId": "n7PQA8kobh",
           "type": "2",
-          "title": "分組管理",
+          "title": "群組管理",
+          "title_en": "Group",
           "icon": "GroupTwoTone",
           "path": "Group",
-          "filePath": "WiBase/Demo/Group",
-          "title_en": "Group"
-        },
-        {
-          "id": "FRtV2PPibS",
-          "parentId": "Mlkc2TrA21",
-          "groupId": "n7PQA8kobh",
-          "type": "2",
-          "title": "組織管理",
-          "icon": "GroupAddTwoTone",
-          "path": "Organize",
-          "filePath": "WiBase/Demo/Organize",
-          "title_en": "Organize"
-        },
-        {
-          "id": "UWj5VYzUxH",
-          "parentId": "Mlkc2TrA21",
-          "groupId": "n7PQA8kobh",
-          "type": "2",
-          "title": "權限管理",
-          "icon": "GroupsTwoTone",
-          "path": "AuthGroup",
-          "filePath": "WiBase/AuthGroup",
-          "title_en": "Auth Group"
+          "filePath": "WiBase/Group"
         },
         {
           "id": "Yi9PADMl2b",
@@ -2165,10 +3349,21 @@
           "groupId": "n7PQA8kobh",
           "type": "2",
           "title": "帳號管理",
+          "title_en": "Account",
           "icon": "AccountCircleTwoTone",
           "path": "Account",
-          "filePath": "WiBase/Demo/Account",
-          "title_en": "Account"
+          "filePath": "WiBase/Account"
+        },
+        {
+          "id": "UWj5VYzUxH",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "n7PQA8kobh",
+          "type": "2",
+          "title": "權限管理",
+          "title_en": "Permission",
+          "icon": "GroupsTwoTone",
+          "path": "Permission",
+          "filePath": "WiBase/Permission"
         },
         {
           "id": "U01JjDYRj4",
@@ -2176,10 +3371,10 @@
           "groupId": "8V3DtTsibu",
           "type": "2",
           "title": "設備列表",
+          "title_en": "Device List",
           "icon": "KeyboardTwoTone",
           "path": "DeviceList",
-          "filePath": "WiBase/DeviceList",
-          "title_en": "Device List"
+          "filePath": "WiBase/DeviceList"
         },
         {
           "id": "tXBQSrEvSJ",
@@ -2187,10 +3382,32 @@
           "groupId": "uoH1gADHXt",
           "type": "2",
           "title": "影像監控",
+          "title_en": "Monitor",
           "icon": "VisibilityTwoTone",
           "path": "",
-          "filePath": "WiBase/Streaming",
-          "title_en": "Monitor"
+          "filePath": "WiBase/Streaming"
+        },
+        {
+          "id": "HQFH5TJJA6",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "control",
+          "type": "2",
+          "title": "日誌",
+          "title_en": "Log List",
+          "icon": "Notes",
+          "path": "Log",
+          "filePath": "WiBase/LogList"
+        },
+        {
+          "id": "injW8SF6BR",
+          "parentId": "Mlkc2TrA21",
+          "groupId": "control",
+          "type": "2",
+          "title": "儀表板",
+          "title_en": "Dashboard",
+          "icon": "DevicesTwoTone",
+          "path": "Dashboard",
+          "filePath": "WiBase/Dashboard"
         }
       ],
       "pageData": [
@@ -2399,6 +3616,470 @@
             "title": "",
             "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UyMCIsInoiOiIyMDIyLTAzLTA0VDExOjAxOjIwKzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTIwXzIwMjIwMzA0XzAzMDExOS5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTE4NDMsImlhdCI6MTY0NjM4ODI0MywiaXNzIjoiV0lCQVNFIn0.qWXbO79HOz4i8dLLklEgESQwmycZAu4w_r24Kpt8h-o/video",
             "hls": "false"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4oLdDbVh9y",
+      "projectSetting": {
+        "id": "4oLdDbVh9y",
+        "name": "Bestshape_Go",
+        "path": "bestshape_go",
+        "component": [
+          {
+            "title": "Login",
+            "type": "login",
+            "filePath": "/Login",
+            "id": "yTAx6w3nXk",
+            "projectId": "4oLdDbVh9y"
+          }
+        ],
+        "description": "",
+        "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/bestshapeGoLogo2.png",
+        "apiHost": "",
+        "dataHost": "https://dmsb-jsonserver.azurewebsites.net/CustomProjectData/4oLdDbVh9y",
+        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#99d066\",\n\t\t\t\"main\": \"#689f38\",\n\t\t\t\"dark\": \"#387002\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#629749\",\n\t\t\t\"main\": \"#33691e\",\n\t\t\t\"dark\": \"#003d00\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#689f38\",\n\t\t\t\t\t\"color\": \"#ffffff\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+        "menuControlColor": "white",
+        "menuControl": "left"
+      },
+      "pageGroup": [
+        {
+          "id": "PUwHKa48Wh",
+          "parentId": "4oLdDbVh9y",
+          "title": "儀表板",
+          "title_en": "Dashboard",
+          "icon": "Assignment"
+        },
+        {
+          "id": "GFoEydUzJq",
+          "parentId": "4oLdDbVh9y",
+          "title": "裝置",
+          "title_en": "Device",
+          "icon": "Assignment"
+        },
+        {
+          "id": "tDXUALpBc9",
+          "parentId": "4oLdDbVh9y",
+          "title": "設定",
+          "title_en": "Settings",
+          "icon": "Assignment"
+        }
+      ],
+      "pageList": [
+        {
+          "id": "q1cAJgSVnh",
+          "parentId": "4oLdDbVh9y",
+          "groupId": "PUwHKa48Wh",
+          "type": "1",
+          "title": "即時狀態",
+          "title_en": "Status",
+          "icon": "Assignment",
+          "path": "status",
+          "filePath": ""
+        },
+        {
+          "id": "vk8Btnb3ZV",
+          "parentId": "4oLdDbVh9y",
+          "groupId": "PUwHKa48Wh",
+          "type": "1",
+          "title": "地圖檢視",
+          "title_en": "Map view",
+          "icon": "Assignment",
+          "path": "map_view",
+          "filePath": ""
+        },
+        {
+          "id": "zZy7wIZDvb",
+          "parentId": "4oLdDbVh9y",
+          "groupId": "GFoEydUzJq",
+          "type": "1",
+          "title": "裝置清單",
+          "title_en": "Device list",
+          "icon": "Assignment",
+          "path": "device_list",
+          "filePath": ""
+        },
+        {
+          "id": "5odQFv66rn",
+          "parentId": "4oLdDbVh9y",
+          "groupId": "tDXUALpBc9",
+          "type": "1",
+          "title": "裝置設定",
+          "title_en": "Device settings",
+          "icon": "Assignment",
+          "path": "device_settings",
+          "filePath": ""
+        },
+        {
+          "id": "nKLISH17PQ",
+          "parentId": "4oLdDbVh9y",
+          "groupId": "GFoEydUzJq",
+          "type": "1",
+          "title": "裝置資料",
+          "title_en": "Device Data",
+          "icon": "Assignment",
+          "path": "device_data",
+          "filePath": ""
+        }
+      ],
+      "pageData": [
+        {
+          "grid": {
+            "w": 3,
+            "h": 5,
+            "x": 2,
+            "y": 0,
+            "i": "seTQ5IAuHx",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "seTQ5IAuHx",
+          "parentId": "q1cAJgSVnh",
+          "title": "",
+          "data": {
+            "ItemType": "StatusCard",
+            "title": "裝置數量",
+            "content": "status_code",
+            "DataUrl": "http://20.210.100.143:3000/api/deviceTypes",
+            "GetInData": "[\"results\",\"device_type_list\"]",
+            "Filter": "{\"device_type_name\":\"BSGo\"}",
+            "AddKeys": "{}",
+            "RenameKeys": "{}",
+            "SelectKeys": "[]"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 13,
+            "x": 0,
+            "y": 5,
+            "i": "P8pnNJOwfC",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "P8pnNJOwfC",
+          "parentId": "q1cAJgSVnh",
+          "title": "",
+          "data": {
+            "ItemType": "SelectChart",
+            "myLayout": "Panel",
+            "dataUrl": "https://dmsbjsonserver.herokuapp.com/selectChart",
+            "title": "每日里程統計"
+          }
+        },
+        {
+          "grid": {
+            "w": 2,
+            "h": 5,
+            "x": 0,
+            "y": 0,
+            "i": "RiJFe8LERC",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "RiJFe8LERC",
+          "parentId": "q1cAJgSVnh",
+          "title": "",
+          "data": {
+            "ItemType": "ImageCard",
+            "myLayout": "None",
+            "imageUrl": "http://20.194.108.196:3008/device_img/Andy_test_device_781229d1-4425-4a96-91d1-6db563f87e31_preview.png"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 14,
+            "x": 0,
+            "y": 0,
+            "i": "eKMiMDhHdl",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "eKMiMDhHdl",
+          "parentId": "vk8Btnb3ZV",
+          "title": "",
+          "data": {
+            "ItemType": "DeviceMap",
+            "myLayout": "None",
+            "dataUrl": "https://dmsbjsonserver.herokuapp.com/deviceMapApi",
+            "latitude": "24.1210678",
+            "longitude": "121.7380334"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 13,
+            "x": 0,
+            "y": 0,
+            "i": "LBFgYa6edN",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "LBFgYa6edN",
+          "parentId": "zZy7wIZDvb",
+          "title": "",
+          "data": {
+            "ItemType": "DataTable",
+            "DataUrl": "http://20.210.100.143:3000/api/devices",
+            "Method": "GET",
+            "RequestData": "{}",
+            "GetInData": "[\"results\",\"device_list\"]",
+            "Filter": "{\"device_type_name\":\"BSGo\"}",
+            "AddKeys": "{}",
+            "RenameKeys": "{\"device_name\":\"裝置名稱\",\"device_id\":\"裝置 ID\",\"online\":\"上線狀態\",\"register_status\":\"啟用狀態\",\"heartbeat_time\":\"最後上線時間\",\"mac_addr\":\"MAC 位置\"}",
+            "SelectKeys": "[\"裝置名稱\",\"裝置 ID\",\"MAC 位置\",\"上線狀態\",\"啟用狀態\",\"最後上線時間\"]",
+            "interval": "false",
+            "customColumns": "[\n]",
+            "search": "false",
+            "download": "false",
+            "print": "false",
+            "viewColumns": "false",
+            "tableFilter": "false",
+            "selectableRows": "none",
+            "columnSet": "[\"裝置名稱\",\"裝置 ID\",\"MAC 位置\",\"上線狀態\",\"啟用狀態\",\"最後上線時間\"]",
+            "chip": "{\"上線狀態\":{\"1\":\"success\",\"0\":\"error\"},\"啟用狀態\":{\"1\":\"success\",\"0\":\"error\"}}"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 12,
+            "x": 0,
+            "y": 0,
+            "i": "npzEon0e0d",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "npzEon0e0d",
+          "parentId": "nKLISH17PQ",
+          "title": "",
+          "data": {
+            "ItemType": "DataTable",
+            "DataUrl": "http://20.210.100.143:3010/api/data?deviceId=34bceaf0-cc32-11ec-8831-2f2f4dab36b4",
+            "Method": "GET",
+            "RequestData": "{}",
+            "GetInData": "[\"results\",\"devicedata_list\"]",
+            "Filter": "{}",
+            "AddKeys": "{}",
+            "RenameKeys": "{\"topic\":\"資料類別\",\"data_id\":\"資料 ID\",\"create_time\":\"資料時間\"}",
+            "SelectKeys": "[\"資料類別\",\"資料 ID\",\"資料時間\"]",
+            "interval": "false",
+            "search": "false",
+            "download": "false",
+            "print": "false",
+            "viewColumns": "false",
+            "tableFilter": "false",
+            "selectableRows": "none",
+            "columnSet": "[\"資料類別\",\"資料 ID\",\"資料時間\"]",
+            "chip": "{}"
+          }
+        }
+      ]
+    },
+    {
+      "id": "111111",
+      "projectSetting": {
+        "id": "111111",
+        "name": "Smart Farming",
+        "description": "",
+        "path": "Test",
+        "logoUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/logo.png?raw=true",
+        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#ffac42\",\n\t\t\t\"main\": \"#f47b00\",\n\t\t\t\"dark\": \"#ba4c00\",\n\t\t\t\"contrastText\": \"#000000\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#ffffff\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#f47b00\",\n\t\t\t\t\t\"color\": \"#000000\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t}\n\t}\n}",
+        "component": [],
+        "apiHost": "",
+        "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/111111",
+        "menuControlColor": "white",
+        "menuControl": "left"
+      },
+      "pageGroup": [],
+      "pageList": [
+        {
+          "id": "klhDYtEjOY",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "Dashboard",
+          "title_en": "",
+          "icon": "Assignment",
+          "path": "klhDYtEjOY"
+        },
+        {
+          "id": "MsETsmHcWo",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "地區管理",
+          "title_en": "",
+          "icon": "Assignment",
+          "path": "MsETsmHcWo"
+        },
+        {
+          "id": "ANcwPVeydN",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "設備類別管理",
+          "title_en": "",
+          "icon": "Assignment",
+          "path": "ANcwPVeydN"
+        },
+        {
+          "id": "lLZBHKpeMa",
+          "parentId": "111111",
+          "groupId": "none",
+          "type": "1",
+          "title": "設備監控管理",
+          "title_en": "",
+          "icon": "Assignment",
+          "path": "lLZBHKpeMa"
+        },
+        {
+          "id": "8HmsJjnCho",
+          "parentId": "111111",
+          "groupId": "control",
+          "type": "0",
+          "title": "物種飼養管理",
+          "title_en": "",
+          "icon": "Assignment",
+          "path": "8HmsJjnCho",
+          "filePath": ""
+        }
+      ],
+      "pageData": [
+        {
+          "grid": {
+            "w": 4,
+            "h": 17,
+            "x": 0,
+            "y": 0,
+            "i": "xAcx2goYeh",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "xAcx2goYeh",
+          "parentId": "klhDYtEjOY",
+          "title": "",
+          "data": {
+            "ItemType": "PercentageChart"
+          }
+        },
+        {
+          "grid": {
+            "w": 8,
+            "h": 17,
+            "x": 4,
+            "y": 0,
+            "i": "9VrwfdlZZh",
+            "minW": 2,
+            "minH": 4,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "9VrwfdlZZh",
+          "parentId": "klhDYtEjOY",
+          "title": "",
+          "data": {
+            "ItemType": "SelectChart"
+          }
+        },
+        {
+          "grid": {
+            "w": 12,
+            "h": 1,
+            "x": 0,
+            "y": 17,
+            "i": "TugEh5SrJK",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "TugEh5SrJK",
+          "parentId": "klhDYtEjOY",
+          "title": "",
+          "data": {
+            "ItemType": "AIMessage",
+            "myLayout": "None",
+            "imageUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/AIchicken.png?raw=true",
+            "dataUrl": "http://localhost:3333/imageCardStatePanel",
+            "imageHeight": "",
+            "color": "#ffffff",
+            "bgColor": "#DD2E44"
+          }
+        },
+        {
+          "grid": {
+            "w": 7,
+            "h": 7,
+            "x": 3,
+            "y": 0,
+            "i": "nY4bIQ8XDO",
+            "minW": 2,
+            "minH": 1,
+            "moved": false,
+            "static": false,
+            "isDraggable": true
+          },
+          "id": "nY4bIQ8XDO",
+          "parentId": "MsETsmHcWo",
+          "title": "",
+          "data": {
+            "points": [
+              {
+                "x": 68,
+                "y": 173.5,
+                "iconType": "materialIcon",
+                "deviceKind": "video",
+                "index": 0,
+                "iconName": "AccessAlarm",
+                "updateSecond": "5",
+                "url": "https://wibase.bovia.com.tw/streamer-mgr/live/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiNzNhY2Y4MWQtZjQ0Zi03MTIwLTdjMGUtZWVmY2VkOGFmMzRlIiwidCI6IndpYmFzZTA4IiwieiI6IiIsImciOjEsIm4iOiJsaXZlLm0zdTgiLCJmIjoiSExTIiwiZnQiOiIiLCJleHAiOjE2NDk2NjA2MzIsImlhdCI6MTY0OTY1NzAzMiwiaXNzIjoiV0lCQVNFIn0.7SmdvTOBkVbLgqblsy2FIQEJ3vIql2J9YOYD06iUpnQ/hls"
+              },
+              {
+                "x": 425,
+                "y": 187.5,
+                "iconType": "button",
+                "deviceKind": "line",
+                "index": 1,
+                "name": "A1",
+                "api": "https://dmsb-jsonserver-develop.azurewebsites.net/ImageDragApi",
+                "updateSecond": "2",
+                "chartUrl": "https://dmsb-jsonserver-develop.azurewebsites.net/selectChart",
+                "maxValue": "30",
+                "minValue": "10",
+                "url": "https://dmsb-jsonserver-develop.azurewebsites.net/selectChart"
+              }
+            ],
+            "myLayout": "None",
+            "imageUrl": "https://github.com/Nogerm/json-server-heroku/blob/master/Chicken_floor.png?raw=true",
+            "ItemType": "FloorPlan"
           }
         }
       ]
