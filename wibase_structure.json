@@ -1,0 +1,410 @@
+{
+    "id": "Mlkc2TrA21",
+    "projectSetting": {
+        "id": "Mlkc2TrA21",
+        "name": "WiBase",
+        "description": "WiBase Project description ...",
+        "path": "WiBase",
+        "logoUrl": "https://raw.githubusercontent.com/Nogerm/json-server-heroku/master/logo_Wistron.svg",
+        "themeStyle": "{\n\t\"palette\": {\n\t\t\"primary\": {\n\t\t\t\"light\": \"#EFF5F7\",\n\t\t\t\"main\": \"#02759F\",\n\t\t\t\"dark\": \"#02759F\",\n\t\t\t\"contrastText\": \"#FFFFFF\"\n\t\t},\n\t\t\"secondary\": {\n\t\t\t\"light\": \"#9c786c\",\n\t\t\t\"main\": \"#6d4c41\",\n\t\t\t\"dark\": \"#40241a\",\n\t\t\t\"contrastText\": \"#7B7878\"\n\t\t},\n\t\t\"background\": {\n\t\t\t\"default\": \"#EFF5F7\"\n\t\t}\n\t},\n\t\"typography\": {\n\t\t\"fontFamily\": \"-apple-system,BlinkMacSystemFont,\\\"Segoe UI\\\",Roboto,\\\"Helvetica Neue\\\",Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\",\\\"Segoe UI Symbol\\\"\"\n\t},\n\t\"components\": {\n\t\t\"MuiListItemIcon\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n\t\t\"MuiCard\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#FFFFFF\",\n\t\t\t\t\t\"borderRadius\": \"8px\",\n\t\t\t\t\t\"width\": \"100%\",\n\t\t\t\t\t\"height\": \"100%\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiCardHeader\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {\n\t\t\t\t\t\"backgroundColor\": \"#02759F\",\n\t\t\t\t\t\"color\": \"#FFFFFF\",\n\t\t\t\t\t\"textAlign\": \"center\",\n\t\t\t\t\t\"padding\": \"5px\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"fontSize\": \"1.2rem\"\n\t\t\t\t}\n\t\t\t}\n\t\t},\n\t\t\"MuiContainer\": {\n\t\t\t\"styleOverrides\": {\n\t\t\t\t\"root\": {}\n\t\t\t}\n\t\t},\n        \"MuiAppBar\":{\n            \"styleOverrides\": {\n                \"colorPrimary\": {\n                    \"background\": \"radial-gradient(circle at 245px, #02759F 32px,transparent 33px), linear-gradient(to right, #FFFFFF 245px, #02759F 245px)\"\n                }\n            }\n        }\n\t}\n}",
+        "component": [
+            {
+                "title": "login",
+                "type": "login",
+                "filePath": "WiBase/Login",
+                "id": "g3O9Eq2sha",
+                "projectId": "Mlkc2TrA21"
+            },
+            {
+                "title": "PushToTalk",
+                "type": "topbar",
+                "filePath": "WiBase/PushToTalk",
+                "id": "Y0MuG6wmfM",
+                "projectId": "Mlkc2TrA21"
+            },
+            {
+                "title": "style",
+                "type": "style",
+                "filePath": "WiBase/Style/styles.css",
+                "id": "qzwEARcIhS",
+                "projectId": "Mlkc2TrA21"
+            }
+        ],
+        "dataHost": "https://dmsb-jsonserver-develop.azurewebsites.net/CustomProjectData/Mlkc2TrA21",
+        "apiHost": "",
+        "menuControl": "right",
+        "menuControlColor": "white"
+    },
+    "pageGroup": [
+        {
+            "id": "n7PQA8kobh",
+            "parentId": "Mlkc2TrA21",
+            "title": "帳號管理",
+            "title_en": "Account",
+            "icon": "Assignment"
+        },
+        {
+            "id": "8V3DtTsibu",
+            "parentId": "Mlkc2TrA21",
+            "title": "裝置管理",
+            "title_en": "Device",
+            "icon": "Assignment"
+        },
+        {
+            "id": "uoH1gADHXt",
+            "parentId": "Mlkc2TrA21",
+            "title": "影像管理",
+            "title_en": "Streaming",
+            "icon": "Assignment"
+        }
+    ],
+    "pageList": [
+        {
+            "id": "0xFFac9Ehb",
+            "parentId": "Mlkc2TrA21",
+            "groupId": "n7PQA8kobh",
+            "type": "2",
+            "title": "群組管理",
+            "title_en": "Group",
+            "icon": "GroupTwoTone",
+            "path": "Group",
+            "filePath": "WiBase/Group",
+            "dataSet": []
+        },
+        {
+            "id": "Yi9PADMl2b",
+            "parentId": "Mlkc2TrA21",
+            "groupId": "n7PQA8kobh",
+            "type": "2",
+            "title": "帳號管理",
+            "title_en": "Account",
+            "icon": "AccountCircleTwoTone",
+            "path": "Account",
+            "filePath": "WiBase/Account",
+            "dataSet": []
+        },
+        {
+            "id": "UWj5VYzUxH",
+            "parentId": "Mlkc2TrA21",
+            "groupId": "n7PQA8kobh",
+            "type": "2",
+            "title": "權限管理",
+            "title_en": "Permission",
+            "icon": "GroupsTwoTone",
+            "path": "Permission",
+            "filePath": "WiBase/Permission",
+            "dataSet": []
+        },
+        {
+            "id": "U01JjDYRj4",
+            "parentId": "Mlkc2TrA21",
+            "groupId": "8V3DtTsibu",
+            "type": "2",
+            "title": "設備列表",
+            "title_en": "Device List",
+            "icon": "KeyboardTwoTone",
+            "path": "DeviceList",
+            "filePath": "WiBase/DeviceList",
+            "dataSet": []
+        },
+        {
+            "id": "tXBQSrEvSJ",
+            "parentId": "Mlkc2TrA21",
+            "groupId": "uoH1gADHXt",
+            "type": "2",
+            "title": "影像監控",
+            "title_en": "Monitor",
+            "icon": "VisibilityTwoTone",
+            "path": "",
+            "filePath": "WiBase/Streaming",
+            "dataSet": [
+                {
+                    "title": "",
+                    "dataSet": "PcNJXkUkba",
+                    "apiUrl": "https://wibase.bovia.com.tw/api/web/user/list",
+                    "method": "GET",
+                    "Request Data": "{}",
+                    "tableData": {
+                        "mdRJcA8K0d": {
+                            "id": "mdRJcA8K0d",
+                            "source": {
+                                "value": "url",
+                                "label": "url"
+                            },
+                            "dataSet": {
+                                "Column1": [
+                                    {
+                                        "value": "111",
+                                        "label": "111"
+                                    },
+                                    {
+                                        "value": "333",
+                                        "label": "333"
+                                    },
+                                    {
+                                        "value": "1111",
+                                        "label": "1111"
+                                    },
+                                    {
+                                        "value": "1",
+                                        "label": "1"
+                                    },
+                                    {
+                                        "value": "13",
+                                        "label": "13"
+                                    },
+                                    {
+                                        "value": "11",
+                                        "label": "11"
+                                    },
+                                    {
+                                        "value": "rr",
+                                        "label": "rr"
+                                    }
+                                ],
+                                "Column2": [],
+                                "Column3": [],
+                                "Column4": [],
+                                "Column5": [],
+                                "Column6": []
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "HQFH5TJJA6",
+            "parentId": "Mlkc2TrA21",
+            "groupId": "control",
+            "type": "2",
+            "title": "日誌",
+            "title_en": "Log List",
+            "icon": "Notes",
+            "path": "Log",
+            "filePath": "WiBase/LogList",
+            "dataSet": []
+        },
+        {
+            "id": "injW8SF6BR",
+            "parentId": "Mlkc2TrA21",
+            "groupId": "control",
+            "type": "2",
+            "title": "儀表板",
+            "title_en": "Dashboard",
+            "icon": "DevicesTwoTone",
+            "path": "Dashboard",
+            "filePath": "WiBase/Dashboard",
+            "dataSet": []
+        }
+    ],
+    "pageData": [
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 0,
+                "y": 0,
+                "i": "WsnFEdJV4D",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "WsnFEdJV4D",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDEiLCJ6IjoiMjAyMi0wMy0wNFQxMTo1MjowNSswODowMCIsImciOjEsIm4iOiIyMDIyMDMwNC9TSTEtMDFfMjAyMjAzMDRfMDM1MjA1Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTg0MywiaWF0IjoxNjQ2Mzg4MjQzLCJpc3MiOiJXSUJBU0UifQ.-G4XkjDzwKqbIRHgTYTjrsw4e2flmoH6N_S-_UlOxDU/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 0,
+                "y": 5,
+                "i": "OnP15pq8S8",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "OnP15pq8S8",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wM1QxNDo1NzozNyswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMy9TSTEtMDJfMjAyMjAzMDNfMDY1NzM3Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.IUDUKZyaBtkdvpvewgW_NFI04pkg7OgqRGy1fZp-Dvw/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 4,
+                "y": 5,
+                "i": "3m1AQwu63T",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "3m1AQwu63T",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNjozMDowMCswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDgzMDAwLm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.MbpufQfbSQXZubFXAlgT1jwuimcfu_z_2B24Wxbqbl4/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 8,
+                "y": 5,
+                "i": "FjY8kVxpOp",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "FjY8kVxpOp",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNDozMjozMyswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDYzMjMyLm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.efFYbojoUWzt0OvNtRjYk_WeBPR8KtGKMM4WCDfXRJc/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 0,
+                "y": 10,
+                "i": "5Qxhdsf9wC",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "5Qxhdsf9wC",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNDoyNzo1NyswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDYyNzU2Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MTk5MSwiaWF0IjoxNjQ2Mzg4MzkxLCJpc3MiOiJXSUJBU0UifQ.eacQ2oWeKLudN5NndnbBG4D58Wz68xKzWxVvSxinjhI/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 4,
+                "y": 10,
+                "i": "fOoSSgcU6I",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "fOoSSgcU6I",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UxOSIsInoiOiIyMDIyLTAzLTA0VDExOjAxOjI5KzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTE5XzIwMjIwMzA0XzAzMDEyOC5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTIxMTksImlhdCI6MTY0NjM4ODUxOSwiaXNzIjoiV0lCQVNFIn0.mPrOhS9rGb4-wJjzWZ-_brYf-SQpKhFQkjmdRvqOSek/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 8,
+                "y": 10,
+                "i": "9hMoQayVeW",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "9hMoQayVeW",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJTSTEtMDIiLCJ6IjoiMjAyMi0wMy0wMlQxNDozMDozOSswODowMCIsImciOjEsIm4iOiIyMDIyMDMwMi9TSTEtMDJfMjAyMjAzMDJfMDYzMDM4Lm1wNCIsImYiOiJNUDQiLCJmdCI6IiIsImV4cCI6MTY0NjM5MjE4MCwiaWF0IjoxNjQ2Mzg4NTgwLCJpc3MiOiJXSUJBU0UifQ.REKgc7W_d2945mcb9ouhKd84ScYDeuoopxrLg8-RzHM/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 4,
+                "y": 0,
+                "i": "siDOvX9Bel",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "siDOvX9Bel",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UyMCIsInoiOiIyMDIyLTAzLTA0VDExOjAzOjAwKzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTIwXzIwMjIwMzA0XzAzMDMwMC5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTE4NDMsImlhdCI6MTY0NjM4ODI0MywiaXNzIjoiV0lCQVNFIn0.-ShoNFKzZVv3d_2HEPdGHoDUpuZGg9H6tSsv56GrCfE/video",
+                "hls": "false"
+            }
+        },
+        {
+            "grid": {
+                "w": 4,
+                "h": 5,
+                "x": 8,
+                "y": 0,
+                "i": "JarvTBbfIE",
+                "minW": 2,
+                "minH": 4,
+                "moved": false,
+                "static": false,
+                "isDraggable": true
+            },
+            "id": "JarvTBbfIE",
+            "parentId": "tXBQSrEvSJ",
+            "title": "",
+            "data": {
+                "ItemType": "VideoStream",
+                "title": "",
+                "StreamUrl": "https://wibase.bovia.com.tw/streamer-mgr/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1Ijoid2liYXNlMTYiLCJkIjoiMTQxMiIsInQiOiJ3aWJhc2UyMCIsInoiOiIyMDIyLTAzLTA0VDExOjAxOjIwKzA4OjAwIiwiZyI6MSwibiI6IjIwMjIwMzA0L3dpYmFzZTIwXzIwMjIwMzA0XzAzMDExOS5tcDQiLCJmIjoiTVA0IiwiZnQiOiIiLCJleHAiOjE2NDYzOTE4NDMsImlhdCI6MTY0NjM4ODI0MywiaXNzIjoiV0lCQVNFIn0.qWXbO79HOz4i8dLLklEgESQwmycZAu4w_r24Kpt8h-o/video",
+                "hls": "false"
+            }
+        }
+    ]
+}
