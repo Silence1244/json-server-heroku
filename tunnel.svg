@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="832" height="510" viewBox="0 0 832 510">
+  <defs>
+    <clipPath id="clip-隧道地圖">
+      <rect width="832" height="510"/>
+    </clipPath>
+  </defs>
+  <g id="隧道地圖" clip-path="url(#clip-隧道地圖)">
+    <g id="Group_11765" data-name="Group 11765" transform="translate(-4718 2963.695)">
+      <g id="Group_11763" data-name="Group 11763" transform="matrix(-0.839, -0.545, 0.545, -0.839, 5347.509, -2393.902)">
+        <path id="Path_25769" data-name="Path 25769" d="M6148.708-651.639l224.9-145.066L6855.569-656.9" transform="translate(-6145.176 796.705)" fill="none" stroke="#272727" stroke-width="5"/>
+        <path id="Path_25770" data-name="Path 25770" d="M6144-581.221l234.99-145.533,469.271,128.8" transform="translate(-6144 799.286)" fill="none" stroke="#272727" stroke-width="5"/>
+      </g>
+      <text id="查看詳細" transform="translate(5200.932 -2613.26)" fill="#454545" font-size="12" font-family="PingFangTC-Semibold, PingFang TC" font-weight="600"><tspan x="0" y="0">高雄小港機場</tspan></text>
+      <text id="查看詳細-2" data-name="查看詳細" transform="matrix(0.999, -0.035, 0.035, 0.999, 5278.559, -2484.24)" fill="#454545" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">R4</tspan><tspan y="0" font-family="PingFangTC-Semibold, PingFang TC" font-weight="600">車站</tspan></text>
+      <text id="查看詳細-3" data-name="查看詳細" transform="translate(4778.821 -2847.354)" fill="#454545" font-size="12" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">R4A</tspan><tspan y="0" font-family="PingFangTC-Semibold, PingFang TC" font-weight="600">車站</tspan></text>
+      <text id="查看詳細-4" data-name="查看詳細" transform="translate(5074.591 -2523.17) rotate(2)" fill="#454545" font-size="12" font-family="PingFangTC-Semibold, PingFang TC" font-weight="600"><tspan x="0" y="0">中山四路</tspan></text>
+    </g>
+  </g>
+</svg>
